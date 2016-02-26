@@ -1,0 +1,12 @@
+#! /bin/sh
+
+set -e
+
+if [ "$1" = "remove" ] ; then
+  update-alternatives --remove lightdm-gtk-greeter-config-derivative \
+    /etc/xdg/xdg-budgie-remix/lightdm/lightdm-gtk-greeter.conf
+fi
+
+#DEBHELPER#
+
+
