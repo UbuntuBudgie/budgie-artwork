@@ -18,6 +18,10 @@ antialiasing='rgba'
 
 [org.gnome.desktop.background]
 show-desktop-icons=true
+picture-uri='file:///usr/share/backgrounds/21416551203_9ef952d303_o.jpg'
+
+[org.gnome.desktop.screensaver]
+picture-uri='file:///usr/share/backgrounds/21416551203_9ef952d303_o.jpg'
 
 [org.gnome.nautilus.desktop]
 home-icon-visible=false
@@ -28,4 +32,5 @@ font='Ubuntu 10'
 [org.gnome.nautilus.preferences]
 sort-directories-first=true
 enable-interactive-search=true
+
 
