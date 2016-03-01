@@ -1,0 +1,31 @@
+[org.gnome.desktop.wm.preferences]
+theme='Arc-Darker'
+titlebar-font='Ubuntu Bold 11'
+titlebar-uses-system-font=false
+
+[org.gnome.desktop.interface]
+gtk-theme='Arc-Darker'
+monospace-font-name='Ubuntu Mono 13'
+font-name='Ubuntu 11'
+document-font-name='Sans 11'
+icon-theme='Moka'
+cursor-theme='DMZ-White'
+scaling-factor=1
+
+[org.gnome.settings-daemon.plugins.xsettings]
+hinting='slight'
+antialiasing='rgba'
+
+[org.gnome.desktop.background]
+show-desktop-icons=true
+
+[org.gnome.nautilus.desktop]
+home-icon-visible=false
+trash-icon-visible=false
+volumes-visible=false
+font='Ubuntu 10'
+
+[org.gnome.nautilus.preferences]
+sort-directories-first=true
+enable-interactive-search=true
+

@@ -8,9 +8,15 @@ Vcs-Git: http://github.com/budgie-remix/budgie-remix-lightdm-theme
 
 Package: budgie-remix-lightdm-theme
 Architecture: all
-Depends: ${misc:Depends}, lightdm-gtk-greeter, 
-         ubuntu-wallpapers-wily, moka-icon-theme
-Description: budgie-remix LightDM theme
+Depends: ${misc:Depends}, 
+         budgie-wallpapers,
+         plymouth-theme-ubuntu-logo,
+         plymouth-themes,
+         wicd-gtk,
+         lightdm,
+         lightdm-gtk-greeter, 
+         xserver-xorg
+Description: budgie LightDM theme
  This is the lightdm greeter theme and configuration
  used for a standalone budgie-remix installation.
  .
