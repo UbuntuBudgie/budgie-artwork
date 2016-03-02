@@ -1,3 +1,11 @@
+budgie-remix-lightdm-theme (0.2) xenial; urgency=medium
+
+  * change override to be a higher number than gnome overrides
+  - this is needed because gnome will take precedence over budgie
+  - since override is applied in alphabetical order
+
+ -- fossfreedom <foss.freedom@gmail.com>  Wed, 02 Mar 2016 22:40:20 +0000
+
 budgie-remix-lightdm-theme (0.1) xenial; urgency=low
 
   * Initial release.
