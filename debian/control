@@ -12,7 +12,6 @@ Depends: ${misc:Depends},
          budgie-wallpapers,
          plymouth-theme-ubuntu-logo,
          plymouth-themes,
-         wicd-gtk,
          lightdm,
          lightdm-gtk-greeter, 
          xserver-xorg

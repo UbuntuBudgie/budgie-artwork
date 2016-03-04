@@ -1,3 +1,9 @@
+budgie-remix-lightdm-theme (0.2ubuntu1) xenial; urgency=medium
+
+  * remove wicd-gtk dependency
+
+ -- fossfreedom <foss.freedom@gmail.com>  Fri, 04 Mar 2016 19:21:08 +0000
+
 budgie-remix-lightdm-theme (0.2) xenial; urgency=medium
 
   * change override to be a higher number than gnome overrides
