@@ -1,3 +1,9 @@
+budgie-remix-lightdm-theme (0.2ubuntu3) xenial; urgency=medium
+
+  * set default zoom level for nautilus icon-view to small
+
+ -- fossfreedom <foss.freedom@gmail>  Tue, 08 Mar 2016 23:02:06 +0000
+
 budgie-remix-lightdm-theme (0.2ubuntu2) xenial; urgency=medium
 
   * add config file to allow autologin on live cd

@@ -33,4 +33,6 @@ font='Ubuntu 10'
 sort-directories-first=true
 enable-interactive-search=true
 
+[org.gnome.nautilus.icon-view]
+default-zoom-level='small'
 
