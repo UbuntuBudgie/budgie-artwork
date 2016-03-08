@@ -1,3 +1,9 @@
+budgie-remix-lightdm-theme (0.2ubuntu2) xenial; urgency=medium
+
+  * add config file to allow autologin on live cd
+
+ -- fossfreedom <foss.freedom@gmail.com>  Tue, 08 Mar 2016 21:50:43 +0000
+
 budgie-remix-lightdm-theme (0.2ubuntu1) xenial; urgency=medium
 
   * remove wicd-gtk dependency
