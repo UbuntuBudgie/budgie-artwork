@@ -15,6 +15,7 @@ scaling-factor=1
 [org.gnome.settings-daemon.plugins.xsettings]
 hinting='slight'
 antialiasing='rgba'
+overrides={'Gtk/ShellShowsAppMenu': <0>, 'Gtk/DecorationLayout': <'menu:minimize,maximize,close'>}
 
 [org.gnome.desktop.background]
 show-desktop-icons=true
@@ -36,3 +37,9 @@ enable-interactive-search=true
 [org.gnome.nautilus.icon-view]
 default-zoom-level='small'
 
+[org.gnome.rhythmbox.plugins]
+active-plugins=['dbus-media-server', 'artsearch', 'generic-player', 'audiocd', 'alternative-toolbar', 'mtpdevice', 'daap', 'android', 'tray_icon', 'rb', 'power-manager', 'notification', 'ipod', 'mpris', 'iradio', 'audioscrobbler', 'mmkeys']
+
+[org.gnome.rhythmbox.plugins.alternative_toolbar]
+display-type=1
+show-source-toolbar=false
