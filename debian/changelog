@@ -1,3 +1,9 @@
+budgie-remix-lightdm-theme (0.2ubuntu5) xenial; urgency=medium
+
+  * remove appmenu - now located in budgie-core
+
+ -- fossfreedom <foss.freedom@gmail.com>  Thu, 10 Mar 2016 20:30:12 +0000
+
 budgie-remix-lightdm-theme (0.2ubuntu4) xenial; urgency=medium
 
   * appmenu + rhythmbox config

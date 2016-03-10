@@ -12,11 +12,6 @@ icon-theme='Moka'
 cursor-theme='DMZ-White'
 scaling-factor=1
 
-[org.gnome.settings-daemon.plugins.xsettings]
-hinting='slight'
-antialiasing='rgba'
-overrides={'Gtk/ShellShowsAppMenu': <0>, 'Gtk/DecorationLayout': <'menu:minimize,maximize,close'>}
-
 [org.gnome.desktop.background]
 show-desktop-icons=true
 picture-uri='file:///usr/share/backgrounds/21416551203_9ef952d303_o.jpg'
