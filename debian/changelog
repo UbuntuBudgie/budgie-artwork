@@ -1,3 +1,21 @@
+budgie-remix-lightdm-theme (0.2ubuntu8) xenial; urgency=medium
+
+  * changed to budgie-remix plymouth dependency
+
+ -- fossfreedom <foss.freedom@gmail.com>  Sat, 26 Mar 2016 11:15:42 +0000
+
+budgie-remix-lightdm-theme (0.2ubuntu7) xenial; urgency=medium
+
+  * change initial wallpaper for lightdm/desktop and lockscreen
+
+ -- fossfreedom <foss.freedom@gmail.com>  Tue, 15 Mar 2016 22:04:52 +0000
+
+budgie-remix-lightdm-theme (0.2ubuntu6) xenial; urgency=medium
+
+  * rejig package for correct override installation
+
+ -- fossfreedom <foss.freedom@gmail.com>  Fri, 11 Mar 2016 21:50:58 +0000
+
 budgie-remix-lightdm-theme (0.2ubuntu5) xenial; urgency=medium
 
   * remove appmenu - now located in budgie-core

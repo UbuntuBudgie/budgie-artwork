@@ -14,10 +14,10 @@ scaling-factor=1
 
 [org.gnome.desktop.background]
 show-desktop-icons=true
-picture-uri='file:///usr/share/backgrounds/21416551203_9ef952d303_o.jpg'
+picture-uri='file:///usr/share/backgrounds/Xplo_by_Hugo_Cliff.png'
 
 [org.gnome.desktop.screensaver]
-picture-uri='file:///usr/share/backgrounds/21416551203_9ef952d303_o.jpg'
+picture-uri='file:///usr/share/backgrounds/Xplo_by_Hugo_Cliff.png'
 
 [org.gnome.nautilus.desktop]
 home-icon-visible=false

@@ -10,7 +10,7 @@ Package: budgie-remix-lightdm-theme
 Architecture: all
 Depends: ${misc:Depends}, 
          budgie-wallpapers,
-         plymouth-theme-ubuntu-logo,
+         plymouth-theme-budgie-remix-logo,
          plymouth-themes,
          lightdm,
          lightdm-gtk-greeter, 
