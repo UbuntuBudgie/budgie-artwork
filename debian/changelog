@@ -1,3 +1,9 @@
+budgie-remix-lightdm-theme (0.3.0) xenial; urgency=medium
+
+  * rebuild
+
+ -- fossfreedom <foss.freedom@gmail.com>  Sat, 26 Mar 2016 11:27:55 +0000
+
 budgie-remix-lightdm-theme (0.2ubuntu8) xenial; urgency=medium
 
   * changed to budgie-remix plymouth dependency
