@@ -1,3 +1,9 @@
+budgie-remix-lightdm-theme (0.3.1) xenial; urgency=medium
+
+  * add our logo to the greeter icon in the panel
+
+ -- fossfreedom <foss.freedom@gmail.com>  Thu, 07 Apr 2016 20:38:56 +0100
+
 budgie-remix-lightdm-theme (0.3.0) xenial; urgency=medium
 
   * rebuild
