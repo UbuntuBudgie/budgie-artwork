@@ -1,3 +1,6 @@
+[org.gnome.crypto.pgp]
+keyservers=['hkp://keyserver.ubuntu.com:11371', 'hkp://pool.sks-keyservers.net', 'ldap://keyserver.pgp.com']
+
 [org.gnome.desktop.wm.preferences]
 theme='Arc-Darker'
 titlebar-font='Ubuntu Bold 11'
@@ -38,3 +41,7 @@ active-plugins=['dbus-media-server', 'artsearch', 'generic-player', 'audiocd', '
 [org.gnome.rhythmbox.plugins.alternative_toolbar]
 display-type=1
 show-source-toolbar=false
+
+[org.gnome.desktop.peripherals.touchpad]
+tap-to-click = true
+
