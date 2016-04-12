@@ -1,3 +1,16 @@
+budgie-remix-lightdm-theme (0.3.3) xenial; urgency=medium
+
+  * add missing dependency to allow us to fallback to text plymouth
+
+ -- fossfreedom <foss.freedom@gmail.com>  Tue, 12 Apr 2016 21:25:00 +0100
+
+budgie-remix-lightdm-theme (0.3.2) xenial; urgency=medium
+
+  * tap-to-click override=true
+  * latest lightdm-gtk logo
+
+ -- fossfreedom <foss.freedom@gmail.com>  Sun, 10 Apr 2016 23:00:53 +0100
+
 budgie-remix-lightdm-theme (0.3.1) xenial; urgency=medium
 
   * add our logo to the greeter icon in the panel

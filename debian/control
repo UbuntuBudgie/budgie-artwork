@@ -11,6 +11,7 @@ Architecture: all
 Depends: ${misc:Depends}, 
          budgie-wallpapers,
          plymouth-theme-budgie-remix-logo,
+         plymouth-theme-budgie-remix-text,
          plymouth-themes,
          lightdm,
          lightdm-gtk-greeter, 
