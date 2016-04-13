@@ -1,3 +1,8 @@
+[com.canonical.unity-greeter]
+theme-name='Ark-Dark'
+background-color='#383c4a'
+background='/usr/share/backgrounds/Xplo_by_Hugo_Cliff.png'
+
 [org.gnome.crypto.pgp]
 keyservers=['hkp://keyserver.ubuntu.com:11371', 'hkp://pool.sks-keyservers.net', 'ldap://keyserver.pgp.com']
 
