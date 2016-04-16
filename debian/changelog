@@ -1,13 +1,15 @@
 budgie-remix-lightdm-theme (0.3.5) xenial; urgency=medium
 
-  * Fix loading of theme in Unity Greeter by correcting typo in gsettings override
+  * Fix loading of theme in Unity Greeter by correcting typo 
+    in gsettings override
 
  -- HEXcube <hexcubed@gmail.com>  Sat, 16 Apr 2016 11:31:33 +0530
 
 budgie-remix-lightdm-theme (0.3.4) xenial; urgency=medium
 
   * Set Unity Greeter as default LightDM greeter
-  * Provide gsettings override for Unity Greeter's theme, background and logo
+  * Provide gsettings override for Unity Greeter's theme, background 
+    and logo
   * Add Budgie desktop badge for Unity Greeter
 
  -- HEXcube <hexcubed@gmail.com>  Thu, 14 Apr 2016 14:13:01 +0530
