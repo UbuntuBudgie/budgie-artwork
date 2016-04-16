@@ -1,6 +1,6 @@
 [com.canonical.unity-greeter]
 theme-name='Arc-Dark'
-background-color='#383c4a'
+background-color='#99004C'
 background='/usr/share/backgrounds/Xplo_by_Hugo_Cliff.png'
 logo='/usr/share/unity-greeter/budgie-remix_logotype.png'
 

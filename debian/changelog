@@ -1,3 +1,9 @@
+budgie-remix-lightdm-theme (0.3.6) xenial; urgency=medium
+
+  * changed default grey to a purple to help with blending
+
+ -- fossfreedom <foss.freedom@gmail.com>  Sat, 16 Apr 2016 17:33:01 +0100
+
 budgie-remix-lightdm-theme (0.3.5) xenial; urgency=medium
 
   * Fix loading of theme in Unity Greeter by correcting typo 
