@@ -10,11 +10,26 @@ budgie-remix-lightdm-theme (0.4.1) xenial; urgency=medium
 
  -- fossfreedom <foss.freedom@gmail.com>  Sat, 16 Apr 2016 22:54:27 +0100
 
-budgie-remix-lightdm-theme (0.3.4) xenial; urgency=medium
+budgie-remix-lightdm-theme (0.3.6) xenial; urgency=medium
+
+  * changed default grey to a purple to help with blending
+
+ -- fossfreedom <foss.freedom@gmail.com>  Sat, 16 Apr 2016 17:33:01 +0100
+
+budgie-remix-lightdm-theme (0.3.5) xenial; urgency=medium
 
   * ensure nm-applet shows popup windows
 
  -- fossfreedom <foss.freedom@gmail.com>  Sat, 16 Apr 2016 22:49:11 +0100
+
+budgie-remix-lightdm-theme (0.3.4) xenial; urgency=medium
+
+  * Set Unity Greeter as default LightDM greeter
+  * Provide gsettings override for Unity Greeter's theme, background 
+    and logo
+  * Add Budgie desktop badge for Unity Greeter
+
+ -- HEXcube <hexcubed@gmail.com>  Thu, 14 Apr 2016 14:13:01 +0530
 
 budgie-remix-lightdm-theme (0.3.3) xenial; urgency=medium
 
