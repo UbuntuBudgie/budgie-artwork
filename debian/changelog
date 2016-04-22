@@ -12,15 +12,15 @@ budgie-remix-lightdm-theme (0.4.1) xenial; urgency=medium
 
 budgie-remix-lightdm-theme (0.3.6) xenial; urgency=medium
 
-  * changed default grey to a purple to help with blending
-
- -- fossfreedom <foss.freedom@gmail.com>  Sat, 16 Apr 2016 17:33:01 +0100
-
-budgie-remix-lightdm-theme (0.3.5) xenial; urgency=medium
-
   * ensure nm-applet shows popup windows
 
  -- fossfreedom <foss.freedom@gmail.com>  Sat, 16 Apr 2016 22:49:11 +0100
+
+budgie-remix-lightdm-theme (0.3.5) xenial; urgency=medium
+
+  * changed default grey to a purple to help with blending
+
+ -- fossfreedom <foss.freedom@gmail.com>  Sat, 16 Apr 2016 17:33:01 +0100
 
 budgie-remix-lightdm-theme (0.3.4) xenial; urgency=medium
 
@@ -90,7 +90,7 @@ budgie-remix-lightdm-theme (0.2ubuntu3) xenial; urgency=medium
 
   * set default zoom level for nautilus icon-view to small
 
- -- fossfreedom <foss.freedom@gmail>  Tue, 08 Mar 2016 23:02:06 +0000
+ -- fossfreedom <foss.freedom@gmail.com>  Tue, 08 Mar 2016 23:02:06 +0000
 
 budgie-remix-lightdm-theme (0.2ubuntu2) xenial; urgency=medium
 
