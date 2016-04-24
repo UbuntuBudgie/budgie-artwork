@@ -1,3 +1,9 @@
+budgie-remix-lightdm-theme (0.4.3) xenial; urgency=medium
+
+  * Switch to Unity Greeter as the default
+
+ -- HEXcube <hexcubed@gmail.com>  Sun, 24 Apr 2016 17:53:21 +0530
+
 budgie-remix-lightdm-theme (0.4.2) xenial; urgency=medium
 
   * achieve nm-applet shows via global rather than local
