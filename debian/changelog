@@ -1,3 +1,10 @@
+budgie-remix-lightdm-theme (0.4.4) xenial; urgency=medium
+
+  * revert switch to Unity Greeter
+  * move some overrides from budgie-desktop to this package
+
+ -- fossfreedom <foss.freedom@gmail.com>  Sat, 21 May 2016 16:40:22 +0100
+
 budgie-remix-lightdm-theme (0.4.3) xenial; urgency=medium
 
   * Switch to Unity Greeter as the default

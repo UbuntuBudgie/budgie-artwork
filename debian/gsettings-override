@@ -51,3 +51,9 @@ show-source-toolbar=false
 [org.gnome.desktop.peripherals.touchpad]
 tap-to-click = true
 
+[com.solus-project.icon-tasklist]
+pinned-launchers=['firefox.desktop', 'nautilus.desktop', 'libreoffice-writer.desktop', 'org.gnome.Software.desktop']
+
+[com.solus-project.budgie-panel.panel]
+theme-regions=false
+
