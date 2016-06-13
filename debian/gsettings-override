@@ -1,9 +1,3 @@
-[com.canonical.unity-greeter]
-theme-name='Arc-Dark'
-background-color='#99004C'
-background='/usr/share/backgrounds/Xplo_by_Hugo_Cliff.png'
-logo='/usr/share/unity-greeter/budgie-remix_logotype.png'
-
 [org.gnome.crypto.pgp]
 keyservers=['hkp://keyserver.ubuntu.com:11371', 'hkp://pool.sks-keyservers.net', 'ldap://keyserver.pgp.com']
 
@@ -43,10 +37,6 @@ default-zoom-level='small'
 
 [org.gnome.rhythmbox.plugins]
 active-plugins=['dbus-media-server', 'artsearch', 'generic-player', 'audiocd', 'alternative-toolbar', 'mtpdevice', 'daap', 'android', 'tray_icon', 'rb', 'power-manager', 'notification', 'ipod', 'mpris', 'iradio', 'audioscrobbler', 'mmkeys']
-
-[org.gnome.rhythmbox.plugins.alternative_toolbar]
-display-type=1
-show-source-toolbar=false
 
 [org.gnome.desktop.peripherals.touchpad]
 tap-to-click = true

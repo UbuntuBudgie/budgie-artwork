@@ -1,3 +1,6 @@
-budgie-remix LightDM Theme
+budgie-artwork
 ==========================
-budgie-remix theme for Unity Greeter and LightDM GTK greeter
+
+16.10 development for Ubuntu Budgie
+
+Contains all artwork for Ubuntu including LightDM and its greeter 
