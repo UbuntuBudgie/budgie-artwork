@@ -47,3 +47,8 @@ pinned-launchers=['firefox.desktop', 'nautilus.desktop', 'libreoffice-writer.des
 [com.solus-project.budgie-panel.panel]
 theme-regions=false
 
+[net.launchpad.plank.dock.settings]
+position='left'
+theme='Arc-Plank'
+icon-size=48
+
