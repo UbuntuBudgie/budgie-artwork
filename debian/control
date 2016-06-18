@@ -16,7 +16,7 @@ Depends: ${misc:Depends},
          lightdm,
          lightdm-gtk-greeter, 
          xserver-xorg
-Description: budgie LightDM theme
+Description: LightDM Greeter theme for Ubuntu Budgie
  This is the lightdm greeter theme and configuration
  used for a standalone Ubuntu Budgie installation.
  .
@@ -30,3 +30,30 @@ Depends: ${misc:Depends},
  plank
 Description:  Plank dock configuration for Ubuntu Budgie.
  Configuration for the plank dock
+ 
+Package: plymouth-theme-ubuntu-budgie-logo
+Architecture: all
+Depends: ${misc:Depends}, plymouth, plymouth-label
+Provides: plymouth-theme
+Breaks: plymouth (<< 0.9.2-3ubuntu1~),
+Description: graphical boot animation and logger - budgie-logo theme
+ Plymouth is an application that runs very early in the boot process
+ (even before the root filesystem is mounted!) that provides a graphical
+ boot animation while the boot process happens in the background.
+ .
+ This package contains the default budgie-logo theme.
+
+Package: plymouth-theme-ubuntu-budgie-text
+Architecture: all
+Depends: ${misc:Depends}, plymouth, plymouth-theme-ubuntu-text
+Provides: plymouth-theme
+Replaces: plymouth (<< 0.8.1-1~)
+Breaks: plymouth (<< 0.9.2-3ubuntu1~),
+Description: graphical boot animation and logger - budgie-text theme
+ Plymouth is an application that runs very early in the boot process
+ (even before the root filesystem is mounted!) that provides a graphical
+ boot animation while the boot process happens in the background.
+ .
+ This package contains the default budgie-text text theme used when no
+ support for a graphical theme is found on your system.
+
