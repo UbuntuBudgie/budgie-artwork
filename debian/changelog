@@ -1,5 +1,5 @@
-budgie-artwork (0.5.0-1) xenial; urgency=low
+budgie-artwork (0.5.3-0ubuntu1) yakkety; urgency=medium
 
-  * Initial release (Closes: lpxxxxx).
+  * Initial release (LP: #1594600)
 
- -- David Mohammed <foss.freedom@gmail.com>  Fri, 26 Feb 2016 20:14:22 -0500
+ -- David Mohammed <foss.freedom@gmail.com>  Sat, 18 Jun 2016 15:38:41 +0100
