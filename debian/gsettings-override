@@ -1,3 +1,7 @@
+[org.gnome.settings-daemon.plugins.xsettings]
+hinting='slight'
+antialiasing='rgba'
+
 [com.canonical.unity-greeter]
 theme-name='Arc-Dark'
 background-color='#99004C'
