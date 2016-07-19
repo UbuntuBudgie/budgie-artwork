@@ -61,3 +61,5 @@ pinned-launchers=['firefox.desktop', 'nautilus.desktop', 'libreoffice-writer.des
 [com.solus-project.budgie-panel.panel]
 theme-regions=false
 
+[org.freedesktop.ibus.panel]
+show-icon-on-systray=false

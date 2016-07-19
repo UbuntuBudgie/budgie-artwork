@@ -1,3 +1,10 @@
+budgie-remix-lightdm-theme (0.4.5) xenial; urgency=medium
+
+  * add missing xsettings
+  * hide ibus from systray
+
+ -- fossfreedom <foss.freedom@gmail.com>  Tue, 19 Jul 2016 18:13:56 +0100
+
 budgie-remix-lightdm-theme (0.4.4) xenial; urgency=medium
 
   * revert switch to Unity Greeter
