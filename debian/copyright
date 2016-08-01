@@ -3,13 +3,38 @@ Upstream-Name: budgie-artwork
 Source: https://github.com/budgie-remix/budgie-artwork
 
 Files: *
-Copyright: Copyright 2016 David Mohammed <foss.freedom@gmail.com>
+Copyright: Copyright 2016 David Mohammed <fossfreedom@ubuntu.com>
+License: LGPL-2.1
+ This library is free software; you can redistribute it and/or modify it
+ under the terms of the GNU Lesser General Public License as published
+ by the Free Software Foundation; version 2.1.
+ .
+ This library is distributed in the hope that it will be useful, but 
+ WITHOUT ANY WARRANTY; without even the implied warranty of 
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the 
+ GNU Lesser General Public License for more details.
+ .
+ On Debian systems, the complete text of version 2.1 of the GNU Lesser
+ General Public License can be found in 
+ '/usr/share/common-licenses/LGPL-2.1'.
+ 
+Files:
+    usr/share/plymouth/themes/budgie-logo/budgie-logo-scale-2.script
+    usr/share/plymouth/themes/budgie-logo/budgie-logo.script
+Copyright: 
+    2009, Canonical Ltd.
+    2014, Ubuntu MATE Developers
+    2016, HEXcube and David Mohammed
 License: GPL-2+
  This program is free software; you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by
- the Free Software Foundation; version 2 dated June, 1991, or (at
- your option) any later version.
+ the Free Software Foundation; either version 2, or (at your option)
+ any later version.
  .
- On Debian systems, the complete text of version 2 of the GNU General
+ This program is distributed in the hope that it will be useful, but
+ WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+ GNU General Public License for more details.
+ .
+ On Debian systems, the complete text of version 2 of the GNU General 
  Public License can be found in '/usr/share/common-licenses/GPL-2'.
- 
