@@ -1,3 +1,10 @@
+budgie-artwork (0.5.4.2) yakkety; urgency=medium
+
+  * create 50_budgie-desktop.conf /etc/lightdm/lightdm.conf.d
+    to enable budgie-configuration of lightdm-gtk-greeter to display
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Mon, 29 Aug 2016 11:02:54 +0100
+
 budgie-artwork (0.5.4) yakkety; urgency=medium
 
   * Initial release (LP: #1594600)

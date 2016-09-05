@@ -3,8 +3,8 @@ Priority: optional
 Section: x11
 Maintainer: David Mohammed <fossfreedom@ubuntu.com>
 Standards-Version: 3.9.7
-Vcs-Browser: https://github.com/budgie-remix/budgie-artwork/tree/debian
-Vcs-Git: https://github.com/budgie-remix/budgie-artwork -b debian
+Vcs-Browser: https://github.com/budgie-remix/budgie-artwork
+Vcs-Git: https://github.com/budgie-remix/budgie-artwork.git
 Build-Depends: debhelper (>= 9), 
 
 Package: budgie-lightdm-theme
