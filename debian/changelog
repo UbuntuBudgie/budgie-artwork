@@ -1,9 +1,14 @@
-budgie-artwork (0.5.4.2) yakkety; urgency=medium
+budgie-artwork (0.5.5) yakkety; urgency=medium
 
-  * create 50_budgie-desktop.conf /etc/lightdm/lightdm.conf.d
-    to enable budgie-configuration of lightdm-gtk-greeter to display
+  * bug-fix for greeter display
+    - create 50_budgie-desktop.conf /etc/lightdm/lightdm.conf.d
+      to enable budgie-configuration of lightdm-gtk-greeter to display
+    - delete obsolete lightdm.conf from /usr/share/budgieremix/lightdm
+  * packaging changes
+    - delete obsolete budgieremix folder
+    - correct Vcs to point to master branch
 
- -- David Mohammed <fossfreedom@ubuntu.com>  Mon, 29 Aug 2016 11:02:54 +0100
+ -- David Mohammed <fossfreedom@ubuntu.com>  Wed, 07 Sep 2016 11:02:54 +0100
 
 budgie-artwork (0.5.4) yakkety; urgency=medium
 
