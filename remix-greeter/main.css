@@ -1,0 +1,228 @@
+@font-face {
+	src: url("fonts/raleway.ttf");
+	font-family: Raleway;
+}
+
+@font-face {
+	src: url("fonts/Ubuntu-L.ttf");
+	font-family: Ubuntu;
+}
+
+body {
+	background: url('background.jpg') no-repeat black;
+	background-attachment: fixed !important;
+	background-size: cover;
+	font-family:  Ubuntu, sans-serif;
+	color: white;
+	text-shadow: 1px 1px 4px rgba(0,0,0,0.8);
+	-webkit-user-select: none;
+}
+
+body {
+	overflow: hidden;
+}
+
+input[type="password"] {
+	padding: 6px 20px 6px 25px;
+	outline: 0;
+	width: 100%;
+	border: none;
+	border-bottom: solid 2px;
+	border-color: #aaa;
+	font-family: Ubuntu;
+	background-color: rgba(0,0,0,0);
+	color: #fff;
+	transition: opacity 1s ease-in-out
+}
+input[type="checkbox"] {
+	border-radius: 2px;
+	vertical-align: middle;
+}
+
+.jq-dropdown .jq-dropdown-menu li > a {
+	padding: 8px !important;
+}
+.jq-dropdown .jq-dropdown-menu li > a:hover {
+	background: #dfdfdf !important;
+}
+.jq-dropdown .jq-dropdown-menu label {
+	display: inline-block !important;
+	background: transparent !important;
+	width: 100%;
+}
+
+.titlebar {
+	background: rgba(55, 59, 73, 0.8);
+	position: fixed;
+	top: 0;
+	left: 0;
+	padding: 8px;
+	width: 100%;
+	color: white;
+	z-index: 1000;
+	text-align: center;
+	box-sizing: border-box;
+	text-shadow: none;
+}
+.titlebar ul {
+	list-style: none;
+	margin: 0;
+}
+.titlebar ul li {
+	display: inline;
+	float: right;
+	margin-top: 2px;
+}
+.titlebar #date {
+	margin: auto;
+	width: 50%;
+	font-weight: 100;
+}
+.titlebar a {
+	font-weight: 100;
+	margin-left: 10px;
+	text-shadow: none;
+	font-size: large;
+	color: #ffffff;
+	outline: 0;
+}
+
+.jq-dropdown a, .jq-dropdown li {
+	text-shadow: none;
+	color: #333 !important;
+	font-size: small;
+}
+
+.userList {
+	top: 27%;
+	left: 10%;
+	position: absolute;
+	width: 32%;
+	box-sizing: border-box;
+	transition: margin 0.3s ease-in-out;
+}
+.userList label {
+	font-size: xx-large;
+	font-weight: 100;
+}
+.userList .user {
+	height: 110px;
+	opacity: 0.5;
+	position: relative;
+	transition: margin 0.3s ease-in-out, opacity 1s ease-in-out, background-color 0.3s ease-in-out, padding 0.3s ease-in-out, text-shadow 0.3s ease-in-out;
+	margin-bottom: 3px;
+	cursor: pointer;
+}
+.userList .subname {
+	font-size: medium;
+	display: block;
+	padding-left: 5px;
+}
+.userList .bright {
+	opacity: 1.0;
+}
+.userList .user label {cursor: pointer;}
+.userList .active {
+	margin: 50px 3px 50px 12px;
+	padding: 6px;
+	background-color: rgba(55, 59, 73, 0.8);
+	border-radius: 3px;
+	text-shadow: none;
+}
+.hide {
+	display: none;
+}
+.show {
+	height: 110px;
+	width: 110px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	float: left;
+}
+.userList .user img {
+	width: 96px;
+	height: 96px;
+	border-radius: 48px;
+	float: left;
+	margin-right: 10px;
+}
+.userList .user p {
+	position: relative;
+	display: flex;
+}
+
+#loginbutton {
+	color: #aaa;
+	text-shadow: none;
+	position: absolute;
+	right: 5px;
+	top: 25%;
+	cursor: pointer;
+}
+
+#lock {
+	color: #aaa;
+	text-shadow: none;
+	position: absolute;
+	left: 5px;
+	top: 25%;
+}
+
+#manager {
+	position: absolute;
+	top: 15px;
+	right: 5px;
+	padding: 4px 6px;
+	text-shadow: none;
+	cursor: pointer;
+	color: #aaa;
+}
+
+#languageMenu {
+	max-height: 70%
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+
+/* HIGH CONTRAST */
+body.highcontrast {
+	text-shadow: 2px 2px 0 black, -2px -2px 0 black, 0 2px 0 black, 2px 0 0 black, 0 -2px 0 black, -2px 0 0 black;
+	font-weight: bold !important;
+}
+body.highcontrast input[type="password"] {
+	border: solid 3px;
+	box-shadow: none;
+}
+body.highcontrast .titlebar {
+	background: black;
+	font-size: x-large;
+}
+body.highcontrast .titlebar a {
+	font-size: x-large;
+}
+body.highcontrast .user {
+	opacity: 1;
+}
+body.highcontrast .userList .active {
+	background: black !important;
+}
+body.highcontrast .user span {
+	color: white !important;
+}
+body.highcontrast span.loggedin {
+	color: #ffffff !important;
+}
+body.highcontrast .jq-dropdown .jq-dropdown-menu li > a:hover {
+	background: black !important;
+	color: #ffffff !important;
+}
+body.highcontrast #manager {
+	background: black;
+}
+body.highcontrast #manager span {
+	color: #ffffff !important;
+}
+body.highcontrast .userList .user img {
+	box-shadow: 2px 2px 0 black, -2px -2px 0 black, 0 2px 0 black, 2px 0 0 black, 0 -2px 0 black, -2px 0 0 black;
+}
