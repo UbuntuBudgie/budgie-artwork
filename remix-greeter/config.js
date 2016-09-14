@@ -1,4 +1,4 @@
 var Config = {
-	background: "background.png",
+	background: "background.jpg",
 	avatar: "hide"
 };
