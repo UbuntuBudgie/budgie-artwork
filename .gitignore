@@ -41,6 +41,7 @@ missing
 Makefile
 Makefile.in
 config.*
+!config.js
 po/Makefile*
 po/POTFILES
 po/stamp-it
