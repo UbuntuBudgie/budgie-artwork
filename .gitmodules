@@ -1,0 +1,3 @@
+[submodule "icontheme"]
+	path = icontheme
+	url = https://github.com/budgie-remix/pocillo

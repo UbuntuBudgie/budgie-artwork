@@ -38,3 +38,27 @@ License: GPL-2+
  .
  On Debian systems, the complete text of version 2 of the GNU General 
  Public License can be found in '/usr/share/common-licenses/GPL-2'.
+
+Files:
+    remix-greeter/*
+Copyright:
+    Ossian Mapes <the5heepdev@gmail.com>
+License: CC-BY-SA-4.0
+ 
+Files:
+    icontheme/Pocillo/*
+Copyright: 
+    Joshua H. Fogg <joshua.h.fogg@gmail.com>
+License: CC-BY-SA-4.0
+
+Files:
+    remix-greeter/*
+Copyright:
+    Ossian Mapes <the5heepdev@gmail.com>
+License: CC-BY-SA-4.0
+
+License: CC-BY-SA-4.0
+ This work is licensed under the Creative Commons Attribution-ShareAlike 4.0
+ Unported License. To view a copy of this license, visit
+ https://creativecommons.org/licenses/by-sa/4.0/ or send a letter to Creative
+ Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.

@@ -1,3 +1,14 @@
+budgie-artwork (0.5.5.1) yakkety; urgency=medium
+
+  * temporary version for testing
+  * New release.
+  * add remix-greeter
+    - add a lightdm-webkit2-greeter based greeter as a package
+  * add pocillo-icon-theme
+    - add an icon-theme that blends Moka with Arc-theme
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Fri, 16 Sep 2016 19:42:56 +0100
+
 budgie-artwork (0.5.5) yakkety; urgency=medium
 
   * Bug fix release. (LP: #1621221)
