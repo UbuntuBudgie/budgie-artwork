@@ -1,6 +1,11 @@
+budgie-artwork (0.5.5.2) yakkety; urgency=medium
+
+  * sync pocillo
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Thu, 22 Sep 2016 23:20:48 +0100
+
 budgie-artwork (0.5.5.1) yakkety; urgency=medium
 
-  * temporary version for testing
   * New release.
   * add remix-greeter
     - add a lightdm-webkit2-greeter based greeter as a package
