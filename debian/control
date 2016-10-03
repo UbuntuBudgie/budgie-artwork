@@ -1,7 +1,7 @@
 Source: budgie-remix-lightdm-theme
 Priority: optional
 Section: misc
-Maintainer: fossfreedom <foss.freedom@gmail.com>
+Maintainer: David Mohammed <fossfreedom@ubuntu.com>
 Standards-Version: 3.9.7
 Build-Depends: debhelper (>= 9), 
 Vcs-Git: http://github.com/budgie-remix/budgie-remix-lightdm-theme
