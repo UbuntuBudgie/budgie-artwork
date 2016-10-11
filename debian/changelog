@@ -1,34 +1,5 @@
-budgie-artwork (0.5.6.1) xenial; urgency=medium
+budgie-artwork (0.5.4+xenial01) xenial; urgency=medium
 
   * merge from yakkety
 
- -- David Mohammed <fossfreedom@ubuntu.com>  Tue, 11 Oct 2016 23:48:43 +0100
-
-budgie-artwork (0.5.6) yakkety; urgency=medium
-
-  * New release.
-  * add remix-greeter
-    - add a lightdm-webkit2-greeter based greeter as a package
-  * add pocillo-icon-theme
-    - add an icon-theme that blends Moka with Arc-theme
-
- -- David Mohammed <fossfreedom@ubuntu.com>  Fri, 16 Sep 2016 19:42:56 +0100
-
-budgie-artwork (0.5.5) yakkety; urgency=medium
-
-  * Bug fix release. (LP: #1621221)
-  * bug-fix for greeter display
-    - create 50_budgie-desktop.conf /etc/lightdm/lightdm.conf.d
-      to enable budgie-configuration of lightdm-gtk-greeter to display
-    - delete obsolete lightdm.conf from /usr/share/budgieremix/lightdm
-  * packaging changes
-    - delete obsolete budgieremix folder
-    - correct Vcs to point to master branch
-
- -- David Mohammed <fossfreedom@ubuntu.com>  Wed, 07 Sep 2016 11:02:54 +0100
-
-budgie-artwork (0.5.4) yakkety; urgency=medium
-
-  * Initial release (LP: #1594600)
-
- -- David Mohammed <fossfreedom@ubuntu.com>  Mon, 1 Aug 2016 15:38:41 +0100
+ -- David Mohammed <fossfreedom@ubuntu.com>  Tue, 11 Oct 2016 15:38:41 +0100
