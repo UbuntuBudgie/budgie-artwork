@@ -1,22 +1,4 @@
-budgie-artwork (0.5.5.4) yakkety; urgency=medium
-
-  * sync pocillo
-
- -- David Mohammed <fossfreedom@ubuntu.com>  Fri, 30 Sep 2016 15:43:14 +0100
-
-budgie-artwork (0.5.5.3) yakkety; urgency=medium
-
-  * sync pocillo
-
- -- David Mohammed <fossfreedom@ubuntu.com>  Thu, 22 Sep 2016 23:23:44 +0100
-
-budgie-artwork (0.5.5.2) yakkety; urgency=medium
-
-  * sync pocillo
-
- -- David Mohammed <fossfreedom@ubuntu.com>  Thu, 22 Sep 2016 23:20:48 +0100
-
-budgie-artwork (0.5.5.1) yakkety; urgency=medium
+budgie-artwork (0.5.6) yakkety; urgency=medium
 
   * New release.
   * add remix-greeter
