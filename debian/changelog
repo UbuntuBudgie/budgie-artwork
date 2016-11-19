@@ -3,9 +3,12 @@ budgie-artwork (0.6.0) zesty; urgency=medium
   * New release. (LP: #0000)
   * add pocillo-icon-theme
     - add an icon-theme that blends Moka with Arc-theme
+  * Change plymouth files to reflect budgie-remix --> Ubuntu Budgie rename
+  * Change plymouth files copyright to update David Mohammed email address
   * Packaging Changes:
-    - update vcr fields to reflect UbuntuBudgie github repo rename
-    - update copyright to reflect UbuntuBudgie github repo rename
+    - update vcr fields to reflect Ubuntu Budgie github repo rename
+    - update copyright to reflect Ubuntu Budgie github repo rename
+    - update control to reflect Ubuntu Budgie plymouth packages rename
 
  -- David Mohammed <fossfreedom@ubuntu.com>  Sat, 19 Nov 2016 19:42:56 +0100
 
