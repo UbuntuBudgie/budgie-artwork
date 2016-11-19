@@ -1,12 +1,13 @@
-budgie-artwork (0.5.6) yakkety; urgency=medium
+budgie-artwork (0.6.0) zesty; urgency=medium
 
-  * New release.
-  * add remix-greeter
-    - add a lightdm-webkit2-greeter based greeter as a package
+  * New release. (LP: #0000)
   * add pocillo-icon-theme
     - add an icon-theme that blends Moka with Arc-theme
+  * Packaging Changes:
+    - update vcr fields to reflect UbuntuBudgie github repo rename
+    - update copyright to reflect UbuntuBudgie github repo rename
 
- -- David Mohammed <fossfreedom@ubuntu.com>  Fri, 16 Sep 2016 19:42:56 +0100
+ -- David Mohammed <fossfreedom@ubuntu.com>  Sat, 19 Nov 2016 19:42:56 +0100
 
 budgie-artwork (0.5.5) yakkety; urgency=medium
 

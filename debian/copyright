@@ -1,6 +1,6 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: budgie-artwork
-Source: https://github.com/budgie-remix/budgie-artwork
+Source: https://github.com/UbuntuBudgie/budgie-artwork
 
 Files: *
 Copyright: Copyright 2016 David Mohammed <fossfreedom@ubuntu.com>
@@ -38,23 +38,11 @@ License: GPL-2+
  .
  On Debian systems, the complete text of version 2 of the GNU General 
  Public License can be found in '/usr/share/common-licenses/GPL-2'.
-
-Files:
-    remix-greeter/*
-Copyright:
-    Ossian Mapes <the5heepdev@gmail.com>
-License: CC-BY-SA-4.0
  
 Files:
     icontheme/Pocillo/*
 Copyright: 
     Joshua H. Fogg <joshua.h.fogg@gmail.com>
-License: CC-BY-SA-4.0
-
-Files:
-    remix-greeter/*
-Copyright:
-    Ossian Mapes <the5heepdev@gmail.com>
 License: CC-BY-SA-4.0
 
 License: CC-BY-SA-4.0
