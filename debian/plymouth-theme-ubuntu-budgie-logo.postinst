@@ -20,15 +20,15 @@ case "$1" in
     configure)
 	update-alternatives \
 		--install /usr/share/plymouth/themes/default.plymouth default.plymouth \
-		/usr/share/plymouth/themes/budgie-logo/budgie-logo.plymouth 150 \
+		/usr/share/plymouth/themes/ubuntu-budgie-logo/budgie-logo.plymouth 150 \
 		--slave /usr/share/plymouth/themes/default.grub default.plymouth.grub \
-		/usr/share/plymouth/themes/budgie-logo/budgie-logo.grub
+		/usr/share/plymouth/themes/ubuntu-budgie-logo/budgie-logo.grub
 
 	update-alternatives \
 		--install /usr/share/plymouth/themes/default.plymouth default.plymouth \
-		/usr/share/plymouth/themes/budgie-logo/budgie-logo-scale-2.plymouth 149 \
+		/usr/share/plymouth/themes/ubuntu-budgie-logo/budgie-logo-scale-2.plymouth 149 \
 		--slave /usr/share/plymouth/themes/default.grub default.plymouth.grub \
-		/usr/share/plymouth/themes/budgie-logo/budgie-logo.grub
+		/usr/share/plymouth/themes/ubuntu-budgie-logo/budgie-logo.grub
 
 	if which update-initramfs >/dev/null 2>&1
 	then
