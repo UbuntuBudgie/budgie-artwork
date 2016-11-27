@@ -1,6 +1,6 @@
-budgie-artwork (0.6.0) zesty; urgency=medium
+budgie-artwork (0.6.1) zesty; urgency=medium
 
-  * New release. (LP: #1645004)
+  * New release. (LP: #1645146)
   * add pocillo-icon-theme
     - add an icon-theme that blends Moka with Arc-theme
   * Change plymouth files to reflect budgie-remix --> Ubuntu Budgie rename
