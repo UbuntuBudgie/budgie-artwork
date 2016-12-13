@@ -11,7 +11,7 @@ Package: budgie-lightdm-theme
 Architecture: all
 Depends: ${misc:Depends},
          arc-theme,
-         lightdm-gtk-greeter,
+         budgie-lightdm-theme-base,
          budgie-wallpapers
 Description: LightDM Greeter theme for budgie-remix
  This is the LightDM greeter theme and configuration
@@ -20,6 +20,16 @@ Description: LightDM Greeter theme for budgie-remix
  This package can also be installed on
  other Ubuntu desktops desiring to use this
  theme, but it will replace the LightDM theme.
+
+Package: budgie-lightdm-theme-base
+Architecture: all
+Conflicts: budgie-lightdm-theme (<= 0.5.6)
+Depends: ${misc:Depends},
+         lightdm-gtk-greeter
+Description: LightDM Session for budgie-remix
+ This is the LightDM Session used for a standalone budgie-remix
+ installation.  This package allows ubiquity to autologin on the
+ installation ISO.
 
 Package: plymouth-theme-budgie-remix-logo
 Architecture: all

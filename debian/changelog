@@ -1,3 +1,27 @@
+budgie-artwork (0.5.6.2ubuntu1) yakkety; urgency=medium
+
+  * correct Pocillo theme install
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Sat, 10 Dec 2016 10:07:57 +0000
+
+budgie-artwork (0.5.6.2) yakkety; urgency=medium
+
+  * rename back conf with now with control/conflicts
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Sat, 10 Dec 2016 09:54:53 +0000
+
+budgie-artwork (0.5.6.1) yakkety; urgency=medium
+
+  * clashing conf file
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Fri, 09 Dec 2016 23:44:00 +0000
+
+budgie-artwork (0.5.6) yakkety; urgency=medium
+
+  * split the lightdm-theme package for a minimal installation
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Fri, 09 Dec 2016 23:06:26 +0000
+
 budgie-artwork (0.5.5.4) yakkety; urgency=medium
 
   * sync pocillo

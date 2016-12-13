@@ -1,2 +1,2 @@
 usr/share/icons
-etc
+etc/lightdm/lightdm-gtk-greeter.conf.d
