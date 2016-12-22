@@ -1,3 +1,15 @@
+budgie-artwork (0.5.4+xenial01ubuntu2) xenial; urgency=medium
+
+  * replaces breaks
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Mon, 19 Dec 2016 12:58:49 +0000
+
+budgie-artwork (0.5.4+xenial01ubuntu1) xenial; urgency=medium
+
+  * add conflicts
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Mon, 19 Dec 2016 12:17:12 +0000
+
 budgie-artwork (0.5.4+xenial01) xenial; urgency=medium
 
   * merge from yakkety

@@ -13,6 +13,8 @@ Depends: ${misc:Depends},
          arc-theme,
          lightdm-gtk-greeter,
          budgie-wallpapers
+Replaces: budgie-remix-lightdm-theme (<< 0.4.6)
+Breaks: budgie-remix-lightdm-theme (<< 0.4.6)
 Description: LightDM Greeter theme for budgie-remix
  This is the LightDM greeter theme and configuration
  used for a standalone budgie-remix installation.
