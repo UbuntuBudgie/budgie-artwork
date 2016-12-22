@@ -29,6 +29,7 @@ Depends: ${misc:Depends},
 Description: LightDM Session for budgie-remix
  This is the LightDM Session and Theme used to launch budgie-desktop
  without needing all of the Ubuntu Budgie styling changes.
+ .
  This package allows ubiquity to autologin on self build installations.
 
 Package: plymouth-theme-ubuntu-budgie-logo

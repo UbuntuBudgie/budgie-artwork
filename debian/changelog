@@ -2,9 +2,9 @@ budgie-artwork (0.6.2) zesty; urgency=medium
 
   * New minor release. (LP: #)
   * Packaging Changes
-    - introduce a lightdm base package to allow self build
-      budgie-desktop builds using Ubuntu Minimal ISO
-    - up debhelper version to 10 to reflect current Debian packing practice
+    - introduce a lightdm base package to allow self budgie-desktop builds
+      using the Ubuntu Minimal ISO.
+    - up debhelper version to 10 to reflect current Debian packaging practice
 
  -- David Mohammed <fossfreedom@ubuntu.com>  Thu, 22 Dec 2016 15:14:14 +0000
 
