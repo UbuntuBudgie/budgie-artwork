@@ -23,7 +23,7 @@ Description: LightDM Greeter theme for Ubuntu Budgie
  
 Package: budgie-lightdm-theme-base
 Architecture: all
-Conflicts: budgie-lightdm-theme (<= 0.5.6)
+Breaks: budgie-lightdm-theme (<= 0.6.1)
 Depends: ${misc:Depends},
          lightdm-gtk-greeter
 Description: LightDM Session for budgie-remix

@@ -1,9 +1,11 @@
-budgie-artwork (0.6.2) zesty; urgency=medium
+budgie-artwork (0.7) zesty; urgency=medium
 
-  * New minor release. (LP: #)
+  * New release. (LP: #1652590)
   * Packaging Changes
     - introduce a lightdm base package to allow self budgie-desktop builds
       using the Ubuntu Minimal ISO.
+    - ensure the switch of binary package position for
+      50_budgie-desktop.conf does not break for upgrade from yakkety
     - up debhelper version to 10 to reflect current Debian packaging practice
 
  -- David Mohammed <fossfreedom@ubuntu.com>  Thu, 22 Dec 2016 15:14:14 +0000
