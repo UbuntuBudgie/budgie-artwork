@@ -1,6 +1,6 @@
 budgie-artwork (0.7.1) zesty; urgency=medium
 
-  * New release. (LP: #)
+  * New release. (LP: #1662023)
   * Update pocillo-icon-theme with the latest changes
   * Packaging Changes:
     - update Pocillo installer to new source location
