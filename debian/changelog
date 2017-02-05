@@ -3,7 +3,8 @@ budgie-artwork (0.7.1) zesty; urgency=medium
   * New release. (LP: #)
   * Update pocillo-icon-theme with the latest changes
   * Packaging Changes:
-    - update Pocillo installer
+    - update Pocillo installer to new source location
+    - corrected plymouth text postinst
 
  -- David Mohammed <fossfreedom@ubuntu.com>  Sun, 05 Feb 2017 21:21:27 +0000
 

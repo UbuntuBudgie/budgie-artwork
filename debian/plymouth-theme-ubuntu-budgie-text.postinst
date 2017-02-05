@@ -26,7 +26,7 @@ case "$1" in
 	sed -re \
 		"/\[ubuntu-text\]/ {
 			N;
-			s/(title=ubuntu-budgie ).*\$/\1$(lsb_release -rs)/
+			s/(title=Ubuntu Budgie ).*\$/\1$(lsb_release -rs)/
 		}" /usr/share/plymouth/themes/ubuntu-budgie-text/budgie-text.plymouth.in \
 			> /usr/share/plymouth/themes/ubuntu-budgie-text/budgie-text.plymouth
 	update-alternatives \
