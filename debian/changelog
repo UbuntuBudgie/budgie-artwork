@@ -1,9 +1,9 @@
 budgie-artwork (0.7.2) zesty; urgency=medium
 
-  * New release. (LP: #)
-  * 
+  * Bug-fix release. (LP: #)
+  * corrected lightdm-gtk-greeter conf file name
   * Packaging Changes:
-    - Correct description for lightdm session package
+    - Corrected description for lightdm session package
 
  -- David Mohammed <fossfreedom@ubuntu.com>  Wed, 08 Feb 2017 20:28:42 +0000
  
