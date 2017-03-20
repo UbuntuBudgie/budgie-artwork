@@ -1,13 +1,15 @@
 budgie-artwork (0.7.2) zesty; urgency=medium
 
-  * Bug-fix release. (LP: #)
-  * corrected lightdm-gtk-greeter conf file name
+  * Bug-fix release.
+    - corrected lightdm-gtk-greeter conf file name
+    - remove budgie-desktop_badge-symbolic.svg since this
+      now exists in lightdm-gtk-greeter v2.0.2-1
   * Packaging Changes:
     - Corrected description for lightdm session package
 
- -- David Mohammed <fossfreedom@ubuntu.com>  Wed, 08 Feb 2017 20:28:42 +0000
- 
- budgie-artwork (0.7.1) zesty; urgency=medium
+ -- David Mohammed <fossfreedom@ubuntu.com>  Mon, 20 Mar 2017 21:20:34 +0000
+
+budgie-artwork (0.7.1) zesty; urgency=medium
 
   * New release. (LP: #1662023)
   * Update pocillo-icon-theme with the latest changes
