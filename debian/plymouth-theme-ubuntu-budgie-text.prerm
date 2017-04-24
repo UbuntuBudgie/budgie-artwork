@@ -4,9 +4,9 @@ set -e
 
 if [ "x$1" = xremove ]; then
 	update-alternatives \
-		--remove text.plymouth /usr/share/plymouth/themes/ubuntu-budgie-text/budgie-text.plymouth
+		--remove text.plymouth /usr/share/plymouth/themes/ubuntu-budgie-text/ubuntu-budgie-text.plymouth
 
-	rm -f /usr/share/plymouth/themes/ubuntu-budgie-text/budgie-text.plymouth
+	rm -f /usr/share/plymouth/themes/ubuntu-budgie-text/ubuntu-budgie-text.plymouth
 fi
 
 #DEBHELPER#

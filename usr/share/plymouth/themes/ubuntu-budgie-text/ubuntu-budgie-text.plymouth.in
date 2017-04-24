@@ -1,6 +1,6 @@
 [Plymouth Theme]
-Name=Budgie Text
-Description=Text mode theme based on ubuntu budgie logo theme
+Name=Ubuntu Budgie Text
+Description=Text mode theme based on Ubuntu Budgie logo theme
 ModuleName=ubuntu-text
 
 [ubuntu-text]

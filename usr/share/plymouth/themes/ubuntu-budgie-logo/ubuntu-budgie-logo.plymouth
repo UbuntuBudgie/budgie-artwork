@@ -1,0 +1,8 @@
+[Plymouth Theme]
+Name=Ubuntu Budgie Logo
+Description=A theme that features the Ubuntu Budgie logo on a blank background
+ModuleName=script
+
+[script]
+ImageDir=/usr/share/plymouth/themes/ubuntu-budgie-logo
+ScriptFile=/usr/share/plymouth/themes/ubuntu-budgie-logo/ubuntu-budgie-logo.script

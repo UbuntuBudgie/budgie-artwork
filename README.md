@@ -1,6 +1,6 @@
 budgie-artwork
-==========================
+==============
 
-17.04 development for Ubuntu Budgie
+Artwork for the developement version of Ubuntu Budgie
 
-Contains all artwork for Ubuntu including LightDM and its greeter 
+Contains all the artwork for Ubuntu including LightDM and its Greeter
