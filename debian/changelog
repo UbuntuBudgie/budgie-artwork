@@ -1,9 +1,11 @@
-budgie-artwork (0.7.2) zesty; urgency=medium
+budgie-artwork (0.7.1.1) zesty; urgency=medium
 
   * Bug-fix release.
     - corrected lightdm-gtk-greeter conf file name
     - remove budgie-desktop_badge-symbolic.svg since this
       now exists in lightdm-gtk-greeter v2.0.2-1
+    - correctly name plymouth theme to enable full disk encryption
+      password box to display (LP: #1685809)
   * Packaging Changes:
     - Corrected description for lightdm session package
     - changed debian/lightdm-theme.install to not install greeter icons
