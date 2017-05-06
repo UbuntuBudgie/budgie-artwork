@@ -1,4 +1,4 @@
-budgie-artwork (0.7.1.1) zesty; urgency=medium
+budgie-artwork (0.7.2) artful; urgency=medium
 
   * Bug-fix release.
     - corrected lightdm-gtk-greeter conf file name
