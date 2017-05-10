@@ -1,4 +1,11 @@
-budgie-artwork (0.7.2) artful; urgency=medium
+budgie-artwork (0.7.3) artful; urgency=medium
+
+  * New release. (LP: #)
+    - Disable guest session
+  
+ -- David Mohammed <fossfreedom@ubuntu.com>  Wed, 10 May 2017 09:25:23 +0100
+ 
+ budgie-artwork (0.7.2) artful; urgency=medium
 
   * Bug-fix release.
     - corrected lightdm-gtk-greeter conf file name
