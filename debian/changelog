@@ -1,18 +1,25 @@
-budgie-artwork (0.7.3) artful; urgency=medium
+budgie-artwork (0.8.0) artful; urgency=medium
 
-  * New release. (LP: #)
+  * New release. (LP: #1690589)
     - Disable guest session
-  
- -- David Mohammed <fossfreedom@ubuntu.com>  Wed, 10 May 2017 09:25:23 +0100
- 
- budgie-artwork (0.7.2) artful; urgency=medium
-
-  * Bug-fix release.
     - corrected lightdm-gtk-greeter conf file name
     - remove budgie-desktop_badge-symbolic.svg since this
       now exists in lightdm-gtk-greeter v2.0.2-1
     - correctly name plymouth theme to enable full disk encryption
       password box to display (LP: #1685809)
+  * Packaging Changes:
+    - Corrected description for lightdm session package
+    - changed debian/lightdm-theme.install to not install greeter icons
+    - add debian/lightdm-theme.maintscript to remove old greeter conf file
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Sat, 13 May 2017 21:20:34 +0000
+ 
+budgie-artwork (0.7.2) artful; urgency=medium
+
+  * Bug-fix release.
+    - corrected lightdm-gtk-greeter conf file name
+    - remove budgie-desktop_badge-symbolic.svg since this
+      now exists in lightdm-gtk-greeter v2.0.2-1
   * Packaging Changes:
     - Corrected description for lightdm session package
     - changed debian/lightdm-theme.install to not install greeter icons
