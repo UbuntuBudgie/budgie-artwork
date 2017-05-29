@@ -10,7 +10,6 @@ Build-Depends: debhelper (>= 10),
 Package: budgie-lightdm-theme
 Architecture: all
 Depends: ${misc:Depends},
-         arc-theme,
          budgie-lightdm-theme-base,
          budgie-wallpapers
 Description: LightDM Greeter theme for Ubuntu Budgie
@@ -25,9 +24,9 @@ Package: budgie-lightdm-theme-base
 Architecture: all
 Breaks: budgie-lightdm-theme (<= 0.6.1)
 Depends: ${misc:Depends},
-         lightdm-gtk-greeter
+         slick-greeter
 Description: LightDM Session for Ubuntu Budgie
- This is the LightDM Session and Theme used to launch budgie-desktop
+ This is the LightDM Session used to launch budgie-desktop
  without needing all of the Ubuntu Budgie styling changes.
  .
  This package allows ubiquity to autologin on self build installations.

@@ -1,3 +1,15 @@
+budgie-artwork (0.8.1) artful; urgency=medium
+
+  * New release. (LP: #)
+    - switch from lightdm-gtk-greeter to slick-greeter
+  * Packaging Changes:
+    - remove /etc based 50_ubuntubudgie.conf file via maintscript
+    - updated slightly the package descriptions in debian/control
+    - install an override file to configure slick-greeter
+    - remove the previous gtk-greeter conf folder installation
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Mon, 29 May 2017 00:14:42 +0100
+
 budgie-artwork (0.8.0) artful; urgency=medium
 
   * New release. (LP: #1690589)
