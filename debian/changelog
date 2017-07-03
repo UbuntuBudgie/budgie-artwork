@@ -1,3 +1,16 @@
+budgie-artwork (0.8.2) artful; urgency=medium
+
+  * New release. (LP: #)
+    - Add installation of Pocillo-Mono that is now part of the
+      Pocillo icon theme
+  * Packaging Changes:
+    - debian/copyright: copyright updates for Pocillo-Mono
+      in addition year updates for Ubuntu Budgie components
+    - debian/control: description change to expand on the components
+      of the Pocillo icon theme
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Mon, 03 Jul 2017 13:14:46 +0100
+
 budgie-artwork (0.8.1) artful; urgency=medium
 
   * New release. (LP: #1694328)

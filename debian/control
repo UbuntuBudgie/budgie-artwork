@@ -65,3 +65,8 @@ Description: Tango-esque folder icon set called Pocillo
  Pocillo is a stylized Tango-esque Linux folder icon set. They are 
  designed to be a clear, simple and consistent.  Designed to complement
  Arc-theme and Moka icon theme.
+ .
+ Pocillo consists of two sets of icon-themes:
+ Pocillo-Mono - monochrome based icons for the budgie desktop panel
+ Pocillo - Moka style icons that contribute to Ubuntu Budgie desktop
+ styling
