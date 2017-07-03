@@ -1,6 +1,6 @@
 budgie-artwork (0.8.2) artful; urgency=medium
 
-  * New release. (LP: #)
+  * New release. (LP: #1702171)
     - Incorporate mono-style based icons suitable for panel icons
   * Packaging Changes:
     - debian/copyright: copyright updates for Pocillo
