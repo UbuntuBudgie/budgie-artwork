@@ -1,6 +1,3 @@
 [submodule "icontheme"]
 	path = icontheme
 	url = https://github.com/UbuntuBudgie/pocillo
-[submodule "pocillo"]
-	path = pocillo
-	url = http://github.com/ubuntubudgie/pocillo
