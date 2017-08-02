@@ -1,3 +1,13 @@
+budgie-artwork (0.8.3) artful; urgency=medium
+
+  * New release. (LP: #1708250)
+    - Update Pocillo theme structure
+    - add enabled wired connection icon
+  * Packaging Changes:
+    - update debian/copyright for the project to GPL-3
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Wed, 02 Aug 2017 19:53:02 +0100
+
 budgie-artwork (0.8.2) artful; urgency=medium
 
   * New release. (LP: #1702171)

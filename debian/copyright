@@ -43,50 +43,12 @@ Files:
     pocillo/Pocillo/*
 Copyright:
     2017 David Mohammed <fossfreedom@ubuntu.com>
-    2016-2017 Joshua H. Fogg <joshua.h.fogg@gmail.com>
-License: CC-BY-SA-4.0
- This work is licensed under the Creative Commons Attribution-ShareAlike 4.0
- Unported License. To view a copy of this license, visit
- https://creativecommons.org/licenses/by-sa/4.0/ or send a letter to Creative
- Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.
-
-Files:
-    pocillo/Pocillo/24x24/apps/shutter-panel.svg
-    pocillo/Pocillo/24x24/apps/cpu-frequency-indicator.svg
-    pocillo/Pocillo/24x24/apps/transmission-tray-icon.svg
-    pocillo/Pocillo/24x24/apps/notes.svg
-    pocillo/Pocillo/24x24/apps/steam_tray_mono.svg
-    pocillo/Pocillo/24x24/apps/google-hangouts-panel.svg
-    pocillo/Pocillo/24x24/apps/spotify.svg
-    pocillo/Pocillo/24x24/apps/grive-app-ind.svg
-    pocillo/Pocillo/24x24/apps/indicator-virtual-box.svg
-    pocillo/Pocillo/24x24/apps/google-chrome-panel.svg
-    pocillo/Pocillo/24x24/apps/clipboard.svg
-    pocillo/Pocillo/24x24/apps/caffeine-cup-full.svg
-    pocillo/Pocillo/24x24/apps/variety-indicator.svg
-    pocillo/Pocillo/24x24/apps/redshift-status-off.svg
-    pocillo/Pocillo/24x24/apps/caffeine-cup-empty.svg
-    pocillo/Pocillo/24x24/apps/onboard.svg
-    pocillo/Pocillo/24x24/apps/deluge.svg
-    pocillo/Pocillo/24x24/apps/glippy-panel.svg
-    pocillo/Pocillo/24x24/apps/redshift-status-on.svg
-    pocillo/Pocillo/24x24/apps/synapse.svg
-    pocillo/Pocillo/22x22/animations/*
-    pocillo/Pocillo/22x22/panel/*
-    pocillo/Pocillo/22x22/status/*
-    pocillo/Pocillo/22x22/apps/*
-    pocillo/Pocillo/24x24/animations/*
-    pocillo/Pocillo/24x24/panel/*
-    pocillo/Pocillo/24x24/status/*
-    pocillo/Pocillo/16x16/status/*
-    pocillo/Pocillo/48x48/notifications/*
-Copyright:
     2014-2016 Sam Hewitt <sam@snwh.org> 
+    2016-2017 Joshua H. Fogg <joshua.h.fogg@gmail.com>
 License: GPL-3
  This program is free software; you can redistribute it and/or modify
- it under the terms of the GNU General Public License as published by
- the Free Software Foundation; either version 3, or (at your option)
- any later version.
+ it under the terms of the GNU General Public License version 3
+ as published by the Free Software Foundation.
  .
  This program is distributed in the hope that it will be useful, but
  WITHOUT ANY WARRANTY; without even the implied warranty of
