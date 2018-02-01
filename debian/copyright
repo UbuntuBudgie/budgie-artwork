@@ -3,48 +3,36 @@ Upstream-Name: budgie-artwork
 Source: https://github.com/UbuntuBudgie/budgie-artwork
 
 Files: *
-Copyright: Copyright 2016-2017 David Mohammed <fossfreedom@ubuntu.com>
+Copyright: Copyright 2016-2018 David Mohammed <fossfreedom@ubuntu.com>
 License: LGPL-2.1
  This library is free software; you can redistribute it and/or modify it
  under the terms of the GNU Lesser General Public License as published
  by the Free Software Foundation; version 2.1.
  .
- This library is distributed in the hope that it will be useful, but 
- WITHOUT ANY WARRANTY; without even the implied warranty of 
- MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the 
+ This library is distributed in the hope that it will be useful, but
+ WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
  GNU Lesser General Public License for more details.
  .
  On Debian systems, the complete text of version 2.1 of the GNU Lesser
- General Public License can be found in 
+ General Public License can be found in
  '/usr/share/common-licenses/LGPL-2.1'.
- 
+
 Files:
     usr/share/plymouth/themes/ubuntu-budgie-logo/ubuntu-budgie-logo-scale-2.script
     usr/share/plymouth/themes/ubuntu-budgie-logo/ubuntu-budgie-logo.script
-Copyright: 
+Copyright:
     2009, Canonical Ltd.
     2014, Ubuntu MATE Developers
-    2016-2017, HEXcube and David Mohammed
+    2016-2018, HEXcube and David Mohammed
 License: GPL-2+
- This program is free software; you can redistribute it and/or modify
- it under the terms of the GNU General Public License as published by
- the Free Software Foundation; either version 2, or (at your option)
- any later version.
- .
- This program is distributed in the hope that it will be useful, but
- WITHOUT ANY WARRANTY; without even the implied warranty of
- MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
- GNU General Public License for more details.
- .
- On Debian systems, the complete text of version 2 of the GNU General 
- Public License can be found in '/usr/share/common-licenses/GPL-2'.
- 
+
 Files:
     pocillo/Pocillo/*
 Copyright:
     2017 David Mohammed <fossfreedom@ubuntu.com>
-    2014-2016 Sam Hewitt <sam@snwh.org> 
-    2016-2017 Joshua H. Fogg <joshua.h.fogg@gmail.com>
+    2014-2016 Sam Hewitt <sam@snwh.org>
+    2016-2018 Joshua H. Fogg <joshua.h.fogg@gmail.com>
 License: GPL-3
  This program is free software; you can redistribute it and/or modify
  it under the terms of the GNU General Public License version 3
@@ -55,5 +43,37 @@ License: GPL-3
  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
  GNU General Public License for more details.
  .
- On Debian systems, the complete text of version 3 of the GNU General 
+ On Debian systems, the complete text of version 3 of the GNU General
  Public License can be found in '/usr/share/common-licenses/GPL-3'.
+
+Files:
+    pocillo-gtk-theme/*
+Copyright: 2015-2017 nana-4 <emailaddress@unknown>
+ 2016-2017 System76 <emailaddress@unknown>
+ 2018 David Mohammed <fossfreedom@ubuntu.com>
+License: GPL-2+
+
+Files:
+    pocillo-gtk-theme/*.svg
+Copyright: 2016-2017 System76 <emailaddress@unknown>
+ 2015-2017 nana-4 <emailaddress@unknown>
+License: CC-BY-SA-4.0
+ This work is licensed under the Creative Commons Attribution-ShareAlike
+ 4.0 International License. To view a copy of this license, visit
+ https://creativecommons.org/licenses/by-sa/4.0/ or send a letter to
+ Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.
+
+LICENSE: GPL-2+
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2, or (at your option)
+ any later version.
+ .
+ This program is distributed in the hope that it will be useful, but
+ WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+ GNU General Public License for more details.
+ .
+ On Debian systems, the complete text of version 2 of the GNU General
+ Public License can be found in '/usr/share/common-licenses/GPL-2'.
+
