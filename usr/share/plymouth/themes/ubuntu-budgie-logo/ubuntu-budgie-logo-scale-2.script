@@ -1,5 +1,5 @@
 #  ubuntu-budgie-logo.script - boot splash plugin
-#  Copyright (C) 2016 HEXcube and David Mohammed
+#  Copyright (C) 2016-2018 HEXcube and David Mohammed
 #
 #  derived from ubuntu-mate-logo-scale-2.script - boot splash plugin
 #
@@ -237,7 +237,7 @@ progress_indicator.bullet_hspacing = progress_indicator.bullet_width * 1.1;
 progress_indicator.width = progress_indicator.bullet_width * 5;
 progress_indicator.height = progress_indicator.bullet_height;
 progress_indicator.y = logo.y + logo.height + (logo.height / 10);
-progress_indicator.x = Window.GetX () + Window.GetWidth () / 2 - progress_indicator.width / 2; # logo.x + 26;
+progress_indicator.x = Window.GetX () + Window.GetWidth () / 2 - progress_indicator.width / 2 - 4; # logo.x + 26;
 
 # use a fixed string with ascending and descending stems to calibrate the
 # bounding box for the first message, so the messages below don't move up
