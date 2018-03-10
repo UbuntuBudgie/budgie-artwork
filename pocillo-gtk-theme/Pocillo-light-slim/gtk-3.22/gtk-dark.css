@@ -4723,12 +4723,29 @@ na-tray-applet {
 
 /* mate-screensaver lock dialog */
 .lock-dialog {
-  border-radius: 4px;
-  box-shadow: 0 14px 14px rgba(0, 0, 0, 0.25), 0 10px 5px rgba(0, 0, 0, 0.22), inset 0 1px rgba(255, 255, 255, 0.1);
+  box-shadow: 0 14px 14px rgba(0, 0, 0, 0.25), 0 10px 5px rgba(0, 0, 0, 0.22), inset 0 1px rgba(56, 60, 74, 0.85);
+  background-color: rgba(56, 60, 74, 0.85);
+  color: #FFFFFF;
+  /*& button {
+        @extend %selected-button;
+  }*/
 }
 
 .lock-dialog frame > border {
   border-style: none;
+}
+
+.lock-dialog entry, .lock-dialog entry:focus textview text {
+  background-color: transparent;
+  color: #FFFFFF;
+  border-style: none;
+  border-bottom: 1px solid rgba(56, 60, 74, 0.85);
+  border-radius: 1px;
+}
+
+.lock-dialog notebook {
+  color: #FFFFFF;
+  background-color: gtkopacity(rgba(56, 60, 74, 0.85), 0.8);
 }
 
 /******************
