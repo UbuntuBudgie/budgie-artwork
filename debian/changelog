@@ -1,3 +1,20 @@
+budgie-artwork (0.9.5) bionic; urgency=medium
+
+  * Bug fix release
+    - Corrected greeter theme; now Pocillo to match the default
+      desktop
+    - Add missing Pocillo theming for lightdm greeters
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Wed, 21 Mar 2018 21:02:09 +0000
+
+budgie-artwork (0.9.4) bionic; urgency=medium
+
+  * Bug fix release
+    - styling changes on lock-screen
+    - regenerate assets
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Thu, 15 Mar 2018 20:50:50 +0000
+
 budgie-artwork (0.9.3) bionic; urgency=medium
 
   * Bug fix release

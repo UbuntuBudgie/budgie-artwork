@@ -4740,12 +4740,12 @@ na-tray-applet {
   color: #FFFFFF;
   border-style: none;
   border-bottom: 1px solid rgba(56, 60, 74, 0.85);
-  border-radius: 1px;
+  box-shadow: none;
 }
 
 .lock-dialog notebook {
   color: #FFFFFF;
-  background-color: gtkopacity(rgba(56, 60, 74, 0.85), 0.8);
+  background-color: rgba(56, 60, 74, 0.2125);
 }
 
 /******************
@@ -6362,6 +6362,111 @@ row.activatable > grid.horizontal > stack, .view > grid.horizontal > stack, tree
 .csd .default-decoration .title {
   padding-top: 4px;
   padding-bottom: 4px;
+}
+
+.lightdm menu {
+  background-image: none;
+  background-color: shade white, 1.08;
+  border: none;
+  border-radius: 0px;
+  padding: 1px;
+  color: rgba(56, 60, 74, 0.85);
+}
+
+.lightdm-combo menu {
+  background-color: shade white, 1.08;
+  border-radius: 0px;
+  padding: 0px;
+  color: rgba(56, 60, 74, 0.85);
+}
+
+.lightdm menu menuitem *,
+.lightdm menu menuitem.check:active,
+.lightdm menu menuitem.radio:active {
+  color: rgba(56, 60, 74, 0.85);
+}
+
+.lightdm menu menuitem *:disabled {
+  color: inherit;
+  text-shadow: inherit;
+}
+
+.lightdm menu separator {
+  border: inherit;
+  background-color: alpha(black, 0.05);
+  border-color: alpha(black, 0.07);
+}
+
+.lightdm menubar {
+  background-image: none;
+  background-color: gtkalpha black, 0.5;
+}
+
+.lightdm-combo cell,
+.lightdm-combo button,
+.lightdm-combo entry,
+.lightdm button,
+.lightdm entry {
+  background-image: none;
+  background-color: gtkalpha black, 0.3;
+  border-color: gtkalpha white, 0.6;
+  border-radius: 5px;
+  padding: 7px;
+  color: white;
+  text-shadow: none;
+}
+
+.lightdm button,
+.lightdm button:hover,
+.lightdm button:active,
+.lightdm button:active:focus,
+.lightdm entry,
+.lightdm entry:hover,
+.lightdm entry:active,
+.lightdm entry:active:focus {
+  background-image: none;
+  border-image: none;
+}
+
+.lightdm button:focus,
+.lightdm entry:focus {
+  border-color: gtkalpha white, 0.9;
+  border-width: 0px;
+  border-style: none;
+  background-color: rgba(0, 0, 0, 0.15);
+  color: white;
+}
+
+.lightdm entry:selected {
+  background-color: gtkalpha white, 0.2;
+  border-bottom: 0px transparent;
+}
+
+@keyframes dashentry_spinner {
+  to {
+    -gtk-icon-transform: rotate(1turn);
+  }
+}
+
+.lightdm entry:active {
+  -gtk-icon-source: -gtk-icontheme("process-working-symbolic");
+  animation: dashentry_spinner 1s infinite linear;
+}
+
+.lightdm .option-button {
+  padding: 2px;
+  background: none;
+  border: 0;
+}
+
+.lightdm .toggle-button {
+  background: none;
+  border-width: 0;
+}
+
+.lightdm .toggle-button.selected {
+  background-color: gtkalpha black, 0.3;
+  border-width: 1px;
 }
 
 /* GTK NAMED COLORS
