@@ -1241,6 +1241,7 @@ messagedialog.csd decoration {
 }
 
 button.titlebutton {
+  padding: 4px;
   min-width: 16px;
   min-height: 16px;
 }
@@ -2072,8 +2073,13 @@ headerbar .subtitle {
 
 .titlebar:not(headerbar) separator,
 headerbar separator {
-  background: none;
+  background-color: #383c4a;
   margin: 0 12px;
+}
+
+.titlebar:not(headerbar) separator:backdrop,
+headerbar separator:backdrop {
+  background-color: #444856;
 }
 
 .titlebar:not(headerbar) separator:first-child, .titlebar:not(headerbar) separator:last-child,
@@ -2095,20 +2101,30 @@ headerbar button:not(.suggested-action):not(.destructive-action) {
   color: rgba(255, 255, 255, 0.6);
 }
 
-.titlebar:not(headerbar) button:not(.suggested-action):not(.destructive-action).close,
-headerbar button:not(.suggested-action):not(.destructive-action).close {
-  margin: 4px;
+.titlebar:not(headerbar) button:not(.suggested-action):not(.destructive-action).titlebutton,
+headerbar button:not(.suggested-action):not(.destructive-action).titlebutton {
   padding: 4px;
-  min-width: 4px;
-  min-height: 4px;
+  min-width: 16px;
+  min-height: 16px;
+}
+
+.titlebar:not(headerbar) button:not(.suggested-action):not(.destructive-action).titlebutton.close,
+headerbar button:not(.suggested-action):not(.destructive-action).titlebutton.close {
   background-color: #a34f6d;
   color: #FFFFFF;
 }
 
-.titlebar:not(headerbar) button:not(.suggested-action):not(.destructive-action).close:backdrop,
-headerbar button:not(.suggested-action):not(.destructive-action).close:backdrop {
+.titlebar:not(headerbar) button:not(.suggested-action):not(.destructive-action).titlebutton.close:backdrop,
+headerbar button:not(.suggested-action):not(.destructive-action).titlebutton.close:backdrop {
   background-color: rgba(255, 255, 255, 0.12);
   color: #FFFFFF;
+}
+
+.titlebar:not(headerbar) button:not(.suggested-action):not(.destructive-action).titlebutton.appmenu > image,
+headerbar button:not(.suggested-action):not(.destructive-action).titlebutton.appmenu > image {
+  padding: 6px;
+  min-width: 16px;
+  min-height: 16px;
 }
 
 .titlebar:not(headerbar) button:not(.suggested-action):not(.destructive-action):hover, .titlebar:not(headerbar) button:not(.suggested-action):not(.destructive-action):active,
@@ -2353,7 +2369,7 @@ window.csd > .titlebar:not(headerbar) {
 }
 
 .titlebar:not(headerbar) > separator {
-  background: none;
+  background: #383c4a;
   color: #383c4a;
   border: none;
   padding: 0;
@@ -2366,10 +2382,10 @@ window.csd > .titlebar:not(headerbar) {
   border-color: #444856;
 }
 
-.titlebar:not(headerbar) button.close {
+.titlebar:not(headerbar) button.titlebutton {
   padding: 4px;
-  min-width: 4px;
-  min-height: 4px;
+  min-width: 16px;
+  min-height: 16px;
 }
 
 .titlebar:not(headerbar):backdrop {
@@ -4745,7 +4761,6 @@ na-tray-applet {
 
 .lock-dialog notebook {
   color: #FFFFFF;
-  background-color: rgba(56, 60, 74, 0.2125);
 }
 
 /******************
@@ -6366,7 +6381,7 @@ row.activatable > grid.horizontal > stack, .view > grid.horizontal > stack, tree
 
 .lightdm menu {
   background-image: none;
-  background-color: shade white, 1.08;
+  background-color: shade(white, 1.08);
   border: none;
   border-radius: 0px;
   padding: 1px;
@@ -6374,7 +6389,7 @@ row.activatable > grid.horizontal > stack, .view > grid.horizontal > stack, tree
 }
 
 .lightdm-combo menu {
-  background-color: shade white, 1.08;
+  background-color: shade(white, 1.08);
   border-radius: 0px;
   padding: 0px;
   color: rgba(56, 60, 74, 0.85);
@@ -6393,13 +6408,13 @@ row.activatable > grid.horizontal > stack, .view > grid.horizontal > stack, tree
 
 .lightdm menu separator {
   border: inherit;
-  background-color: alpha(black, 0.05);
-  border-color: alpha(black, 0.07);
+  background-color: alpha(#000000, 0.05);
+  border-color: alpha(#000000, 0.07);
 }
 
 .lightdm menubar {
   background-image: none;
-  background-color: gtkalpha black, 0.5;
+  background-color: alpha(#000000, 0.5);
 }
 
 .lightdm-combo cell,
@@ -6408,11 +6423,11 @@ row.activatable > grid.horizontal > stack, .view > grid.horizontal > stack, tree
 .lightdm button,
 .lightdm entry {
   background-image: none;
-  background-color: gtkalpha black, 0.3;
-  border-color: gtkalpha white, 0.6;
+  background-color: alpha(#000000, 0.3);
+  border-color: alpha(#FFFFFF, 0.6);
   border-radius: 5px;
   padding: 7px;
-  color: white;
+  color: #FFFFFF;
   text-shadow: none;
 }
 
@@ -6430,15 +6445,15 @@ row.activatable > grid.horizontal > stack, .view > grid.horizontal > stack, tree
 
 .lightdm button:focus,
 .lightdm entry:focus {
-  border-color: gtkalpha white, 0.9;
+  border-color: alpha(#FFFFFF, 0.9);
   border-width: 0px;
   border-style: none;
   background-color: rgba(0, 0, 0, 0.15);
-  color: white;
+  color: #FFFFFF;
 }
 
 .lightdm entry:selected {
-  background-color: gtkalpha white, 0.2;
+  background-color: alpha(#FFFFFF, 0.2);
   border-bottom: 0px transparent;
 }
 
@@ -6465,7 +6480,7 @@ row.activatable > grid.horizontal > stack, .view > grid.horizontal > stack, tree
 }
 
 .lightdm .toggle-button.selected {
-  background-color: gtkalpha black, 0.3;
+  background-color: alpha(#000000, 0.3);
   border-width: 1px;
 }
 

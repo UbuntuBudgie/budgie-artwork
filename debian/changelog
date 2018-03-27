@@ -1,3 +1,12 @@
+budgie-artwork (0.9.6) bionic; urgency=medium
+
+  * Bug fix release
+    - Fix CSS errors displayed in terminal due to invalid Pocillo CSS
+    - Styling fixes for Pocillo on lock and logon screens
+    - Fix headbar hover and separator display
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Tue, 27 Mar 2018 21:04:40 +0100
+
 budgie-artwork (0.9.5) bionic; urgency=medium
 
   * Bug fix release
