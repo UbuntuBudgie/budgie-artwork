@@ -4,6 +4,9 @@ budgie-artwork (0.9.6) bionic; urgency=medium
     - Fix CSS errors displayed in terminal due to invalid Pocillo CSS
     - Styling fixes for Pocillo on lock and logon screens
     - Fix headbar hover and separator display
+    - Make the lsb-release triggers interest-noawait, so that we don't block
+      configuration of an Essential: yes package during upgrades
+      (LP: #1750465)
 
  -- David Mohammed <fossfreedom@ubuntu.com>  Tue, 27 Mar 2018 21:04:40 +0100
 
