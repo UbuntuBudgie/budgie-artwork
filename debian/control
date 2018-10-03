@@ -74,8 +74,8 @@ Depends: gtk2-engines-pixbuf (>= 2.24.30),
 	 libgtk-3-common (>= 3.22.24),
 	 gnome-themes-standard (>= 3.22.3),
 	 ${misc:Depends}
-Description: GTK+3.22 based themes for Ubuntu Budgie
- Package contains GTK+3.22 based themes written specifically for
+Description: GTK+3.24 based themes for Ubuntu Budgie
+ Package contains GTK+3.24 based themes written specifically for
  Ubuntu Budgie and its desktop environment Budgie Desktop.
  .
  Pocillo is an adaptive GTK+ theme based on Material Design Guidelines.

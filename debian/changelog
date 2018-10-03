@@ -1,3 +1,14 @@
+budgie-artwork (0.9.7) cosmic; urgency=medium
+
+  * Bug fix release
+    - Regenerate Pocillo gtk theme to fix various budgie styling issues
+      and install CSS in the correct GTK+3.24 folders
+    - Include missing Folder Color icons of Pocillo icon theme
+  * Packaging Changes
+    - control: update descriptions for GTK+3.24
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Wed, 03 Oct 2018 21:53:48 +0100
+
 budgie-artwork (0.9.6) bionic; urgency=medium
 
   * Bug fix release
