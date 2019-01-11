@@ -1,3 +1,16 @@
+budgie-artwork (0.9.6.1) bionic; urgency=medium
+
+  * Bug fix release - Fix Pocillo theme issues
+    Raven Styling
+    Vertical dock highlighting
+    GtkColorChooser border truncation
+    GEdit search styling
+    Eog zoom truncation
+    Ensure Titlebar button are always circular
+    Nemo not themed
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Fri, 11 Jan 2019 13:00:22 +0000
+
 budgie-artwork (0.9.6) bionic; urgency=medium
 
   * Bug fix release
