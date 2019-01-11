@@ -15,6 +15,7 @@
 # If prerm fails during replacement due to conflict:
 #       <postinst> abort-remove in-favour <new-package> <version>
 
+set -e
 
 case "$1" in
     configure|triggered)

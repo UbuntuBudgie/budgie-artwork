@@ -26,6 +26,7 @@
 # If preinst fails during upgrade:
 #       <new-postrm> abort-upgrade <old-version>
 
+set -e
 
 case "$1" in
     remove)

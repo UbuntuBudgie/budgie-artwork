@@ -1,12 +1,13 @@
 [Desktop Entry]
 Type=X-GNOME-Metatheme
-Name=Pocillo-Slim
-Comment=The Pocillo GTK theme, based on Flat-Plat. Slim Variant
+Name=Pocillo-slim
+Comment=The Pocillo-slim GTK Theme
 Encoding=UTF-8
 
 [X-GNOME-Metatheme]
-GtkTheme=Pocillo-Slim
-MetacityTheme=Pocillo-Slim
-IconTheme=Pocillo
-CursorTheme=Pocillo
+GtkTheme=Pocillo-slim
+MetacityTheme=Pop
+IconTheme=Pop
+CursorTheme=Pop
 CursorSize=24
+ButtonLayout=close:maximize
