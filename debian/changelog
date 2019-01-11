@@ -3,8 +3,9 @@ budgie-artwork (0.10.0) disco; urgency=medium
   * New upstream release
     - refreshed Pocillo GTK+ theme
   * Packaging Changes
-    - compat/control v12 and StandardsVersion bump; no changes required
-    - add set -e to maintainer scripts to resolve lintian issues
+    - compat/control StandardsVersion bump; no changes required
+    - add set -e to pre/post scripts to resolve lintian issues
+    - remove obsolete lightdm maintainer script
 
  -- David Mohammed <fossfreedom@ubuntu.com>  Fri, 11 Jan 2019 10:33:28 +0000
 
@@ -130,7 +131,7 @@ budgie-artwork (0.8.0) artful; urgency=medium
       plymouth theme
 
  -- David Mohammed <fossfreedom@ubuntu.com>  Sat, 13 May 2017 21:20:34 +0000
- 
+
 budgie-artwork (0.7.2) artful; urgency=medium
 
   * Bug-fix release.
