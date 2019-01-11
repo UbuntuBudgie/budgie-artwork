@@ -1,13 +1,12 @@
 [Desktop Entry]
 Type=X-GNOME-Metatheme
 Name=Pocillo
-Comment=The Pocillo GTK Theme
+Comment=The Pocillo GTK Theme, based on Flat-Plat
 Encoding=UTF-8
 
 [X-GNOME-Metatheme]
 GtkTheme=Pocillo
-MetacityTheme=Pop
-IconTheme=Pop
-CursorTheme=Pop
+MetacityTheme=Pocillo
+IconTheme=Pocillo
+CursorTheme=Pocillo
 CursorSize=24
-ButtonLayout=close:maximize
