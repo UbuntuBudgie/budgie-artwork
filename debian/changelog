@@ -1,3 +1,11 @@
+budgie-artwork (0.10.1) disco; urgency=medium
+
+  * New upstream release
+    - add QogirBudgie GTK+ theme
+    - Refresh with latest Pocillo Icon Theme
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Sun, 20 Jan 2019 00:00:12 +0000
+
 budgie-artwork (0.10.0) disco; urgency=medium
 
   * New upstream release

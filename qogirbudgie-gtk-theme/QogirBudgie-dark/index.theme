@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=QogirBudgie-dark
+Comment=A Clean Gtk+ theme based on Flat Design: GIT 19-01-19
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=QogirBudgie-dark
+MetacityTheme=QogirBudgie-dark
+IconTheme=Adwaita
+CursorTheme=Adwaita
+ButtonLayout=menu:minimize,maximize,close
