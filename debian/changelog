@@ -1,4 +1,4 @@
-budgie-artwork (0.10.1) disco; urgency=medium
+budgie-artwork (0.10.0.1) disco; urgency=medium
 
   * New upstream release
     - add QogirBudgie GTK+ theme
