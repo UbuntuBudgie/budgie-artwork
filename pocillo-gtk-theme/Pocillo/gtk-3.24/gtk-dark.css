@@ -1150,7 +1150,7 @@ colorswatch#add-color-button:only-child {
 }
 
 colorswatch#add-color-button overlay {
-  background-image: linear-gradient(to right, #fc4138 25%, #ffce51 25%, #ffce51 50%, #437a0d 50%, #437a0d 75%, #4D90D6 75%);
+  background-image: linear-gradient(to right, #fc4138 25%, #ffce51 25%, #ffce51 50%, #2767aa 50%, #2767aa 75%, #4D90D6 75%);
 }
 
 colorswatch:disabled {
@@ -2389,7 +2389,7 @@ infobar {
 }
 
 infobar.info {
-  background-color: #437a0d;
+  background-color: #2767aa;
 }
 
 infobar.question {
@@ -2485,7 +2485,7 @@ levelbar block.high:backdrop, levelbar block:not(.empty):backdrop {
 }
 
 levelbar block.full {
-  background-color: #132304;
+  background-color: #183f68;
 }
 
 levelbar block.empty {
@@ -4823,6 +4823,11 @@ button.budgie-menu-launcher {
   color: #FFFFFF;
 }
 
+button.raven-trigger {
+  padding: 0 4px;
+  color: #FFFFFF;
+}
+
 .budgie-popover {
   border-style: none;
   border-width: 1px;
@@ -4840,62 +4845,57 @@ button.budgie-menu-launcher {
   border: none;
 }
 
-popover.background.user-menu {
+.budgie-popover user-menu {
   padding: 8px;
 }
 
-popover.background.user-menu .content-box {
+.budgie-popover user-menu .content-box {
   background-color: transparent;
 }
 
-popover.background.user-menu separator {
+.budgie-popover user-menu separator {
   margin: 4px 0;
 }
 
-popover.background.user-menu row {
+.budgie-popover user-menu row {
   padding: 0;
   box-shadow: none;
   background-image: none;
 }
 
-button.raven-trigger {
-  padding: 0 4px;
-  color: #FFFFFF;
+.budgie-popover places-menu {
+  padding: 0px;
 }
 
-popover.background.places-menu {
-  padding: 8px;
-}
-
-popover.background.places-menu .name-button.text-button {
+.budgie-popover places-menu .name-button.text-button {
   padding-left: 8px;
   padding-right: 8px;
 }
 
-popover.background.places-menu .name-button.text-button image:dir(ltr) {
+.budgie-popover places-menu .name-button.text-button image:dir(ltr) {
   margin-right: 3px;
 }
 
-popover.background.places-menu .name-button.text-button image:dir(rtl) {
+.budgie-popover places-menu .name-button.text-button image:dir(rtl) {
   margin-left: 3px;
 }
 
-popover.background.places-menu .places-section-header > image:dir(ltr) {
+.budgie-popover places-menu .places-section-header > image:dir(ltr) {
   margin: 0 -2px 0 5px;
 }
 
-popover.background.places-menu .places-section-header > image:dir(rtl) {
+.budgie-popover places-menu .places-section-header > image:dir(rtl) {
   margin: 0 5px 0 -2px;
 }
 
-popover.background.places-menu .places-list {
-  margin-top: 4px;
-  padding-top: 4px;
+.budgie-popover places-menu .places-list {
+  margin-top: 0px;
+  padding-top: 0px;
   border-top: 1px solid rgba(0, 0, 0, 0.26);
   background-color: transparent;
 }
 
-popover.background.places-menu row {
+.budgie-popover places-menu row {
   padding: 0;
   box-shadow: none;
   background-image: none;
@@ -5076,12 +5076,12 @@ frame.raven-frame > border {
 }
 
 .raven stackswitcher.linked > button {
-  border-image: radial-gradient(circle closest-corner at center calc(100% - 1px), #c450d8 0%, transparent 0%) 0 0 0/0 0 0px;
+  border-image: radial-gradient(circle closest-corner at center calc(100% - 1px), #4D90D6 0%, transparent 0%) 0 0 0/0 0 0px;
   border-radius: 0;
 }
 
 .raven stackswitcher.linked > button:checked {
-  border-image: radial-gradient(circle closest-corner at center calc(100% - 1px), #c450d8 100%, transparent 0%) 0 0 2/0 0 2px;
+  border-image: radial-gradient(circle closest-corner at center calc(100% - 1px), #4D90D6 100%, transparent 0%) 0 0 2/0 0 2px;
   background-color: transparent;
 }
 
@@ -5095,13 +5095,14 @@ frame.raven-frame > border {
 }
 
 .raven .raven-header.top {
-  padding: 2px 0;
+  padding: 0;
   background-color: #4D90D6;
-  color: #FFFFFF;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.26);
 }
 
 .raven .raven-header.top stackswitcher button {
-  margin: -6px 0;
+  margin: -4px 0 -5px;
+  padding: 0 16px;
   min-height: 32px;
 }
 
@@ -5126,7 +5127,11 @@ frame.raven-frame > border {
   border-top: 1px solid rgba(0, 0, 0, 0.26);
 }
 
-.raven viewport.frame .raven-header {
+.raven stack .raven-header {
+  margin-top: -8px;
+}
+
+.raven stack scrolledwindow .raven-header {
   margin-top: -8px;
 }
 
@@ -5163,6 +5168,10 @@ frame.raven-frame > border {
   margin: -6px 0;
 }
 
+.raven list.apps-list, .raven list.sound-devices {
+  margin: 0 1px;
+}
+
 .raven .powerstrip button {
   margin: 2px 0 1px;
   padding: 12px;
@@ -5174,6 +5183,41 @@ frame.raven-frame > border {
 
 .raven box.audio-widget stackswitcher.linked {
   padding: 0 4px;
+}
+
+.raven widget.raven-background stack > box > revealer > box.vertical > label {
+  font-size: 90%;
+}
+
+.raven widget.raven-background stack > box > revealer > box.vertical > label .dim-label, .raven widget.raven-background stack > box > revealer > box.vertical > label label.separator, .raven widget.raven-background stack > box > revealer > box.vertical > label .titlebar:not(headerbar) .subtitle, .titlebar:not(headerbar) .raven widget.raven-background stack > box > revealer > box.vertical > label .subtitle,
+.raven widget.raven-background stack > box > revealer > box.vertical > label headerbar .subtitle, headerbar .raven widget.raven-background stack > box > revealer > box.vertical > label .subtitle, .raven widget.raven-background stack > box > revealer > box.vertical > label .budgie-notification .notification-body, .budgie-notification .raven widget.raven-background stack > box > revealer > box.vertical > label .notification-body, .raven widget.raven-background stack > box > revealer > box.vertical > label .budgie-switcher .notification-body, .budgie-switcher .raven widget.raven-background stack > box > revealer > box.vertical > label .notification-body {
+  opacity: .54;
+}
+
+box.audio-widget scale.horizontal.marks-after,
+window.sound-popover.background scale.horizontal.marks-after {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+box.audio-widget scale.horizontal.marks-after trough,
+window.sound-popover.background scale.horizontal.marks-after trough {
+  background-color: transparent;
+}
+
+box.audio-widget scale.horizontal.marks-after trough:dir(ltr),
+window.sound-popover.background scale.horizontal.marks-after trough:dir(ltr) {
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0.5) calc(66% - 1px), rgba(255, 255, 255, 0.7) calc(66% - 1px), rgba(255, 255, 255, 0.7) 100%);
+}
+
+box.audio-widget scale.horizontal.marks-after trough:dir(rtl),
+window.sound-popover.background scale.horizontal.marks-after trough:dir(rtl) {
+  background-image: linear-gradient(to left, rgba(255, 255, 255, 0.5) calc(66% - 1px), rgba(255, 255, 255, 0.7) calc(66% - 1px), rgba(255, 255, 255, 0.7) 100%);
+}
+
+box.audio-widget scale.horizontal.marks-after mark label,
+window.sound-popover.background scale.horizontal.marks-after mark label {
+  font-size: 0;
 }
 
 calendar.raven-calendar {
@@ -6503,12 +6547,24 @@ row.activatable > grid.horizontal > stack, .view > grid.horizontal > stack, tree
   background-color: transparent;
 }
 
+.nemo-window scrolledwindow widget.entry {
+  border: 1px solid rgba(0, 0, 0, 0.26);
+}
+
 .nemo-window infobar {
   margin-top: -6px;
 }
 
 .nemo-window .nemo-inactive-pane .view:not(:selected) {
   background-color: #2b2e39;
+}
+
+.nemo-window .view .entry {
+  border: 1px solid green;
+}
+
+.nemo-desktop.nemo-canvas-item:not(:selected) {
+  background-color: transparent;
 }
 
 /* GTK NAMED COLORS
@@ -6573,7 +6629,7 @@ widgets main borders color on backdrop windows */
 these are pretty self explicative */
 @define-color warning_color #e0a100;
 @define-color error_color #c10c03;
-@define-color success_color #132304;
+@define-color success_color #183f68;
 @define-color destructive_color #f80f04;
 @define-color suggested_color #2767aa;
 /*

@@ -1,3 +1,11 @@
+budgie-artwork (0.10.2) disco; urgency=medium
+
+  * New upstream release
+    - Refresh Pocillo theme with raven and nemo styling fixes
+    - Refresh QogirBudgie GTK+ theme from latest git
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Sat, 09 Feb 2019 15:19:51 +0000
+
 budgie-artwork (0.10.1) disco; urgency=medium
 
   * New upstream release
