@@ -1,3 +1,9 @@
+budgie-artwork (0.10.2.2) disco; urgency=medium
+
+  * test release with slick greeter background change
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Mon, 11 Feb 2019 21:16:00 +0000
+
 budgie-artwork (0.10.2) disco; urgency=medium
 
   * New upstream release

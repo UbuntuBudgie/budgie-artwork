@@ -3689,6 +3689,10 @@ switch slider {
   background-color: #292c36;
 }
 
+switch image {
+  color: transparent;
+}
+
 switch:hover slider {
   box-shadow: 0 3px 3px rgba(0, 0, 0, 0.16), 0 3px 3px rgba(0, 0, 0, 0.23);
 }
@@ -5457,6 +5461,17 @@ window.csd > box.horizontal widget > overlay > box.vertical > grid.horizontal > 
   margin: 6px;
 }
 
+window hdyleaflet .sidebar {
+  margin-left: 1px;
+  margin-right: 1px;
+  background-color: rgba(0, 0, 0, 0.26);
+}
+
+headerbar hdyleaflet .sidebar {
+  background-color: rgba(0, 0, 0, 0.26);
+  border-right-width: 0px;
+}
+
 /****************
  * Eye of GNOME *
  ****************/
@@ -6564,6 +6579,10 @@ row.activatable > grid.horizontal > stack, .view > grid.horizontal > stack, tree
 }
 
 .nemo-desktop.nemo-canvas-item:not(:selected) {
+  background-color: transparent;
+}
+
+.nemo-desktop widget:not(:selected) {
   background-color: transparent;
 }
 
