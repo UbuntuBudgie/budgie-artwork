@@ -1,8 +1,11 @@
-budgie-artwork (0.10.2.2) disco; urgency=medium
+budgie-artwork (0.10.3) disco; urgency=medium
 
-  * test release with slick greeter background change
+  * New upstream release
+    - Slick greeter wallpaper default changed
+    - Refresh Pocillo theme with GNOME Control Center, switch and
+      desktop icon hover styling updates
 
- -- David Mohammed <fossfreedom@ubuntu.com>  Mon, 11 Feb 2019 21:16:00 +0000
+ -- David Mohammed <fossfreedom@ubuntu.com>  Sat, 16 Feb 2019 22:47:50 +0000
 
 budgie-artwork (0.10.2) disco; urgency=medium
 
