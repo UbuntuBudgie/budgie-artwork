@@ -1,3 +1,12 @@
+budgie-artwork (0.10.4) disco; urgency=medium
+
+  * Bug fix release
+    - Pocillo theme fixes for nemo and GCC
+    - QogirBudgie theme fixes for GCC; latest upstream fixes
+    - Remove unneeded Budgie icons from Pocillo
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Sat, 09 Mar 2019 19:36:37 +0000
+
 budgie-artwork (0.10.3) disco; urgency=medium
 
   * New upstream release

@@ -5461,15 +5461,11 @@ window.csd > box.horizontal widget > overlay > box.vertical > grid.horizontal > 
   margin: 4px;
 }
 
-window hdyleaflet .sidebar {
-  margin-left: 1px;
-  margin-right: 1px;
-  background-color: rgba(0, 0, 0, 0.26);
-}
-
-headerbar hdyleaflet .sidebar {
-  background-color: rgba(0, 0, 0, 0.26);
-  border-right-width: 0px;
+headerbar .sidebar {
+  border-right-style: none;
+  border-right-color: transparent;
+  background-color: transparent;
+  margin: 0px;
 }
 
 /****************
@@ -6578,12 +6574,9 @@ row.activatable > grid.horizontal > stack, .view > grid.horizontal > stack, tree
   border: 1px solid green;
 }
 
-.nemo-desktop.nemo-canvas-item:not(:selected) {
-  background-color: transparent;
-}
-
-.nemo-desktop widget:not(:selected) {
-  background-color: transparent;
+/* virtualbox autorun button */
+.nemo-window-pane buttonbox {
+  padding-top: 6px;
 }
 
 /* GTK NAMED COLORS
