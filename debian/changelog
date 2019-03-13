@@ -1,8 +1,9 @@
-budgie-artwork (0.10.4.1) disco; urgency=medium
+budgie-artwork (0.10.4.2) disco; urgency=medium
 
   * Bug fix release
     - Re-add ubuntu-logo icon accidentally deleted from previous release
   * QogirBudgie theme fixes for square decor buttons
+  * Pocillo fixes to ensure notification lists have selected highlights
 
  -- David Mohammed <fossfreedom@ubuntu.com>  Wed, 13 Mar 2019 18:36:52 +0000
 
