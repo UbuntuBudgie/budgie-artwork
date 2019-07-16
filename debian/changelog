@@ -1,3 +1,12 @@
+budgie-artwork (0.11.0) UNRELEASED; urgency=medium
+
+  * New release
+    - TBD Refresh QogirBudgie theme
+  * Packaging Changes
+    - tidy plymouth text install to hide removal of legacy plymouth removal
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Tue, 16 Jul 2019 19:03:26 +0100
+
 budgie-artwork (0.10.5) disco; urgency=medium
 
   * Bug fix release

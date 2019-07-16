@@ -22,7 +22,7 @@ case "$1" in
     # we keep that rmdir unconditional as we want to ensure that the dir is
 	# removed at some point (alternatives on other theme package removing
 	# default links may happens later)
-	rmdir -p --ignore-fail-on-non-empty /lib/plymouth/ || true
+	rmdir -p --ignore-fail-on-non-empty /lib/plymouth/ 2>/dev/null || :
 
 	sed -re \
 		"/\[ubuntu-text\]/ {
