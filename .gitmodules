@@ -1,3 +1,6 @@
 [submodule "pocillo"]
 	path = pocillo
 	url = https://github.com/ubuntubudgie/pocillo
+[submodule "pocillo-theme"]
+	path = pocillo-theme
+	url = https://github.com/ubuntubudgie/pocillo-gtk-theme

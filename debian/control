@@ -2,10 +2,17 @@ Source: budgie-artwork
 Priority: optional
 Section: x11
 Maintainer: David Mohammed <fossfreedom@ubuntu.com>
-Standards-Version: 4.4.0
+Standards-Version: 4.5.0
 Vcs-Browser: https://github.com/UbuntuBudgie/budgie-artwork/tree/debian
 Vcs-Git: https://github.com/UbuntuBudgie/budgie-artwork -b debian
-Build-Depends: debhelper (>= 12),
+Build-Depends: debhelper (>= 11),
+ inkscape,
+ optipng,
+ gtk2-engines-pixbuf,
+ gtk2-engines-murrine,
+ sassc,
+ libglib2.0-dev-bin,
+ libxml2-utils
 
 Package: budgie-lightdm-theme
 Architecture: all
@@ -72,7 +79,7 @@ Depends: gtk2-engines-pixbuf (>= 2.24.30),
 	 gtk2-engines-murrine (>= 0.98.1),
 	 libgtk2.0-common (>= 2.24.30),
 	 libgtk-3-common (>= 3.22.24),
-	 gnome-themes-standard (>= 3.22.3),
+	 gnome-themes-extra (>= 3.22.3),
 	 ${misc:Depends}
 Description: GTK+3.24 based themes for Ubuntu Budgie
  Package contains GTK+3.24 based themes written specifically for

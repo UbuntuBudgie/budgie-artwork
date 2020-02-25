@@ -1,3 +1,15 @@
+budgie-artwork (0.12.0ubuntu1) UNRELEASED; urgency=medium
+
+  * New release
+    - Build pocillo-gtk-theme from source
+  * Packaging Changes
+    - control: Update BD version; no changes required
+    - control: Add build dependencies for compilation of themes
+    - control: change deprecated gnome-themes-standard for
+      gnome-themes-extra
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Tue, 25 Feb 2020 23:43:47 +0000
+
 budgie-artwork (0.11.1) eoan; urgency=medium
 
   * Remove pocillo onboard icon since it was clashing with Moka
