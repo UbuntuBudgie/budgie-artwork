@@ -3,7 +3,7 @@ Upstream-Name: budgie-artwork
 Source: https://github.com/UbuntuBudgie/budgie-artwork
 
 Files: *
-Copyright: Copyright 2016-2019 David Mohammed <fossfreedom@ubuntu.com>
+Copyright: Copyright 2016-2020 David Mohammed <fossfreedom@ubuntu.com>
 License: LGPL-2.1
  This library is free software; you can redistribute it and/or modify it
  under the terms of the GNU Lesser General Public License as published
@@ -24,7 +24,7 @@ Files:
 Copyright:
     2009, Canonical Ltd.
     2014, Ubuntu MATE Developers
-    2016-2018, HEXcube and David Mohammed
+    2016-2020, HEXcube and David Mohammed
 License: GPL-2+
 
 Files:
@@ -36,20 +36,20 @@ Copyright:
 License: GPL-3
 
 Files:
-    pocillo-gtk-theme/*
+    pocillo-theme/*
 Copyright: 2015-2017 nana-4 <emailaddress@unknown>
  2016-2017 System76 <emailaddress@unknown>
- 2018-2019 David Mohammed <fossfreedom@ubuntu.com>
+ 2018-2020 David Mohammed <fossfreedom@ubuntu.com>
 License: GPL-2+
 
 Files:
-    qogirbudgie-gtk-theme/*
+    qogir-theme/*
 Copyright: 2015-2017 Horst3180 (emailaddress@unknown)
- 2017-2019 vinceluice <vinceliuice@hotmail.com>
+ 2017-2020 vinceluice <vinceliuice@hotmail.com>
 License: GPL-3
 
 Files:
-    pocillo-gtk-theme/*.svg
+    pocillo-theme/*.svg
 Copyright: 2016-2017 System76 <emailaddress@unknown>
  2015-2017 nana-4 <emailaddress@unknown>
 License: CC-BY-SA-4.0

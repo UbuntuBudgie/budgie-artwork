@@ -1,4 +1,4 @@
-budgie-artwork (0.12.0ubuntu1) UNRELEASED; urgency=medium
+budgie-artwork (0.12.0) focal; urgency=medium
 
   * New release
     - Build pocillo-gtk-theme from source
@@ -7,8 +7,9 @@ budgie-artwork (0.12.0ubuntu1) UNRELEASED; urgency=medium
     - control: Add build dependencies for compilation of themes
     - control: change deprecated gnome-themes-standard for
       gnome-themes-extra
+    - copyright: bump copyright year to 2020
 
- -- David Mohammed <fossfreedom@ubuntu.com>  Tue, 25 Feb 2020 23:43:47 +0000
+ -- David Mohammed <fossfreedom@ubuntu.com>  Sun, 01 Mar 2020 12:49:05 +0000
 
 budgie-artwork (0.11.1) eoan; urgency=medium
 
