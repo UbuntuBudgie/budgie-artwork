@@ -1,9 +1,16 @@
-budgie-artwork (0.12.1) UNRELEASED; urgency=medium
+budgie-artwork (0.12.1) focal; urgency=medium
 
   * New release
     - Note at v0.12.0 qogirbudgie was also built from source
+    - Qogir dark button theme fixes
+    - Pocillo nemo progress color fix
+    - Pocillo nemo sidebar padding increase
+    - Pocillo lock screen button styling change
+    - Pocillo chrome entry field focus colour update
+    - Pocillo Colour contrast for global menu
+    - Pocillo padding change for SSDs
 
- -- David Mohammed <fossfreedom@ubuntu.com>  Sun, 01 Mar 2020 13:12:59 +0000
+ -- David Mohammed <fossfreedom@ubuntu.com>  Tue, 17 Mar 2020 23:43:35 +0000
 
 budgie-artwork (0.12.0) focal; urgency=medium
 
