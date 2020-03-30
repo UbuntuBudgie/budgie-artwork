@@ -1,3 +1,10 @@
+budgie-artwork (0.12.3) focal; urgency=medium
+
+  * Bug-fix
+    Fix missing close button Pocillo styling for pixelsaver applet
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Mon, 30 Mar 2020 07:37:33 +0100
+
 budgie-artwork (0.12.2) focal; urgency=medium
 
   * Bug-fix
