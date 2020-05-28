@@ -6,4 +6,4 @@
 	url = https://github.com/ubuntubudgie/pocillo-gtk-theme
 [submodule "qogir-theme"]
 	path = qogir-theme
-	url = https://github.com/vinceliuice/qogir-theme
+	url = https://github.com/ubuntubudgie/qogir-theme
