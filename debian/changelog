@@ -1,3 +1,11 @@
+budgie-artwork (0.12.4) groovy; urgency=medium
+
+  * Resolve FTBFS due to sassc changes
+    - pocillo gtk theme updated
+    - qogir-theme theme updated
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Thu, 28 May 2020 09:48:35 +0100
+
 budgie-artwork (0.12.3) focal; urgency=medium
 
   * Bug-fix
