@@ -5,7 +5,8 @@ Maintainer: David Mohammed <fossfreedom@ubuntu.com>
 Standards-Version: 4.5.0
 Vcs-Browser: https://github.com/UbuntuBudgie/budgie-artwork/tree/debian
 Vcs-Git: https://github.com/UbuntuBudgie/budgie-artwork -b debian
-Build-Depends: debhelper (>= 11),
+Build-Depends: debhelper (>= 12),
+ debhelper-compat (=12),
  inkscape,
  optipng,
  gtk2-engines-pixbuf,

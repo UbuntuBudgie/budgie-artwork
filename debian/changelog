@@ -3,6 +3,11 @@ budgie-artwork (0.12.4) groovy; urgency=medium
   * Resolve FTBFS due to sassc changes
     - pocillo gtk theme updated
     - qogir-theme theme updated
+  * Packaging Changes
+    - rules: Resolve new-line lintian warning
+    - control: Add debhelper-compat=12 and remove compat to resolve lintian
+      warning
+    - copyright: Convert tabs to spaces to resolve lintian warning 
 
  -- David Mohammed <fossfreedom@ubuntu.com>  Thu, 28 May 2020 09:48:35 +0100
 
