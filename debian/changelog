@@ -1,8 +1,8 @@
 budgie-artwork (0.12.4) groovy; urgency=medium
 
   * Resolve FTBFS due to sassc changes
-    - pocillo gtk theme updated
-    - qogir-theme theme updated
+    - pocillo-gtk-theme updated
+    - qogirbudgie theme updated
   * Packaging Changes
     - rules: Resolve new-line lintian warning
     - control: Add debhelper-compat=12 and remove compat to resolve lintian
