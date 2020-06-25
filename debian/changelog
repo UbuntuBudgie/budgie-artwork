@@ -1,3 +1,11 @@
+budgie-artwork (0.13.0) UNRELEASED; urgency=medium
+
+  * New release
+    - qogirbudgie theme updated
+    - add pocillo-tela/tela icons
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Thu, 25 Jun 2020 21:22:48 +0100
+
 budgie-artwork (0.12.4) groovy; urgency=medium
 
   * Resolve FTBFS due to sassc changes
