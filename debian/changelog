@@ -1,3 +1,10 @@
+budgie-artwork (0.12.5) groovy; urgency=medium
+
+  * Latest qogir theme
+    - removed the 'ubuntu' orange highlight
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Sun, 16 Aug 2020 11:07:10 +0100
+
 budgie-artwork (0.12.4) groovy; urgency=medium
 
   * Resolve FTBFS due to sassc changes
