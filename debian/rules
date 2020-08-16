@@ -1,5 +1,6 @@
 #!/usr/bin/make -f
 export DH_VERBOSE = 1
+export NO_PNG_PKG_MANGLE=1
 
 %:
 	dh $@
@@ -11,4 +12,4 @@ override_dh_clean:
 override_dh_auto_configure:
 	dh_auto_configure
 	mkdir ./debian/qogirbudgie
-	cd qogir-theme && ./InstallBudgie -w square -l budgie -n QogirBudgie -d "$(CURDIR)/debian/qogirbudgie"
+	cd qogir-theme && bash ./InstallBudgie -w square -l budgie -t standard -n QogirBudgie -d "$(CURDIR)/debian/qogirbudgie"
