@@ -7,6 +7,3 @@
 [submodule "qogir-theme"]
 	path = qogir-theme
 	url = https://github.com/ubuntubudgie/qogir-theme
-[submodule "tela-icon-theme"]
-	path = tela-icon-theme
-	url = https://github.com/ubuntubudgie/tela-icon-theme
