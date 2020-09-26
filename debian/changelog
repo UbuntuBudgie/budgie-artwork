@@ -1,3 +1,11 @@
+budgie-artwork (0.12.6) groovy; urgency=medium
+
+  * Bug fix
+    - vte-6.2 now requires @text_view_bg to be define to colour
+      terminals correctly
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Sat, 26 Sep 2020 19:17:49 +0100
+
 budgie-artwork (0.12.5) groovy; urgency=medium
 
   * Latest qogir theme
