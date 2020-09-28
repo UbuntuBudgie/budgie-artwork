@@ -1,3 +1,11 @@
+budgie-artwork (0.12.7) groovy; urgency=medium
+
+  * Bug fix
+    - similar to previous pocillo fix for @text_view_bg - apply
+      upstream qogir fix
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Mon, 28 Sep 2020 08:19:31 +0100
+
 budgie-artwork (0.12.6) groovy; urgency=medium
 
   * Bug fix
