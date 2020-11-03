@@ -1,3 +1,9 @@
+budgie-artwork (0.12.7.0ubuntu1~ppa) groovy; urgency=medium
+
+  * Bug fix - resolve spinbutton sizing issues
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Tue, 03 Nov 2020 20:28:28 +0000
+
 budgie-artwork (0.12.7) groovy; urgency=medium
 
   * Bug fix
