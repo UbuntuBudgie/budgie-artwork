@@ -1,3 +1,10 @@
+budgie-artwork (0.12.7.0ubuntu2~ppa) groovy; urgency=medium
+
+  * Bug fix - remove min width on gtk entry
+  * Tidy up radii, shadow and padding sizes
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Wed, 04 Nov 2020 19:04:56 +0000
+
 budgie-artwork (0.12.7.0ubuntu1~ppa) groovy; urgency=medium
 
   * Bug fix - resolve spinbutton sizing issues
