@@ -1,3 +1,9 @@
+budgie-artwork (0.12.7.0ubuntu6~ppa) groovy; urgency=medium
+
+  * Refinements to budgie-desktop-settings
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Thu, 12 Nov 2020 21:12:57 +0000
+
 budgie-artwork (0.12.7.0ubuntu5~ppa) groovy; urgency=medium
 
   * Tweak raven calendar/ nemo toolbar
