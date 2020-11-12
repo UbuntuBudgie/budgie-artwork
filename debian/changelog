@@ -1,3 +1,15 @@
+budgie-artwork (0.12.7.0ubuntu4~ppa) groovy; urgency=medium
+
+  * FTBFS resolution
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Thu, 12 Nov 2020 08:32:09 +0000
+
+budgie-artwork (0.12.7.0ubuntu3~ppab1) groovy; urgency=medium
+
+  * No change rebuild and upload
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Thu, 12 Nov 2020 08:17:55 +0000
+
 budgie-artwork (0.12.7.0ubuntu3~ppa) groovy; urgency=medium
 
   * Sidebar colour/nemo toolbar colour updates
