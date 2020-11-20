@@ -1,3 +1,9 @@
+budgie-artwork (0.12.7.0ubuntu7~ppa) groovy; urgency=medium
+
+  * Firefox border colour transparency resolution
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Fri, 20 Nov 2020 11:14:26 +0000
+
 budgie-artwork (0.12.7.0ubuntu6~ppa) groovy; urgency=medium
 
   * Refinements to budgie-desktop-settings
