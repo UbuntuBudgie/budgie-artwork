@@ -1,57 +1,17 @@
-budgie-artwork (0.12.7.0ubuntu8~ppa) groovy; urgency=medium
+budgie-artwork (0.13.0) hirsute; urgency=medium
 
-  * Tighten up transitions
+  * Pocillo theme changes:
+    - Firefox border colour transparency resolution
+    - Resolve right border missing in budgie-desktop-settings
+    - Tweak raven calendar/ nemo toolbar
+    - Sidebar colour/nemo toolbar colour updates
+    - Bug fix - remove min width on gtk entry
+    - Tidy up radii, shadow and padding sizes
+    - Bug fix - resolve spinbutton sizing issues
+  * QogirBudgie theme
+    - Latest upstream as per 12/12/2020
 
- -- David Mohammed <fossfreedom@ubuntu.com>  Tue, 24 Nov 2020 23:03:12 +0000
-
-budgie-artwork (0.12.7.0ubuntu7~ppa) groovy; urgency=medium
-
-  * Firefox border colour transparency resolution
-
- -- David Mohammed <fossfreedom@ubuntu.com>  Fri, 20 Nov 2020 11:14:26 +0000
-
-budgie-artwork (0.12.7.0ubuntu6~ppa) groovy; urgency=medium
-
-  * Refinements to budgie-desktop-settings
-
- -- David Mohammed <fossfreedom@ubuntu.com>  Thu, 12 Nov 2020 21:12:57 +0000
-
-budgie-artwork (0.12.7.0ubuntu5~ppa) groovy; urgency=medium
-
-  * Tweak raven calendar/ nemo toolbar
-
- -- David Mohammed <fossfreedom@ubuntu.com>  Thu, 12 Nov 2020 16:03:50 +0000
-
-budgie-artwork (0.12.7.0ubuntu4~ppa) groovy; urgency=medium
-
-  * FTBFS resolution
-
- -- David Mohammed <fossfreedom@ubuntu.com>  Thu, 12 Nov 2020 08:32:09 +0000
-
-budgie-artwork (0.12.7.0ubuntu3~ppab1) groovy; urgency=medium
-
-  * No change rebuild and upload
-
- -- David Mohammed <fossfreedom@ubuntu.com>  Thu, 12 Nov 2020 08:17:55 +0000
-
-budgie-artwork (0.12.7.0ubuntu3~ppa) groovy; urgency=medium
-
-  * Sidebar colour/nemo toolbar colour updates
-
- -- David Mohammed <fossfreedom@ubuntu.com>  Wed, 11 Nov 2020 23:10:09 +0000
-
-budgie-artwork (0.12.7.0ubuntu2~ppa) groovy; urgency=medium
-
-  * Bug fix - remove min width on gtk entry
-  * Tidy up radii, shadow and padding sizes
-
- -- David Mohammed <fossfreedom@ubuntu.com>  Wed, 04 Nov 2020 19:04:56 +0000
-
-budgie-artwork (0.12.7.0ubuntu1~ppa) groovy; urgency=medium
-
-  * Bug fix - resolve spinbutton sizing issues
-
- -- David Mohammed <fossfreedom@ubuntu.com>  Tue, 03 Nov 2020 20:28:28 +0000
+ -- David Mohammed <fossfreedom@ubuntu.com>  Sat, 12 Dec 2020 14:27:14 +0000
 
 budgie-artwork (0.12.7) groovy; urgency=medium
 
