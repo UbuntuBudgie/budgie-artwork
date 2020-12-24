@@ -1,3 +1,12 @@
+budgie-artwork (0.13.1) hirsute; urgency=medium
+
+  * pocillo-icons now inherits from TelaBudgie which is a merged iconset
+    of tela-icon-theme and qogir-icon-theme (see tela-icon-theme/merge.sh)
+  * Packaging Changes
+    copyright: Add copyright for tela-icon-theme
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Wed, 16 Dec 2020 20:52:56 +0000
+
 budgie-artwork (0.13.0) hirsute; urgency=medium
 
   * Pocillo theme changes:
