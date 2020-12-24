@@ -1,3 +1,12 @@
+budgie-artwork (0.13.2) hirsute; urgency=medium
+
+  * Packaging Changes
+    - Remove dependency for pocillo icons on moka and faba icons
+    - Update description of pocillo icons to reflect basis on
+      Tela/Qogir icons
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Thu, 24 Dec 2020 21:02:09 +0000
+
 budgie-artwork (0.13.1) hirsute; urgency=medium
 
   * pocillo-icons now inherits from TelaBudgie which is a merged iconset

@@ -68,11 +68,11 @@ Description: graphical boot animation and logger - Ubuntu Budgie text theme
 
 Package: pocillo-icon-theme
 Architecture: all
-Depends: ${misc:Depends}, moka-icon-theme, faba-icon-theme
-Description: Tango-esque folder icon set called Pocillo
- Pocillo is a stylized Tango-esque Linux folder icon set. They are
- designed to be a clear, simple and consistent.  Designed to complement
- Arc-theme and Moka icon theme.
+Depends: ${misc:Depends}
+Description: Flat but colorful icon-set called Pocillo
+ Pocillo is a flat but colorful icon-set based on Tela application icons
+ and Qogir panel & symbolic icons. They are designed to be a clear, simple
+ and consistent.  Designed to complement all shipped Ubuntu Budgie themes.
 
 Package: ubuntu-budgie-themes
 Architecture: all
