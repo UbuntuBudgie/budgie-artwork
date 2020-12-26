@@ -1,3 +1,9 @@
+budgie-artwork (0.13.3) hirsute; urgency=medium
+
+  * Latest Qogir/Pocillo git and regenerate Tela Icons
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Sat, 26 Dec 2020 11:56:02 +0000
+
 budgie-artwork (0.13.2) hirsute; urgency=medium
 
   * Packaging Changes
