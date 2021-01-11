@@ -1,3 +1,10 @@
+budgie-artwork (0.13.4) hirsute; urgency=medium
+
+  * Latest Qogir/Tela icons
+  * Latest Pocillo-gtk-theme with restyled ubiquity
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Mon, 11 Jan 2021 19:53:25 +0000
+
 budgie-artwork (0.13.3) hirsute; urgency=medium
 
   * Latest Qogir/Pocillo git and regenerate Tela Icons
