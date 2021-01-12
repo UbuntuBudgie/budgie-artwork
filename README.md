@@ -11,7 +11,7 @@ Also the icon-theme for Ubuntu Budgie - Pocillo - is defined
 
 # Tela icons
 
-To refresh the tela icons:
+To refresh the tela icons in our project git fork:
 
     cd ~/Downloads
     git clone https://github.com/ubuntubudgie/tela-icon-theme
@@ -22,7 +22,7 @@ To refresh the tela icons:
     git commit -m "Latest tela icons"
     git push
 
-Now navigate to tela-icon-theme in this git project i.e.
+Now navigate to tela-icon-theme in this budgie-artwork git project i.e.
 
     cd tela-icon-theme
     rm -rf *
@@ -34,6 +34,7 @@ copy from the tela-icon-theme project its contents into this folder
 merge Qogir icons and save
 
     ./merge.sh
+    git add -A
     git commit -m "Merge latest tela/qogir icons"
     git push
 
