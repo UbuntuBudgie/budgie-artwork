@@ -1,3 +1,10 @@
+budgie-artwork (0.13.5) hirsute; urgency=medium
+
+  * Latest Qogir/Tela icons
+  * Latest Qogir theme
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Mon, 15 Feb 2021 21:19:29 +0000
+
 budgie-artwork (0.13.4) hirsute; urgency=medium
 
   * Latest Qogir/Tela icons
