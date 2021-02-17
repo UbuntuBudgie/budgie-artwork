@@ -1,3 +1,23 @@
+budgie-artwork (0.13.7) UNRELEASED; urgency=medium
+
+  * Remove spurious file debian/t.sh
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Wed, 17 Feb 2021 20:47:02 +0000
+
+budgie-artwork (0.13.6) hirsute; urgency=medium
+
+  * Merge of tela/qogir icons is more comprehensive
+  * Add pocillo-icon-theme.preinst to remove v0.13.4 package tela-dark
+    symbolic folder (LP: #1915895)
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Wed, 17 Feb 2021 20:29:56 +0000
+
+budgie-artwork (0.13.5build1) hirsute; urgency=medium
+
+  * No change rebuild with fixed ownership.
+
+ -- Dimitri John Ledkov <xnox@ubuntu.com>  Tue, 16 Feb 2021 17:03:15 +0000
+
 budgie-artwork (0.13.5) hirsute; urgency=medium
 
   * Latest Qogir/Tela icons

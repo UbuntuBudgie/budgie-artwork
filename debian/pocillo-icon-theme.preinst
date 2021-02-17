@@ -1,0 +1,19 @@
+#!/bin/sh -e
+
+set -e
+
+check=/usr/share/icons/TelaBudgie-dark/symbolic
+
+case "$1" in
+    upgrade)
+	
+    # fix https://bugs.launchpad.net/ubuntu/+source/budgie-artwork/+bug/1915895
+	if [ -L $check ]
+    then
+        rm $check
+    fi
+	;;
+esac
+
+#DEBHELPER#
+exit 0
