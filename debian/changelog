@@ -1,8 +1,9 @@
-budgie-artwork (0.13.7) UNRELEASED; urgency=medium
+budgie-artwork (0.13.7) hirsute; urgency=medium
 
   * Remove spurious file debian/t.sh
+  * Styling changes for Pocillo scrollbar
 
- -- David Mohammed <fossfreedom@ubuntu.com>  Wed, 17 Feb 2021 20:47:02 +0000
+ -- David Mohammed <fossfreedom@ubuntu.com>  Sat, 13 Mar 2021 09:46:24 +0000
 
 budgie-artwork (0.13.6) hirsute; urgency=medium
 
