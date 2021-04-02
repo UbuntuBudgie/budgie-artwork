@@ -1,3 +1,10 @@
+budgie-artwork (0.13.8) hirsute; urgency=medium
+
+  * Update ubiquity styling to resolve white-on-white partition info
+    (LP: #1922073)
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Fri, 02 Apr 2021 12:04:04 +0100
+
 budgie-artwork (0.13.7) hirsute; urgency=medium
 
   * Remove spurious file debian/t.sh
