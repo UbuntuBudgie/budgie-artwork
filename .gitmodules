@@ -4,3 +4,6 @@
 [submodule "qogir-theme"]
 	path = qogir-theme
 	url = https://github.com/ubuntubudgie/qogir-theme
+[submodule "pocillo-theme"]
+	path = pocillo-theme
+	url = https://github.com/ubuntubudgie/pocillo-gtk-theme
