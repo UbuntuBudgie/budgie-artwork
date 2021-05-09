@@ -3,6 +3,11 @@ budgie-artwork (0.13.90) impish; urgency=medium
   * test build for unstable ppa
   * Update to latest pocillo-theme
   * Update to latest qogir-theme
+  * Packaging Changes:
+    - revise rules for meson build
+    - control: bump StandardsVersion
+    - control: build-depends meson, ruby-sass, gtk-update-icon-cache
+    - control: build-depends remove optipng and inkscape
 
  -- David Mohammed <fossfreedom@ubuntu.com>  Sun, 09 May 2021 19:28:06 +0100
 
