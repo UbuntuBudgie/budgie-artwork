@@ -1,3 +1,11 @@
+budgie-artwork (0.13.90) impish; urgency=medium
+
+  * test build for unstable ppa
+  * Update to latest pocillo-theme
+  * Update to latest qogir-theme
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Sun, 09 May 2021 19:28:06 +0100
+
 budgie-artwork (0.13.8) hirsute; urgency=medium
 
   * Update ubiquity styling to resolve white-on-white partition info
