@@ -1,2 +1,2 @@
-debian/tmp/*
-debian/qogirbudgie/* /usr/share/themes/
+#debian/tmp/*
+pocillo-theme-compiled/* /usr/share/themes/

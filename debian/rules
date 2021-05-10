@@ -3,7 +3,8 @@ export DH_VERBOSE = 1
 export NO_PNG_PKG_MANGLE=1
 
 %:
-	dh $@ --buildsystem=meson+ninja
+	dh $@
+#	dh $@ --buildsystem=meson+ninja --> reinstate this when dart-sass is packaged
 
 override_dh_clean:
 	rm -rf ./debian/qogirbudgie
@@ -11,7 +12,8 @@ override_dh_clean:
 	dh_clean
 
 override_dh_auto_configure:
-	dh_auto_configure -- -Dtheme_name=Pocillo
+#	We have to wait until dart and dart-sass is packaged before being able to compile from source
+#	dh_auto_configure -- -Dtheme_name=Pocillo -Ddocumentation=false --prefix="$(CURDIR)/debian/ubuntu-budgie-themes"
 	mkdir ./debian/qogirbudgie
 	cd qogir-theme && bash ./InstallBudgie -w square -l budgie -t standard -n QogirBudgie -d "$(CURDIR)/debian/qogirbudgie"
 	mkdir ./debian/telabudgie

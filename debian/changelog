@@ -1,3 +1,12 @@
+budgie-artwork (0.13.91) hirsute; urgency=medium
+
+  * Add precompiled pocillo theme since we cannot build from source
+    until dart and dart-sass are packaged
+  * Remove pocillo-icon-theme.preinst since this applied only during hirsute
+    development
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Mon, 10 May 2021 20:26:52 +0100
+
 budgie-artwork (0.13.90) impish; urgency=medium
 
   * test build for unstable ppa
@@ -8,6 +17,8 @@ budgie-artwork (0.13.90) impish; urgency=medium
     - control: bump StandardsVersion
     - control: build-depends meson, ruby-sass, gtk-update-icon-cache
     - control: build-depends remove optipng and inkscape
+    - copyright: Update copyright years, remove system76 references
+      since pocillo-gtk-theme has been rebased upon nana-4 materia
 
  -- David Mohammed <fossfreedom@ubuntu.com>  Sun, 09 May 2021 19:28:06 +0100
 

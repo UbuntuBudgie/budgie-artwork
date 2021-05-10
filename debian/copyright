@@ -3,7 +3,7 @@ Upstream-Name: budgie-artwork
 Source: https://github.com/UbuntuBudgie/budgie-artwork
 
 Files: *
-Copyright: Copyright 2016-2020 David Mohammed <fossfreedom@ubuntu.com>
+Copyright: Copyright 2016-2021 David Mohammed <fossfreedom@ubuntu.com>
 License: LGPL-2.1
  This library is free software; you can redistribute it and/or modify it
  under the terms of the GNU Lesser General Public License as published
@@ -24,44 +24,42 @@ Files:
 Copyright:
     2009, Canonical Ltd.
     2014, Ubuntu MATE Developers
-    2016-2020, HEXcube and David Mohammed
+    2016-2021, HEXcube and David Mohammed
 License: GPL-2+
 
 Files:
     pocillo/Pocillo/*
 Copyright:
-    2017-2019 David Mohammed <fossfreedom@ubuntu.com>
+    2017-2021 David Mohammed <fossfreedom@ubuntu.com>
     2014-2016 Sam Hewitt <sam@snwh.org>
     2016-2018 Joshua H. Fogg <joshua.h.fogg@gmail.com>
 License: GPL-3
 
 Files:
     pocillo-theme/*
-Copyright: 2015-2017 nana-4 <emailaddress@unknown>
- 2016-2017 System76 <emailaddress@unknown>
- 2018-2020 David Mohammed <fossfreedom@ubuntu.com>
+Copyright: 2015-2021 nana-4 <emailaddress@unknown>
+ 2018-2021 David Mohammed <fossfreedom@ubuntu.com>
 License: GPL-2+
 
 Files:
     qogir-theme/*
 Copyright: 2015-2017 Horst3180 (emailaddress@unknown)
- 2017-2020 vinceluice <vinceliuice@hotmail.com>
+ 2017-2021 vinceluice <vinceliuice@hotmail.com>
 License: GPL-3
 
 Files:
     tela-icon-theme/*
-Copyright: 2020 vinceluice <vinceliuice@hotmail.com>
+Copyright: 2021 vinceluice <vinceliuice@hotmail.com>
 License: GPL-3
 
 Files:
     tela-icon-theme/merge.sh
-Copyright: 2020 David Mohammed <fossfreedom@ubuntu.com>
+Copyright: 2021 David Mohammed <fossfreedom@ubuntu.com>
 License: GPL-3
 
 Files:
     pocillo-theme/*.svg
-Copyright: 2016-2017 System76 <emailaddress@unknown>
- 2015-2017 nana-4 <emailaddress@unknown>
+Copyright: 2015-2021 nana-4 <emailaddress@unknown>
 License: CC-BY-SA-4.0
  Unless otherwise indicated, artwork is available under the Creative
  Commons Attribution Share-alike license v4.0 International or any
