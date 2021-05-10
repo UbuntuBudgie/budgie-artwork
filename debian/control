@@ -12,6 +12,7 @@ Build-Depends: debhelper (>= 13),
  gtk2-engines-murrine,
  libglib2.0-dev-bin,
  libxml2-utils
+Rules-Requires-Root: no
 
 Package: budgie-lightdm-theme
 Architecture: all
