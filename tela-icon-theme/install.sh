@@ -12,6 +12,18 @@ readonly COLOR_VARIANTS=("standard" "black" "blue" "brown" "green" "grey" "orang
                          "pink" "purple" "red" "yellow" "manjaro" "ubuntu")
 readonly BRIGHT_VARIANTS=("" "dark")
 
+if command -v lsb_release &> /dev/null; then
+  Distributor_ID=$(lsb_release -i)
+  if [[ "${Distributor_ID}" == "Distributor ID:	elementary" || "${Distributor_ID}" == "Distributor ID:	Elementary" ]]; then
+    ICON_VERION="elementary"
+  else
+    ICON_VERION="normal"
+  fi
+  echo -e "Install $ICON_VERION version! ..."
+else
+  ICON_VERION="normal"
+fi
+
 usage() {
   printf "%s\n" "Usage: $0 [OPTIONS...] [COLOR VARIANTS...]"
   printf "\n%s\n" "OPTIONS:"
@@ -63,29 +75,34 @@ install_theme() {
   if [ -z "${brightprefix}" ]; then
     cp -r "${SRC_DIR}"/src/{16,22,24,32,scalable,symbolic}                       "${THEME_DIR}"
     cp -r "${SRC_DIR}"/links/{16,22,24,32,scalable,symbolic}                     "${THEME_DIR}"
+    if [ ${ICON_VERION} == 'elementary' ]; then
+      cp -r "${SRC_DIR}"/links/elementary/*                                      "${THEME_DIR}"
+    fi
     if [ -n "${colorprefix}" ]; then
       install -m644 "${SRC_DIR}"/src/colors/color${colorprefix}/scalable/*.svg   "${THEME_DIR}/scalable/places"
     fi
   else
     local -r STD_THEME_DIR="${THEME_DIR%-dark}"
 
-    install -d "${THEME_DIR}"/{16,22,24}
+    install -d "${THEME_DIR}"/{16,22,24,symbolic}
 
     cp -r "${SRC_DIR}"/src/16/{actions,devices,places}                           "${THEME_DIR}/16"
     cp -r "${SRC_DIR}"/src/22/{actions,devices,places}                           "${THEME_DIR}/22"
     cp -r "${SRC_DIR}"/src/24/{actions,devices,places}                           "${THEME_DIR}/24"
+    cp -r "${SRC_DIR}"/src/symbolic/*                                            "${THEME_DIR}/symbolic"
 
     # Change icon color for dark theme
-    sed -i "s/#565656/#aaaaaa/g" "${THEME_DIR}"/{16,22,24}/actions/*
-    sed -i "s/#727272/#aaaaaa/g" "${THEME_DIR}"/{16,22,24}/{places,devices}/*
+    sed -i "s/#565656/#aaaaaa/g" "${THEME_DIR}"/{16,22,24}/actions/*.svg
+    sed -i "s/#727272/#aaaaaa/g" "${THEME_DIR}"/{16,22,24}/{places,devices}/*.svg
+    sed -i "s/#555555/#aaaaaa/g" "${THEME_DIR}"/symbolic/{actions,apps,categories,devices,emblems,emotes,mimetypes,places,status}/*.svg
 
     cp -r "${SRC_DIR}"/links/16/{actions,devices,places}                         "${THEME_DIR}/16"
     cp -r "${SRC_DIR}"/links/22/{actions,devices,places}                         "${THEME_DIR}/22"
     cp -r "${SRC_DIR}"/links/24/{actions,devices,places}                         "${THEME_DIR}/24"
+    cp -r "${SRC_DIR}"/links/symbolic/*                                          "${THEME_DIR}/symbolic"
 
     # Link the common icons
     ln -sr "${STD_THEME_DIR}/scalable"                                           "${THEME_DIR}/scalable"
-    ln -sr "${STD_THEME_DIR}/symbolic"                                           "${THEME_DIR}/symbolic"
     ln -sr "${STD_THEME_DIR}/32"                                                 "${THEME_DIR}/32"
     ln -sr "${STD_THEME_DIR}/16/apps"                                            "${THEME_DIR}/16/apps"
     ln -sr "${STD_THEME_DIR}/16/mimetypes"                                       "${THEME_DIR}/16/mimetypes"

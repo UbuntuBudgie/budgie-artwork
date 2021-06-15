@@ -3001,15 +3001,15 @@ filechooser #pathbarbox > stack > box > button {
  */
 .sidebar {
   border-style: none;
-  background-color: transparent;
+  background-color: #eceff3;
 }
 stacksidebar.sidebar:dir(ltr) list, stacksidebar.sidebar.left list, stacksidebar.sidebar.left:dir(rtl) list, .sidebar:not(separator):dir(ltr), .sidebar:not(separator).left, .sidebar:not(separator).left:dir(rtl) {
-  border-right: 1px solid rgba(0, 0, 0, 0.2);
+  border-right: 0px solid rgba(0, 0, 0, 0.2);
   border-left-style: none;
 }
 
 stacksidebar.sidebar:dir(rtl) list, stacksidebar.sidebar.right list, .sidebar:not(separator):dir(rtl), .sidebar:not(separator).right {
-  border-left: 1px solid rgba(0, 0, 0, 0.2);
+  border-left: 0px solid rgba(0, 0, 0, 0.2);
   border-right-style: none;
 }
 
@@ -4523,11 +4523,15 @@ button.flat.tilix-small-button {
 }
 
 /**
- * Ubitquity
+ * Ubiquity
  */
 #live_installer .menubar progressbar trough {
   border-radius: 4px;
   background-color: rgba(0, 0, 0, 0.2);
+}
+
+#live_installer #partition_container {
+  color: black;
 }
 
 /**
@@ -6202,6 +6206,7 @@ XfdesktopIconView.view .rubberband {
   background-color: rgba(39, 103, 170, 0.24);
 }
 .places-treeview {
+  background-color: #eceff3;
   -NemoPlacesTreeView-disk-full-bg-color: #c7c7c7;
   -NemoPlacesTreeView-disk-full-fg-color: #2767aa;
   -NemoPlacesTreeView-disk-full-bar-width: 2px;
