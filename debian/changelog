@@ -1,3 +1,9 @@
+budgie-artwork (0.13.92) UNRELEASED; urgency=medium
+
+  * 
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Tue, 15 Jun 2021 23:35:28 +0100
+
 budgie-artwork (0.13.91) impish; urgency=medium
 
   * Update to latest pocillo-theme
@@ -7,7 +13,7 @@ budgie-artwork (0.13.91) impish; urgency=medium
   * Packaging Changes:
     - revise rules for meson build
     - control: bump StandardsVersion
-    - control: build-depends meson, ruby-sass, gtk-update-icon-cache
+    - control: build-depends meson, gtk-update-icon-cache
     - control: build-depends remove optipng and inkscape
     - control: Rules-Requires-Root: no
     - copyright: Update copyright years, remove system76 references
