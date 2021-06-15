@@ -1,17 +1,9 @@
 budgie-artwork (0.13.91) impish; urgency=medium
 
-  * Add precompiled pocillo theme since we cannot build from source
-    until dart and dart-sass are packaged
-  * Remove pocillo-icon-theme.preinst since this applied only during hirsute
-    development
-
- -- David Mohammed <fossfreedom@ubuntu.com>  Tue, 15 Jun 2021 22:21:43 +0100
-
-budgie-artwork (0.13.90) impish; urgency=medium
-
-  * test build for unstable ppa
   * Update to latest pocillo-theme
   * Update to latest qogir-theme
+  * Add precompiled pocillo theme since we cannot build from source
+    until dart and dart-sass are packaged
   * Packaging Changes:
     - revise rules for meson build
     - control: bump StandardsVersion
@@ -20,8 +12,10 @@ budgie-artwork (0.13.90) impish; urgency=medium
     - control: Rules-Requires-Root: no
     - copyright: Update copyright years, remove system76 references
       since pocillo-gtk-theme has been rebased upon nana-4 materia
+    - Remove pocillo-icon-theme.preinst since this applied only during hirsute
+      development
 
- -- David Mohammed <fossfreedom@ubuntu.com>  Sun, 09 May 2021 19:28:06 +0100
+ -- David Mohammed <fossfreedom@ubuntu.com>  Tue, 15 Jun 2021 23:24:10 +0100
 
 budgie-artwork (0.13.8) hirsute; urgency=medium
 
