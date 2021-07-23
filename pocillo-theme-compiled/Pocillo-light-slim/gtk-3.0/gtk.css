@@ -5318,9 +5318,13 @@ MsdOsdWindow.background.osd .progressbar {
 
 .budgie-settings-window buttonbox.inline-toolbar {
   border-style: none none solid;
+  padding: 0px;
 }
 .budgie-settings-window buttonbox.inline-toolbar button {
   border-radius: 4px;
+}
+.budgie-settings-window .settings-frame {
+  padding: 2px;
 }
 
 .budgie-popover {
@@ -6172,6 +6176,33 @@ XfdesktopIconView.view .rubberband {
 #buttonbox_frame button:not(:disabled):active {
   box-shadow: none;
   background-image: radial-gradient(circle, rgba(39, 103, 170, 0.16) 10%, transparent 0%);
+}
+
+.lightdm menu {
+  border: none;
+  border-radius: 0px;
+  padding: 1px;
+}
+
+.lightdm entry,
+.lightdm entry:hover,
+.lightdm entry:active,
+.lightdm entry:active:focus {
+  background-image: none;
+  border-image: none;
+}
+
+.lightdm entry:focus {
+  border-color: alpha(white, 0.9);
+  border-width: 0px;
+  border-style: none;
+  background-color: rgba(255, 255, 255, 0.05);
+  color: white;
+}
+
+.lightdm entry:selected {
+  background-color: alpha(white, 0.2);
+  border-bottom: 0px transparent;
 }
 
 /**
