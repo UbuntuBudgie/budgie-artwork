@@ -29,7 +29,7 @@ Now navigate to tela-icon-theme in this budgie-artwork git project i.e.
 
 copy from the tela-icon-theme project its contents into this folder
 
-    cp ../../tela-icon-theme/* .
+    cp -r ../../tela-icon-theme/* .
 
 merge Qogir icons and save
 
