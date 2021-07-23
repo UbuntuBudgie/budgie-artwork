@@ -1,8 +1,10 @@
-budgie-artwork (0.13.92) UNRELEASED; urgency=medium
+budgie-artwork (0.13.92) impish; urgency=medium
 
-  * 
+  * Update to latest pocillo-theme
+  * Update to latest qogir-theme
+  * Update to latest tela-icons
 
- -- David Mohammed <fossfreedom@ubuntu.com>  Tue, 15 Jun 2021 23:35:28 +0100
+ -- David Mohammed <fossfreedom@ubuntu.com>  Fri, 23 Jul 2021 21:19:15 +0100
 
 budgie-artwork (0.13.91) impish; urgency=medium
 
