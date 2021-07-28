@@ -1,3 +1,10 @@
+budgie-artwork (0.13.93) impish; urgency=medium
+
+  * Ensure the built qogirbudgie is actually installed as part
+    of the theme package
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Wed, 28 Jul 2021 15:33:19 +0100
+
 budgie-artwork (0.13.92) impish; urgency=medium
 
   * Update to latest pocillo-theme

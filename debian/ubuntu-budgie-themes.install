@@ -1,2 +1,3 @@
 #debian/tmp/*
 pocillo-theme-compiled/* /usr/share/themes/
+debian/qogirbudgie/* /usr/share/themes/
