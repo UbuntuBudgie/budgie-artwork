@@ -1,3 +1,11 @@
+budgie-artwork (0.14.0) impish; urgency=medium
+
+  * Release for impish
+    - update pocillo theme to ensure gtk checkboxes on budgie settings
+      are not truncated
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Wed, 08 Sep 2021 21:54:33 +0100
+
 budgie-artwork (0.13.93) impish; urgency=medium
 
   * Ensure the built qogirbudgie is actually installed as part

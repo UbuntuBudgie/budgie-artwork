@@ -5326,6 +5326,9 @@ MsdOsdWindow.background.osd .progressbar {
 .budgie-settings-window .settings-frame {
   padding: 2px;
 }
+.budgie-settings-window .settings-frame grid checkbutton {
+  padding-left: 8px;
+}
 
 .budgie-popover {
   border-style: solid;
