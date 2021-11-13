@@ -1,3 +1,14 @@
+budgie-artwork (0.14.1) jammy; urgency=medium
+
+  * Latest upstream tela-icons merged with qogir
+  * Latest Pocillo gtk theme (and precompiled equiv)
+  * Latest QogirBudgie gtk theme
+  * d/rules: remove -t standard for qogirbudgie build since no longer
+    needed
+  * d/control: add sassc to build-depends to build qogirbudgie
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Sat, 13 Nov 2021 10:25:55 +0000
+
 budgie-artwork (0.14.0) impish; urgency=medium
 
   * Release for impish
