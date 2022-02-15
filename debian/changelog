@@ -1,3 +1,9 @@
+budgie-artwork (0.14.2~ppa1) jammy; urgency=medium
+
+  * Pocillo - ensure notifications are themed with the new stack changes
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Tue, 15 Feb 2022 19:30:25 +0000
+
 budgie-artwork (0.14.1) jammy; urgency=medium
 
   * Latest upstream tela-icons merged with qogir

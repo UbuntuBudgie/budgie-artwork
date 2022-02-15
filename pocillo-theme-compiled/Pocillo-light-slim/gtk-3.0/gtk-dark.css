@@ -5831,12 +5831,12 @@ calendar.raven-calendar:selected {
 .budgie-notification-window button, .budgie-switcher-window button, .budgie-osd-window button {
   color: #2e313a;
 }
-.budgie-notification-window > box, .budgie-switcher-window > box, .budgie-osd-window > box {
+.budgie-notification-window > box, .budgie-switcher-window > box, .budgie-osd-window > box, .budgie-notification-window stack, .budgie-switcher-window stack, .budgie-osd-window stack {
   background-color: #2e313a;
   color: #fff;
   box-shadow: 0 3px 4px rgba(0, 0, 0, 0.28);
 }
-.budgie-notification-window > box > grid, .budgie-switcher-window > box > grid, .budgie-osd-window > box > grid {
+.budgie-notification-window > box > grid, .budgie-switcher-window > box > grid, .budgie-osd-window > box > grid, .budgie-notification-window stack > grid, .budgie-switcher-window stack > grid, .budgie-osd-window stack > grid {
   background-color: #2e313a;
   color: #fff;
 }
