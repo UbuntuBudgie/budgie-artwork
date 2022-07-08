@@ -1,8 +1,9 @@
-budgie-artwork (0.14.5~ppa) kinetic; urgency=medium
+budgie-artwork (0.15.0) kinetic; urgency=medium
 
+  * Latest merge of qogir and tela icons
   * Pocillo styling updates for mate-calc and mate-system-monitor
 
- -- David Mohammed <fossfreedom@ubuntu.com>  Tue, 28 Jun 2022 15:12:29 +0100
+ -- David Mohammed <fossfreedom@ubuntu.com>  Fri, 08 Jul 2022 10:26:23 +0100
 
 budgie-artwork (0.14.4) jammy; urgency=medium
 
