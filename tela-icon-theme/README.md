@@ -1,9 +1,8 @@
 ## Tela Icon Theme
-A flat colorful Design icon theme
+![Discord](https://img.shields.io/discord/953321802124378202?logo=discord)
+![Twitter Follow](https://img.shields.io/twitter/follow/vinceliuice)
 
-![Tela](../master/tela-dark.png)
-![Tela](../master/tela-light.png)
-
+A flat, colorful icon theme
 ## Installation
 
 Usage:  `./install.sh`  **[OPTIONS...]** **[COLOR VARIANTS...]**
@@ -31,6 +30,7 @@ Usage:  `./install.sh`  **[OPTIONS...]** **[COLOR VARIANTS...]**
 | yellow          | yellow color folder version           |
 | manjaro         | Manjaro default color folder version  |
 | ubuntu          | Ubuntu default color folder version   |
+| nord            | Nord color folder version             |
 
 By default, only **the standard one** is selected.
 
