@@ -5982,6 +5982,26 @@ calendar.raven-calendar:selected {
   border-bottom-left-radius: 4px;
 }
 
+.budgie-menu-footer {
+  border-top: 1px solid rgba(0, 0, 0, 0.12);
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+.right-overlay-menu {
+  background-color: #eceff3;
+  border-radius: 6px;
+  margin-bottom: 6px;
+  padding: 8px;
+}
+
+.left-overlay-menu {
+  background-color: #fff;
+  border-radius: 6px;
+  margin-bottom: 6px;
+  padding: 8px;
+}
+
 /**
  * Xfce4 Apps
  */

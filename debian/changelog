@@ -1,3 +1,9 @@
+budgie-artwork (0.15.1) kinetic; urgency=medium
+
+  * Pocillo styling updates for the budgie-menu overlays
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Thu, 04 Aug 2022 10:55:52 +0100
+
 budgie-artwork (0.15.0) kinetic; urgency=medium
 
   * Latest merge of qogir and tela icons
