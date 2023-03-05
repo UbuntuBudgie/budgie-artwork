@@ -8,7 +8,7 @@ fi
 
 readonly SRC_DIR=$(cd $(dirname $0) && pwd)
 
-readonly COLOR_VARIANTS=("standard" "black" "blue" "brown" "green" "grey" "orange" "pink" "purple" "red" "yellow" "manjaro" "ubuntu" "nord")
+readonly COLOR_VARIANTS=("standard" "black" "blue" "brown" "green" "grey" "orange" "pink" "purple" "red" "yellow" "manjaro" "ubuntu" "dracula" "nord")
 readonly BRIGHT_VARIANTS=("" "dark")
 
 if command -v lsb_release &> /dev/null; then
@@ -48,6 +48,7 @@ COLOR VARIANTS:
   yellow                   Yellow color folder version
   manjaro                  Manjaro default color folder version
   ubuntu                   Ubuntu default color folder version
+  dracula                  Dracula default color folder version
   nord                     nord color folder version
 
   By default, only the standard one is selected.
@@ -55,6 +56,69 @@ EOF
 }
 
 install_theme() {
+  case "$1" in
+    standard)
+      local -r theme_color='#5294e2'
+      local -r theme_back_color='#ffffff'
+      ;;
+    black)
+      local -r theme_color='#4d4d4d'
+      local -r theme_back_color='#ffffff'
+      ;;
+    blue)
+      local -r theme_color='#5677fc'
+      local -r theme_back_color='#ffffff'
+      ;;
+    brown)
+      local -r theme_color='#795548'
+      local -r theme_back_color='#ffffff'
+      ;;
+    green)
+      local -r theme_color='#66bb6a'
+      local -r theme_back_color='#ffffff'
+      ;;
+    grey)
+      local -r theme_color='#bdbdbd'
+      local -r theme_back_color='#666666'
+      ;;
+    orange)
+      local -r theme_color='#ff9800'
+      local -r theme_back_color='#ffffff'
+      ;;
+    pink)
+      local -r theme_color='#f06292'
+      local -r theme_back_color='#ffffff'
+      ;;
+    purple)
+      local -r theme_color='#7e57c2'
+      local -r theme_back_color='#ffffff'
+      ;;
+    red)
+      local -r theme_color='#ef5350'
+      local -r theme_back_color='#ffffff'
+      ;;
+    yellow)
+      local -r theme_color='#ffca28'
+      local -r theme_back_color='#ffffff'
+      ;;
+    manjaro)
+      local -r theme_color='#16a085'
+      local -r theme_back_color='#ffffff'
+      ;;
+    ubuntu)
+      local -r theme_color='#fb8441'
+      local -r theme_back_color='#ffffff'
+      ;;
+    dracula)
+      local -r theme_color='#44475a'
+      local -r theme_back_color='#f8f8f2'
+      ;;
+    nord)
+      local -r theme_color='#4d576a'
+      local -r theme_back_color='#ffffff'
+      ;;
+  esac
+
   # Appends a dash if the variables are not empty
   if [[ "$1" != "standard" ]]; then
     local -r colorprefix="-$1"
@@ -80,14 +144,33 @@ install_theme() {
 
   if [ -z "${brightprefix}" ]; then
     cp -r "${SRC_DIR}"/src/{16,22,24,32,scalable,symbolic}                       "${THEME_DIR}"
-    cp -r "${SRC_DIR}"/links/{16,22,24,32,scalable,symbolic}                     "${THEME_DIR}"
-    if [[ "${ICON_VERION}" == 'elementary' || "$DESKTOP_SESSION" == 'xfce' ]]; then
-      cp -r "${SRC_DIR}"/elementary/*                                            "${THEME_DIR}"
+
+    if [[ "$1" != "standard" ]]; then
+      sed -i "s/#5294e2/${theme_color}/g" "${THEME_DIR}/scalable/apps/"*.svg "${THEME_DIR}/scalable/places/"default-*.svg "${THEME_DIR}/16/places/"folder*.svg
+      sed -i "/\ColorScheme-Highlight/s/currentColor/${theme_color}/" "${THEME_DIR}/scalable/places/"default-*.svg "${THEME_DIR}/16/places/"folder*.svg
+      sed -i "/\ColorScheme-Background/s/currentColor/${theme_back_color}/" "${THEME_DIR}/scalable/places/"default-*.svg
+
+      if [[ "$1" == "dracula" ]]; then
+        sed -i '/\id="shadow"/s/#000000/#bd93f9/' "${THEME_DIR}/scalable/apps/"*.svg "${THEME_DIR}/scalable/places/"default-*.svg
+        sed -i '/\id="shadow"/s/ opacity=".2"//' "${THEME_DIR}/scalable/apps/"*.svg "${THEME_DIR}/scalable/places/"default-*.svg
+        sed -i '/\id="bottom_layer"/s/#44475a/#bd93f9/' "${THEME_DIR}/16/places/"folder*.svg
+        sed -i '/\id="bottom_layer"/s/ opacity="0.5"//' "${THEME_DIR}/16/places/"folder*.svg
+        sed -i "s/color:#ffffff/color:#f8f8f2/g" "${THEME_DIR}/scalable/places/"default-*.svg
+        sed -i "s/${theme_color}/#dd86e0/g" "${THEME_DIR}/scalable/places/"default-user-desktop.svg
+        sed -i '/\id="highlight"/s/opacity=".25"/opacity="0"/' "${THEME_DIR}/scalable/places/"default-user-desktop.svg
+        sed -i "s/#5294e2/#bd93f9/g" "${THEME_DIR}/scalable/devices/"*.svg "${THEME_DIR}/32/devices/"*.svg
+      elif [[ "$1" == "grey" ]]; then
+        sed -i "s/color:#ffffff/color:#666666/g" "${THEME_DIR}/scalable/places/"default-*.svg
+        sed -i "s/#5294e2/#666666/g" "${THEME_DIR}/scalable/devices/"*.svg "${THEME_DIR}/32/devices/"*.svg
+      else
+        sed -i "s/#5294e2/${theme_color}/g" "${THEME_DIR}/scalable/devices/"*.svg "${THEME_DIR}/32/devices/"*.svg
+      fi
     fi
-    if [ -n "${colorprefix}" ]; then
-      install -m644 "${SRC_DIR}"/colors/color${colorprefix}/scalable/*.svg       "${THEME_DIR}/scalable/places"
-    elif [ "${colorscheme}" == "true" ]; then
-      install -m644 "${SRC_DIR}"/colorscheme/places/*.svg                        "${THEME_DIR}/scalable/places"
+
+    cp -r "${SRC_DIR}"/links/{16,22,24,32,scalable,symbolic}                     "${THEME_DIR}"
+
+    if [[ "${ICON_VERION}" == 'elementary' || "$DESKTOP_SESSION" == 'xfce' ]]; then
+      cp -r "${SRC_DIR}/elementary/"*                                            "${THEME_DIR}"
     fi
   else
     local -r STD_THEME_DIR="${THEME_DIR%-dark}"
@@ -103,6 +186,15 @@ install_theme() {
     sed -i "s/#565656/#aaaaaa/g" "${THEME_DIR}"/{16,22,24}/actions/*.svg
     sed -i "s/#727272/#aaaaaa/g" "${THEME_DIR}"/{16,22,24}/{places,devices}/*.svg
     sed -i "s/#555555/#aaaaaa/g" "${THEME_DIR}"/symbolic/{actions,apps,categories,devices,emblems,emotes,mimetypes,places,status}/*.svg
+
+    if [[ "$1" != "standard" ]]; then
+      sed -i "s/#5294e2/${theme_color}/g" "${THEME_DIR}/16/places/"folder*.svg
+
+      if [[ "$1" == "dracula" ]]; then
+        sed -i '/\id="bottom_layer"/s/currentColor/#bd93f9/' "${THEME_DIR}/16/places/"folder*.svg
+        sed -i '/\id="bottom_layer"/s/ opacity="0.5"//' "${THEME_DIR}/16/places/"folder*.svg
+      fi
+    fi
 
     cp -r "${SRC_DIR}"/links/16/{actions,devices,places}                         "${THEME_DIR}/16"
     cp -r "${SRC_DIR}"/links/22/{actions,devices,places}                         "${THEME_DIR}/22"
@@ -123,21 +215,11 @@ install_theme() {
     ln -sr "${STD_THEME_DIR}/24/panel"                                           "${THEME_DIR}/24/panel"
   fi
 
-  if [ -n "${colorprefix}" ]; then
-    install -m644 "${SRC_DIR}"/colors/color${colorprefix}/16/*.svg              "${THEME_DIR}/16/places"
-  fi
-
   ln -sr "${THEME_DIR}/16"                                                       "${THEME_DIR}/16@2x"
   ln -sr "${THEME_DIR}/22"                                                       "${THEME_DIR}/22@2x"
   ln -sr "${THEME_DIR}/24"                                                       "${THEME_DIR}/24@2x"
   ln -sr "${THEME_DIR}/32"                                                       "${THEME_DIR}/32@2x"
   ln -sr "${THEME_DIR}/scalable"                                                 "${THEME_DIR}/scalable@2x"
-  
-  ln -sr "${THEME_DIR}/16"                                                       "${THEME_DIR}/16@3x"
-  ln -sr "${THEME_DIR}/22"                                                       "${THEME_DIR}/22@3x"
-  ln -sr "${THEME_DIR}/24"                                                       "${THEME_DIR}/24@3x"
-  ln -sr "${THEME_DIR}/32"                                                       "${THEME_DIR}/32@3x"
-  ln -sr "${THEME_DIR}/scalable"                                                 "${THEME_DIR}/scalable@3x"
 
   gtk-update-icon-cache "${THEME_DIR}"
 }

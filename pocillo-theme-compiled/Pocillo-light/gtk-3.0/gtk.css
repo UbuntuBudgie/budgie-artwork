@@ -4576,6 +4576,7 @@ window.background.chromium > button {
 }
 window.background.chromium > button {
   color: #2767aa;
+  border-color: #bdbdbd;
 }
 window.background.chromium > button:disabled {
   color: rgba(0, 0, 0, 0.26);
@@ -5851,19 +5852,16 @@ calendar.raven-calendar:selected {
 }
 
 .budgie-notification-window, .budgie-switcher-window, .budgie-osd-window {
-  background-color: transparent;
-  color: #f5f6f7;
-}
-.budgie-notification-window button, .budgie-switcher-window button, .budgie-osd-window button {
-  color: #f5f6f7;
-}
-.budgie-notification-window > box, .budgie-switcher-window > box, .budgie-osd-window > box, .budgie-notification-window stack, .budgie-switcher-window stack, .budgie-osd-window stack {
   background-color: #f5f6f7;
   color: black;
-  box-shadow: 0 3px 4px rgba(0, 0, 0, 0.28);
+  border-radius: 4px;
 }
-.budgie-notification-window > box > grid, .budgie-switcher-window > box > grid, .budgie-osd-window > box > grid, .budgie-notification-window stack > grid, .budgie-switcher-window stack > grid, .budgie-osd-window stack > grid {
-  background-color: #f5f6f7;
+.budgie-notification-window box, .budgie-switcher-window box, .budgie-osd-window box, .budgie-notification-window stack, .budgie-switcher-window stack, .budgie-osd-window stack {
+  background-color: transparent;
+  border: none;
+  box-shadow: none;
+}
+.budgie-notification-window button, .budgie-switcher-window button, .budgie-osd-window button {
   color: black;
 }
 

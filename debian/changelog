@@ -1,3 +1,14 @@
+budgie-artwork (0.16.0) lunar; urgency=medium
+
+  * Lunar release of themes and icons
+    - Pocillo styling fixes for chrome browser
+    - Latest merge of qogir and tela icons
+    - Latest QogirBudgie theme
+  * Packaging Changes
+    - d/rules: Build QogirBudgie using upstream parameters
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Wed, 01 Mar 2023 22:50:06 +0000
+
 budgie-artwork (0.15.1) kinetic; urgency=medium
 
   * Pocillo styling updates for the budgie-menu overlays
