@@ -1,3 +1,9 @@
+budgie-artwork (0.16.1) lunar; urgency=medium
+
+  * Remove icon that overrides incorrectly budgie screenshot icon
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Thu, 16 Mar 2023 16:25:33 +0000
+
 budgie-artwork (0.16.0) lunar; urgency=medium
 
   * Lunar release of themes and icons
