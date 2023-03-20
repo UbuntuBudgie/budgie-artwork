@@ -1,3 +1,9 @@
+budgie-artwork (0.16.2) lunar; urgency=medium
+
+  * Resolve double height titlebar for gtk 3 based apps
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Mon, 20 Mar 2023 22:02:05 +0000
+
 budgie-artwork (0.16.1) lunar; urgency=medium
 
   * Remove icon that overrides incorrectly budgie screenshot icon

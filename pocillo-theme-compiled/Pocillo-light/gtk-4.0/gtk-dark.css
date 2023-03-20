@@ -1435,15 +1435,15 @@ windowcontrols:not(:only-child):not(.empty).start:dir(rtl), windowcontrols:not(:
   box-shadow: 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
 }
 .titlebar.default-decoration {
-  min-height: 24px;
-  padding: 6px;
+  min-height: 0;
+  padding: 0px;
   box-shadow: inset 0 1px rgba(255, 255, 255, 0.05);
 }
 .tiled .titlebar.default-decoration, .maximized .titlebar.default-decoration, .fullscreen .titlebar.default-decoration {
   box-shadow: none;
 }
 .titlebar.default-decoration button.titlebutton {
-  min-height: 24px;
+  min-height: 0;
   min-width: 24px;
   margin: 0;
   padding: 0;
