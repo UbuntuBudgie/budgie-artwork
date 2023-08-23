@@ -1,14 +1,1 @@
-<svg width="64" height="64" version="1.1" xmlns="http://www.w3.org/2000/svg">
- <g transform="matrix(1.2727 0 0 1.2727 -488 -637.2)">
-  <g stroke-linejoin="round" stroke-width="2">
-   <path d="m387.57 508.8h41.999v34h-41.999z" fill="#35383b"/>
-   <path d="m386.57 507.73v36.143h44v-36.143zm2 2.0079h40v32.127h-40z" fill="#d2d8db" stroke-width="2.004"/>
-  </g>
-  <g transform="translate(71.5,22.75)">
-   <g stroke-linejoin="bevel">
-    <path d="m324.08 493.05v19.996l8-3.996v-12c-2.334-1.333-5.667-2.668-8-4m26 0-8 4v12h8e-3l7.992 4zm-17 4v12h8v-12z" fill="#0abafc"/>
-    <circle cx="347.08" cy="498.05" r="1" fill="#ffffff" fill-rule="evenodd" stroke-width=".2"/>
-   </g>
-  </g>
- </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64"><rect width="56" height="46" x="4" y="9" fill="#d2d8db" rx="6" ry="6"/><rect width="50" height="40" x="7" y="12" fill="#35383b" rx="3" ry="3"/><path fill="#0abafc" d="M15.455 19.259v25.449l10.182-5.086V24.35c-2.97-1.696-7.212-3.395-10.182-5.09m33.09 0-10.182 5.09v15.272h.01l10.171 5.091zm-21.636 5.09v15.272h10.182V24.35z"/><circle cx="44.727" cy="25.622" r="1.273" fill="#fff" fill-rule="evenodd"/></svg>
