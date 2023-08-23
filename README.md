@@ -1,6 +1,8 @@
 budgie-artwork
 ==============
 
+[![](https://opencollective.com/ubuntubudgie/tiers/backer.svg?avatarHeight=96)](https://opencollective.com/ubuntubudgie)
+
 Artwork for Ubuntu Budgie
 
 Contains all the artwork for Ubuntu including LightDM and its Greeter
