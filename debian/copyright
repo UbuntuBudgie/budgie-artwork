@@ -19,15 +19,6 @@ License: LGPL-2.1
  '/usr/share/common-licenses/LGPL-2.1'.
 
 Files:
-    usr/share/plymouth/themes/ubuntu-budgie-logo/ubuntu-budgie-logo-scale-2.script
-    usr/share/plymouth/themes/ubuntu-budgie-logo/ubuntu-budgie-logo.script
-Copyright:
-    2009, Canonical Ltd.
-    2014, Ubuntu MATE Developers
-    2016-2021, HEXcube and David Mohammed
-License: GPL-2+
-
-Files:
     pocillo/Pocillo/*
 Copyright:
     2017-2021 David Mohammed <fossfreedom@ubuntu.com>
@@ -37,8 +28,8 @@ License: GPL-3
 
 Files:
     pocillo-theme/*
-Copyright: 2015-2021 nana-4 <emailaddress@unknown>
- 2018-2021 David Mohammed <fossfreedom@ubuntu.com>
+Copyright: 2016 jimmac <emailaddress@unknown>
+ 2018-2024 David Mohammed <fossfreedom@ubuntu.com>
 License: GPL-2+
 
 Files:

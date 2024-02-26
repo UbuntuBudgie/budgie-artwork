@@ -5,7 +5,7 @@ Maintainer: David Mohammed <fossfreedom@ubuntu.com>
 Standards-Version: 4.5.1
 Vcs-Browser: https://github.com/UbuntuBudgie/budgie-artwork/tree/debian
 Vcs-Git: https://github.com/UbuntuBudgie/budgie-artwork -b debian
-Build-Depends: debhelper (>= 13),
+Build-Depends: 
  debhelper-compat (=13),
  gtk-update-icon-cache,
  gtk2-engines-pixbuf,
@@ -42,7 +42,7 @@ Description: LightDM Session for Ubuntu Budgie
 
 Package: plymouth-theme-ubuntu-budgie-logo
 Architecture: all
-Depends: ${misc:Depends}, plymouth, plymouth-label
+Depends: ${misc:Depends}, plymouth, plymouth-theme-spinner
 Provides: plymouth-theme
 Breaks: plymouth (<< 0.9.2-3ubuntu1~),
 Description: graphical boot animation and logger - Ubuntu Budgie logo theme

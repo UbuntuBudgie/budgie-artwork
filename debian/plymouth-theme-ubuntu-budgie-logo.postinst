@@ -25,12 +25,6 @@ case "$1" in
 		--slave /usr/share/plymouth/themes/default.grub default.plymouth.grub \
 		/usr/share/plymouth/themes/ubuntu-budgie-logo/ubuntu-budgie-logo.grub
 
-	update-alternatives \
-		--install /usr/share/plymouth/themes/default.plymouth default.plymouth \
-		/usr/share/plymouth/themes/ubuntu-budgie-logo/ubuntu-budgie-logo-scale-2.plymouth 149 \
-		--slave /usr/share/plymouth/themes/default.grub default.plymouth.grub \
-		/usr/share/plymouth/themes/ubuntu-budgie-logo/ubuntu-budgie-logo.grub
-
 	if which update-initramfs >/dev/null 2>&1
 	then
 	    update-initramfs -u

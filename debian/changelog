@@ -1,3 +1,9 @@
+budgie-artwork (0.18.0) noble; urgency=medium
+
+  * Rework our plymouth theme to be based on a spinner
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Sun, 25 Feb 2024 10:44:37 +0000
+
 budgie-artwork (0.17.0) mantic; urgency=medium
 
   * Mantic release of themes and icons
