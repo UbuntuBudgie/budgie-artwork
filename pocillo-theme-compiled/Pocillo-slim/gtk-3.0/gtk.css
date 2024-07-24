@@ -5606,6 +5606,26 @@ window.background > box.vertical > box.vertical box.vertical > grid.horizontal b
 .budgie-panel button.flat.launcher:not(:checked):disabled {
   color: rgba(255, 255, 255, 0.26);
 }
+.bottom .budgie-panel.dock-mode {
+  border-radius: 10px 10px 10px 10px;
+  margin-bottom: 5px;
+}
+
+.top .budgie-panel.dock-mode {
+  border-radius: 10px 10px 10px 10px;
+  margin-top: 5px;
+}
+
+.left .budgie-panel.dock-mode {
+  border-radius: 10px 10px 10px 10px;
+  margin-left: 5px;
+}
+
+.right .budgie-panel.dock-mode {
+  border-radius: 10px 10px 10px 10px;
+  margin-right: 5px;
+}
+
 .top .budgie-panel #tasklist-button, .budgie-panel .top #tasklist-button, .top .budgie-panel button.flat.launcher, .budgie-panel .top button.flat.launcher {
   border-image: radial-gradient(circle closest-corner at center calc(1px), currentcolor 0%, transparent 0%) 0 0 0 0/0 0 0 0;
 }
@@ -5852,14 +5872,14 @@ calendar.raven-calendar:selected {
 }
 
 .budgie-notification-window, .budgie-switcher-window, .budgie-osd-window {
+  background-color: transparent;
+}
+.budgie-notification-window .drop-shadow, .budgie-switcher-window .drop-shadow, .budgie-osd-window .drop-shadow {
   background-color: #2e313a;
   color: #fff;
   border-radius: 4px;
-}
-.budgie-notification-window box, .budgie-switcher-window box, .budgie-osd-window box, .budgie-notification-window stack, .budgie-switcher-window stack, .budgie-osd-window stack {
-  background-color: transparent;
-  border: none;
-  box-shadow: none;
+  padding: 4px;
+  margin: 0;
 }
 .budgie-notification-window button, .budgie-switcher-window button, .budgie-osd-window button {
   color: #fff;
@@ -5867,9 +5887,6 @@ calendar.raven-calendar:selected {
 
 .budgie-notification .notification-title, .budgie-switcher .notification-title {
   font-size: 120%;
-}
-.budgie-notification .notification-body, .budgie-switcher .notification-body {
-  color: #fff;
 }
 
 .budgie-osd .budgie-osd-text {

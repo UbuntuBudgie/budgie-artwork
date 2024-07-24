@@ -1,3 +1,10 @@
+budgie-artwork (0.20.0) oracular; urgency=medium
+
+  * pull in latest tela/qogir icon theme from upstream
+  * install with the latest Pocillo which includes budgie-dock theming
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Wed, 24 Jul 2024 22:13:13 +0100
+
 budgie-artwork (0.19.0) noble; urgency=medium
 
   * Update mascots/logos for noble (LP: #2056591)
