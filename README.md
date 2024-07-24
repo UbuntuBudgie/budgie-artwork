@@ -18,9 +18,11 @@ To refresh the tela icons in our project git fork:
     cd ~/Downloads
     git clone https://github.com/ubuntubudgie/tela-icon-theme
     cd tela-icon-theme
+    cp src/scalable/apps/distributor-logo-ubuntu-budgie.svg ..
     git remote add upstream https://github.com/vinceliuice/tela-icon-theme
     git fetch upstream
     git merge upstream/master
+    mv ../distributor-logo-ubuntu-budgie.svg src/scalable/apps/
     git commit -m "Latest tela icons"
     git push
 
