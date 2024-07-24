@@ -14,13 +14,13 @@ readonly BRIGHT_VARIANTS=("" "light" "dark")
 if command -v lsb_release &> /dev/null; then
   Distributor_ID=$(lsb_release -i)
   if [[ "${Distributor_ID}" == "Distributor ID:	elementary" || "${Distributor_ID}" == "Distributor ID:	Elementary" ]]; then
-    ICON_VERION="elementary"
+    ICON_VERSION="elementary"
   else
-    ICON_VERION="normal"
+    ICON_VERSION="normal"
   fi
-  echo -e "Install $ICON_VERION version! ..."
+  echo -e "Install $ICON_VERSION version! ..."
 else
-  ICON_VERION="normal"
+  ICON_VERSION="normal"
 fi
 
 usage() {
@@ -169,7 +169,7 @@ install_theme() {
 
     cp -r "${SRC_DIR}"/links/{16,22,24,32,scalable,symbolic}                     "${THEME_DIR}"
 
-    if [[ "${ICON_VERION}" == 'elementary' || "$DESKTOP_SESSION" == 'xfce' ]]; then
+    if [[ "${ICON_VERSION}" == 'elementary' || "$DESKTOP_SESSION" == 'xfce' ]]; then
       cp -r "${SRC_DIR}/elementary/"*                                            "${THEME_DIR}"
     fi
   fi
@@ -224,7 +224,7 @@ install_theme() {
     # Change icon color for dark theme
     sed -i "s/#565656/#aaaaaa/g" "${THEME_DIR}"/{16,22,24}/actions/*.svg
     sed -i "s/#727272/#aaaaaa/g" "${THEME_DIR}"/{16,22,24}/{places,devices}/*.svg
-    sed -i "s/#555555/#aaaaaa/g" "${THEME_DIR}"/symbolic/{actions,apps,categories,devices,emblems,emotes,mimetypes,places,status}/*.svg
+    sed -i "s/#565656/#aaaaaa/g" "${THEME_DIR}"/symbolic/{actions,apps,categories,devices,emblems,emotes,mimetypes,places,status}/*.svg
 
     if [[ "$1" != "standard" ]]; then
       sed -i "s/#5294e2/${theme_color}/g" "${THEME_DIR}/16/places/"folder*.svg
@@ -269,7 +269,6 @@ while [ $# -gt 0 ]; do
   elif [[ "$1" = "-c" ]]; then
     colorscheme="true"
     echo "Folder color will follow the colorscheme on KDE plasma ..."
-    shift
   elif [[ "$1" = "-d" ]]; then
     DEST_DIR="$2"
     shift
