@@ -42,6 +42,16 @@ merge Qogir icons and save
     git commit -m "Merge latest tela/qogir icons"
     git push
 
+Finally create our Pocillo variants
+
+    cd pocillo-icons-compiled
+    rm -rf *
+    cp -r ../pocillo/Pocillo ./Pocillo
+    cp -r ../pocillo/Pocillo-light ./Pocillo-light
+    nano Pocillo/index.theme
+    update this line to read Inherits=TelaBudgie-dark
+
+
 ---
 
 Use the following to initialise and pull the linked git repos

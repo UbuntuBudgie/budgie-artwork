@@ -1,3 +1,10 @@
+budgie-artwork (0.21.0) plucky; urgency=medium
+
+  * Create a light variant of the pocillo icon theme and ensure
+    Pocillo defaults to using tela dark icons
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Tue, 21 Jan 2025 21:23:19 +0000
+
 budgie-artwork (0.20.0) oracular; urgency=medium
 
   * pull in latest tela/qogir icon theme from upstream
