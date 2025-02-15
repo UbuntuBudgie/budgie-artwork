@@ -1,3 +1,14 @@
+budgie-artwork (0.21.1) plucky; urgency=medium
+
+  * With the debian merge the ubuntu only lightdm-session script is no
+    longer installed and lightdm doesn't default to lightdm-session
+    (apparently).  We'll install a copy of the noble script renamed
+    as budgie-lightdm-session will now be installed and our lightdm
+    config file includes a session-wrapper key-pair for this new file
+    (LP: #2098411)
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Sat, 15 Feb 2025 18:28:55 +0000
+
 budgie-artwork (0.21.0) plucky; urgency=medium
 
   * Create a light variant of the pocillo icon theme and ensure

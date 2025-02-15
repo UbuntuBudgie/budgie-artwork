@@ -1,1 +1,2 @@
 etc/lightdm/lightdm.conf.d
+usr/bin/budgie-lightdm-session
