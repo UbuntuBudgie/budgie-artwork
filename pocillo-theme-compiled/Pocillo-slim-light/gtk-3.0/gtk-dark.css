@@ -5373,6 +5373,9 @@ window.background > box.vertical > box.vertical box.vertical > grid.horizontal b
   border: none;
   background-color: transparent;
 }
+.budgie-popover scrolledwindow.sidebar:not(.categories) label {
+  padding: 4px 6px;
+}
 .budgie-popover row {
   padding: 0;
 }
@@ -5521,7 +5524,7 @@ window.background > box.vertical > box.vertical box.vertical > grid.horizontal b
   font-weight: 500;
 }
 .budgie-panel.transparent {
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(32, 34, 42, 0.5);
 }
 .budgie-panel button {
   min-height: 16px;
@@ -5745,7 +5748,7 @@ frame.raven-frame > border {
   border-radius: 9999px;
 }
 .raven .raven-background stackswitcher.linked > button {
-  margin: -2px 8px 9px;
+  margin: 9px 8px 9px;
   padding: 0 12px;
   min-height: 32px;
   border-radius: 9999px;
