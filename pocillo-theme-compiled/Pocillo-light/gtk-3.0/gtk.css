@@ -5520,7 +5520,7 @@ window.background > box.vertical > box.vertical box.vertical > grid.horizontal b
 .budgie-panel {
   transition: background-color 75ms cubic-bezier(0, 0, 0.2, 1);
   background-color: #383c4a;
-  color: rgba(255, 255, 255, 0.6);
+  color: #FFFFFF;
   font-weight: 500;
 }
 .budgie-panel.transparent {
@@ -5531,7 +5531,7 @@ window.background > box.vertical > box.vertical box.vertical > grid.horizontal b
   min-width: 16px;
   padding: 0;
   border-radius: 0;
-  color: rgba(255, 255, 255, 0.6);
+  color: #FFFFFF;
   box-shadow: none;
   background-color: transparent;
 }
@@ -5629,35 +5629,35 @@ window.background > box.vertical > box.vertical box.vertical > grid.horizontal b
   margin-right: 5px;
 }
 
-.top .budgie-panel #tasklist-button, .budgie-panel .top #tasklist-button, .top .budgie-panel button.flat.launcher, .budgie-panel .top button.flat.launcher {
+.top .budgie-panel #tasklist-button, .budgie-panel .top #tasklist-button {
   border-image: radial-gradient(circle closest-corner at center calc(1px), currentcolor 0%, transparent 0%) 0 0 0 0/0 0 0 0;
 }
 .budgie-panel .unpinned button.flat.launcher,
-.budgie-panel .pinned button.flat.launcher.running, .top .budgie-panel #tasklist-button:checked, .budgie-panel .top #tasklist-button:checked, .top .budgie-panel button.flat.launcher:checked, .budgie-panel .top button.flat.launcher:checked {
+.budgie-panel .pinned button.flat.launcher.running, .top .budgie-panel #tasklist-button:checked, .budgie-panel .top #tasklist-button:checked {
   border-image: radial-gradient(circle closest-corner at center calc(1px), currentcolor 100%, transparent 0%) 2 0 0 0/2px 0 0 0;
 }
 
-.bottom .budgie-panel #tasklist-button, .budgie-panel .bottom #tasklist-button, .bottom .budgie-panel button.flat.launcher, .budgie-panel .bottom button.flat.launcher {
+.bottom .budgie-panel #tasklist-button, .budgie-panel .bottom #tasklist-button {
   border-image: radial-gradient(circle closest-corner at center calc(100% - 1px), currentcolor 0%, transparent 0%) 0 0 0 0/0 0 0 0;
 }
 .budgie-panel .unpinned button.flat.launcher,
-.budgie-panel .pinned button.flat.launcher.running, .bottom .budgie-panel #tasklist-button:checked, .budgie-panel .bottom #tasklist-button:checked, .bottom .budgie-panel button.flat.launcher:checked, .budgie-panel .bottom button.flat.launcher:checked {
+.budgie-panel .pinned button.flat.launcher.running, .bottom .budgie-panel #tasklist-button:checked, .budgie-panel .bottom #tasklist-button:checked {
   border-image: radial-gradient(circle closest-corner at center calc(100% - 1px), currentcolor 100%, transparent 0%) 0 0 2 0/0 0 2px 0;
 }
 
-.left .budgie-panel #tasklist-button, .budgie-panel .left #tasklist-button, .left .budgie-panel button.flat.launcher, .budgie-panel .left button.flat.launcher {
+.left .budgie-panel #tasklist-button, .budgie-panel .left #tasklist-button {
   border-image: radial-gradient(circle closest-corner at calc(1px) center, currentcolor 0%, transparent 0%) 0 0 0 0/0 0 0 0;
 }
 .budgie-panel .unpinned button.flat.launcher,
-.budgie-panel .pinned button.flat.launcher.running, .left .budgie-panel #tasklist-button:checked, .budgie-panel .left #tasklist-button:checked, .left .budgie-panel button.flat.launcher:checked, .budgie-panel .left button.flat.launcher:checked {
+.budgie-panel .pinned button.flat.launcher.running, .left .budgie-panel #tasklist-button:checked, .budgie-panel .left #tasklist-button:checked {
   border-image: radial-gradient(circle closest-corner at calc(1px) center, currentcolor 100%, transparent 0%) 0 0 0 2/0 0 0 2px;
 }
 
-.right .budgie-panel #tasklist-button, .budgie-panel .right #tasklist-button, .right .budgie-panel button.flat.launcher, .budgie-panel .right button.flat.launcher {
+.right .budgie-panel #tasklist-button, .budgie-panel .right #tasklist-button {
   border-image: radial-gradient(circle closest-corner at calc(100% - 1px) center, currentcolor 0%, transparent 0%) 0 0 0 0/0 0 0 0;
 }
 .budgie-panel .unpinned button.flat.launcher,
-.budgie-panel .pinned button.flat.launcher.running, .right .budgie-panel #tasklist-button:checked, .budgie-panel .right #tasklist-button:checked, .right .budgie-panel button.flat.launcher:checked, .budgie-panel .right button.flat.launcher:checked {
+.budgie-panel .pinned button.flat.launcher.running, .right .budgie-panel #tasklist-button:checked, .budgie-panel .right #tasklist-button:checked {
   border-image: radial-gradient(circle closest-corner at calc(100% - 1px) center, currentcolor 100%, transparent 0%) 0 2 0 0/0 2px 0 0;
 }
 

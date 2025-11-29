@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=Pocillo-slim-darkest
+Comment=A Material Design theme
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=Pocillo-slim-darkest
+MetacityTheme=Pocillo-slim-darkest
+IconTheme=Adwaita
+CursorTheme=Adwaita
+CursorSize=24

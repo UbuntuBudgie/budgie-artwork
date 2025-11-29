@@ -47,7 +47,7 @@ Finally create our Pocillo variants
     cd pocillo-icons-compiled
     rm -rf *
     cp -r ../pocillo/Pocillo ./Pocillo
-    cp -r ../pocillo/Pocillo-light ./Pocillo-light
+    cp -r ../pocillo/Pocillo ./Pocillo-light
     nano Pocillo/index.theme
     update this line to read Inherits=TelaBudgie-dark
 
