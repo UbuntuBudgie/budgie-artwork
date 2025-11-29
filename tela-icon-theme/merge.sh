@@ -18,5 +18,3 @@ cp -r qogir-icon-theme/links/22/panel/* links/22/panel/
 cp -r qogir-icon-theme/links/24/panel/* links/24/panel/
 
 rm -rf qogir-icon-theme
-
-rm ./src/symbolic/actions/shootscreen-symbolic.svg

@@ -1,20 +1,9 @@
-budgie-artwork (0.21.3~ppaubuntu1) plucky; urgency=medium
+budgie-artwork (0.22.0) resolute; urgency=medium
 
-  * Use the release version for the wayland PPA
+  * Latest pocillo-gtk-theme with labwc and addition colour variants
+  * Latest pocillo-icon-theme
 
- -- David Mohammed <fossfreedom@ubuntu.com>  Mon, 21 Apr 2025 11:19:05 +0100
-
-budgie-artwork (0.21.2~ppaubuntu1) plucky; urgency=medium
-
-  * Revised pocillo theme
-
- -- David Mohammed <fossfreedom@ubuntu.com>  Mon, 24 Feb 2025 23:23:20 +0000
-
-budgie-artwork (0.21.2~ppa) plucky; urgency=medium
-
-  * Add openbox theme
-
- -- David Mohammed <fossfreedom@ubuntu.com>  Sun, 16 Feb 2025 21:28:40 +0000
+ -- David Mohammed <fossfreedom@ubuntu.com>  Sat, 29 Nov 2025 10:13:38 +0000
 
 budgie-artwork (0.21.1) plucky; urgency=medium
 
