@@ -2,6 +2,7 @@ budgie-artwork (0.22.0) resolute; urgency=medium
 
   * Latest pocillo-gtk-theme with labwc and addition colour variants
   * Latest pocillo-icon-theme
+  * Latest qogir theme
 
  -- David Mohammed <fossfreedom@ubuntu.com>  Sat, 29 Nov 2025 10:13:38 +0000
 
