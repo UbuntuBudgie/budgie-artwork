@@ -2089,11 +2089,11 @@ switch:checked:active > slider {
 }
 .view.content-view.check:not(list),
 .content-view:not(list) .tile check {
-  -gtk-icon-source: -gtk-scaled(url("assets/selectionmode-checkbox-unchecked-dark.png"), url("assets/selectionmode-checkbox-unchecked-dark@2.png"));
+  -gtk-icon-source: -gtk-scaled(url("assets/selectionmode-checkbox-unchecked-dark.svg"), url("assets/selectionmode-checkbox-unchecked-dark@2.svg"));
 }
 .view.content-view.check:not(list):checked,
 .content-view:not(list) .tile check:checked {
-  -gtk-icon-source: -gtk-scaled(url("assets/selectionmode-checkbox-checked-dark.png"), url("assets/selectionmode-checkbox-checked-dark@2.png"));
+  -gtk-icon-source: -gtk-scaled(url("assets/selectionmode-checkbox-checked-dark.svg"), url("assets/selectionmode-checkbox-checked-dark@2.svg"));
 }
 
 checkbutton,
@@ -2293,10 +2293,10 @@ scale > trough > slider {
   color: #8CAAEE;
 }
 scale > trough > slider {
-  background-image: -gtk-scaled(url("assets/scale-slider-dark.png"), url("assets/scale-slider-dark@2.png")), radial-gradient(circle, transparent 10%, transparent 10%);
+  background-image: -gtk-scaled(url("assets/scale-slider-dark.svg"), url("assets/scale-slider-dark@2.svg")), radial-gradient(circle, transparent 10%, transparent 10%);
 }
 scale > trough > slider:disabled {
-  background-image: -gtk-scaled(url("assets/scale-slider-disabled-dark.png"), url("assets/scale-slider-disabled-dark@2.png")), radial-gradient(circle, transparent 10%, transparent 10%);
+  background-image: -gtk-scaled(url("assets/scale-slider-disabled-dark.svg"), url("assets/scale-slider-disabled-dark@2.svg")), radial-gradient(circle, transparent 10%, transparent 10%);
 }
 scale > trough > slider:hover {
   background-color: rgba(140, 170, 238, 0.12);
@@ -2307,7 +2307,7 @@ scale > trough > slider:focus {
 scale > trough > slider:active {
   transition: background-color 75ms cubic-bezier(0, 0, 0.2, 1), background-size 0ms, background-image 0ms;
   animation: ripple-on-slider 225ms cubic-bezier(0, 0, 0.2, 1) forwards;
-  background-image: -gtk-scaled(url("assets/scale-slider-dark.png"), url("assets/scale-slider-dark@2.png")), radial-gradient(circle, rgba(140, 170, 238, 0.16) 10%, transparent 10%);
+  background-image: -gtk-scaled(url("assets/scale-slider-dark.svg"), url("assets/scale-slider-dark@2.svg")), radial-gradient(circle, rgba(140, 170, 238, 0.16) 10%, transparent 10%);
   background-size: auto, 0% 0%;
 }
 scale > marks,
@@ -2361,40 +2361,40 @@ scale.vertical indicator {
   min-width: 8px;
 }
 scale.horizontal.marks-before:not(.marks-after) > trough > slider {
-  background-image: -gtk-scaled(url("assets/scale-horz-marks-before-slider-dark.png"), url("assets/scale-horz-marks-before-slider-dark@2.png")), radial-gradient(circle, transparent 10%, transparent 10%);
+  background-image: -gtk-scaled(url("assets/scale-horz-marks-before-slider-dark.svg"), url("assets/scale-horz-marks-before-slider-dark@2.svg")), radial-gradient(circle, transparent 10%, transparent 10%);
 }
 scale.horizontal.marks-before:not(.marks-after) > trough > slider:disabled {
-  background-image: -gtk-scaled(url("assets/scale-horz-marks-before-slider-disabled-dark.png"), url("assets/scale-horz-marks-before-slider-disabled-dark@2.png")), radial-gradient(circle, transparent 10%, transparent 10%);
+  background-image: -gtk-scaled(url("assets/scale-horz-marks-before-slider-disabled-dark.svg"), url("assets/scale-horz-marks-before-slider-disabled-dark@2.svg")), radial-gradient(circle, transparent 10%, transparent 10%);
 }
 scale.horizontal.marks-before:not(.marks-after) > trough > slider:active {
-  background-image: -gtk-scaled(url("assets/scale-horz-marks-before-slider-dark.png"), url("assets/scale-horz-marks-before-slider-dark@2.png")), radial-gradient(circle, rgba(140, 170, 238, 0.16) 10%, transparent 10%);
+  background-image: -gtk-scaled(url("assets/scale-horz-marks-before-slider-dark.svg"), url("assets/scale-horz-marks-before-slider-dark@2.svg")), radial-gradient(circle, rgba(140, 170, 238, 0.16) 10%, transparent 10%);
 }
 scale.horizontal.marks-after:not(.marks-before) > trough > slider {
-  background-image: -gtk-scaled(url("assets/scale-horz-marks-after-slider-dark.png"), url("assets/scale-horz-marks-after-slider-dark@2.png")), radial-gradient(circle, transparent 10%, transparent 10%);
+  background-image: -gtk-scaled(url("assets/scale-horz-marks-after-slider-dark.svg"), url("assets/scale-horz-marks-after-slider-dark@2.svg")), radial-gradient(circle, transparent 10%, transparent 10%);
 }
 scale.horizontal.marks-after:not(.marks-before) > trough > slider:disabled {
-  background-image: -gtk-scaled(url("assets/scale-horz-marks-after-slider-disabled-dark.png"), url("assets/scale-horz-marks-after-slider-disabled-dark@2.png")), radial-gradient(circle, transparent 10%, transparent 10%);
+  background-image: -gtk-scaled(url("assets/scale-horz-marks-after-slider-disabled-dark.svg"), url("assets/scale-horz-marks-after-slider-disabled-dark@2.svg")), radial-gradient(circle, transparent 10%, transparent 10%);
 }
 scale.horizontal.marks-after:not(.marks-before) > trough > slider:active {
-  background-image: -gtk-scaled(url("assets/scale-horz-marks-after-slider-dark.png"), url("assets/scale-horz-marks-after-slider-dark@2.png")), radial-gradient(circle, rgba(140, 170, 238, 0.16) 10%, transparent 10%);
+  background-image: -gtk-scaled(url("assets/scale-horz-marks-after-slider-dark.svg"), url("assets/scale-horz-marks-after-slider-dark@2.svg")), radial-gradient(circle, rgba(140, 170, 238, 0.16) 10%, transparent 10%);
 }
 scale.vertical.marks-before:not(.marks-after) > trough > slider {
-  background-image: -gtk-scaled(url("assets/scale-vert-marks-before-slider-dark.png"), url("assets/scale-vert-marks-before-slider-dark@2.png")), radial-gradient(circle, transparent 10%, transparent 10%);
+  background-image: -gtk-scaled(url("assets/scale-vert-marks-before-slider-dark.svg"), url("assets/scale-vert-marks-before-slider-dark@2.svg")), radial-gradient(circle, transparent 10%, transparent 10%);
 }
 scale.vertical.marks-before:not(.marks-after) > trough > slider:disabled {
-  background-image: -gtk-scaled(url("assets/scale-vert-marks-before-slider-disabled-dark.png"), url("assets/scale-vert-marks-before-slider-disabled-dark@2.png")), radial-gradient(circle, transparent 10%, transparent 10%);
+  background-image: -gtk-scaled(url("assets/scale-vert-marks-before-slider-disabled-dark.svg"), url("assets/scale-vert-marks-before-slider-disabled-dark@2.svg")), radial-gradient(circle, transparent 10%, transparent 10%);
 }
 scale.vertical.marks-before:not(.marks-after) > trough > slider:active {
-  background-image: -gtk-scaled(url("assets/scale-vert-marks-before-slider-dark.png"), url("assets/scale-vert-marks-before-slider-dark@2.png")), radial-gradient(circle, rgba(140, 170, 238, 0.16) 10%, transparent 10%);
+  background-image: -gtk-scaled(url("assets/scale-vert-marks-before-slider-dark.svg"), url("assets/scale-vert-marks-before-slider-dark@2.svg")), radial-gradient(circle, rgba(140, 170, 238, 0.16) 10%, transparent 10%);
 }
 scale.vertical.marks-after:not(.marks-before) > trough > slider {
-  background-image: -gtk-scaled(url("assets/scale-vert-marks-after-slider-dark.png"), url("assets/scale-vert-marks-after-slider-dark@2.png")), radial-gradient(circle, transparent 10%, transparent 10%);
+  background-image: -gtk-scaled(url("assets/scale-vert-marks-after-slider-dark.svg"), url("assets/scale-vert-marks-after-slider-dark@2.svg")), radial-gradient(circle, transparent 10%, transparent 10%);
 }
 scale.vertical.marks-after:not(.marks-before) > trough > slider:disabled {
-  background-image: -gtk-scaled(url("assets/scale-vert-marks-after-slider-disabled-dark.png"), url("assets/scale-vert-marks-after-slider-disabled-dark@2.png")), radial-gradient(circle, transparent 10%, transparent 10%);
+  background-image: -gtk-scaled(url("assets/scale-vert-marks-after-slider-disabled-dark.svg"), url("assets/scale-vert-marks-after-slider-disabled-dark@2.svg")), radial-gradient(circle, transparent 10%, transparent 10%);
 }
 scale.vertical.marks-after:not(.marks-before) > trough > slider:active {
-  background-image: -gtk-scaled(url("assets/scale-vert-marks-after-slider-dark.png"), url("assets/scale-vert-marks-after-slider-dark@2.png")), radial-gradient(circle, rgba(140, 170, 238, 0.16) 10%, transparent 10%);
+  background-image: -gtk-scaled(url("assets/scale-vert-marks-after-slider-dark.svg"), url("assets/scale-vert-marks-after-slider-dark@2.svg")), radial-gradient(circle, rgba(140, 170, 238, 0.16) 10%, transparent 10%);
 }
 scale.color {
   min-height: 0;
@@ -3462,6 +3462,10 @@ popover.entry-completion > contents treeview.view > .cell:selected:hover {
 
 .titlebar:backdrop {
   color: #f4b8e4;
+}
+
+.titlebar button:not(.suggested-action):not(.destructive-action) {
+  color: #C6D0F5;
 }
 
 .titlebar:backdrop button:not(.suggested-action):not(.destructive-action) {

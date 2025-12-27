@@ -1,3 +1,9 @@
+budgie-artwork (0.22.1) resolute; urgency=medium
+
+  * Refresh pocillo-gtk-theme from v0.12 release 
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Sat, 27 Dec 2025 20:06:54 +0000
+
 budgie-artwork (0.22.0) resolute; urgency=medium
 
   * Latest pocillo-gtk-theme with labwc and addition colour variants
