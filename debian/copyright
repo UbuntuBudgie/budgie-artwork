@@ -3,7 +3,7 @@ Upstream-Name: budgie-artwork
 Source: https://github.com/UbuntuBudgie/budgie-artwork
 
 Files: *
-Copyright: Copyright 2016-2021 David Mohammed <fossfreedom@ubuntu.com>
+Copyright: Copyright 2016-2026 David Mohammed <fossfreedom@ubuntu.com>
 License: LGPL-2.1
  This library is free software; you can redistribute it and/or modify it
  under the terms of the GNU Lesser General Public License as published
@@ -31,6 +31,15 @@ Files:
 Copyright: 2016 jimmac <emailaddress@unknown>
  2018-2024 David Mohammed <fossfreedom@ubuntu.com>
 License: GPL-2+
+
+Files:
+    sddm-theme/*
+Copyright:
+ 2025-2026 uiriansan
+ 2026 David Mohammed <fossfreedom@ubuntu.com>
+Comments: borrowed from https://github.com/uiriansan/SilentSDDM
+ modified for Ubuntu Budgie
+License: GPL-3
 
 Files:
     qogir-theme/*

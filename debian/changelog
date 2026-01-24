@@ -1,3 +1,11 @@
+budgie-artwork (0.22.2) resolute; urgency=medium
+
+  * Add ubuntu-budgie-sddm-theme binary package
+  * Latest pocillo-gtk-theme
+  * d/copyright Update copyright for the sddm-theme
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Sat, 24 Jan 2026 21:09:49 +0000
+
 budgie-artwork (0.22.1) resolute; urgency=medium
 
   * Refresh pocillo-gtk-theme from v0.12 release 

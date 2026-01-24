@@ -15,6 +15,29 @@ Build-Depends:
  sassc
 Rules-Requires-Root: no
 
+Package: ubuntu-budgie-sddm-theme
+Architecture: all
+Depends: ${misc:Depends},
+         sddm,
+				 sddm-theme-elarun,
+         qml6-module-qtquick,
+         qml6-module-qtquick-controls,
+         qml6-module-qtquick-layouts,
+         qml6-module-qtquick-window,
+         qml6-module-qtquick-effects,
+         qml6-module-qtmultimedia,
+         qt6-virtualkeyboard-plugin,
+         fonts-noto-core,
+         fonts-noto-ui-core
+Recommends: gstreamer1.0-plugins-good,
+            gstreamer1.0-libav
+Description: Ubuntu Budgie themed SDDM login screen
+ A modern SDDM theme designed for Ubuntu Budgie featuring:
+  - Noto Sans fonts
+  - Pocillo-dark/Arc-dark color scheme
+  - Video background support
+  - Virtual keyboard support
+
 Package: budgie-lightdm-theme
 Architecture: all
 Depends: ${misc:Depends},
