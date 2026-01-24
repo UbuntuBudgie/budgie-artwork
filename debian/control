@@ -2,35 +2,34 @@ Source: budgie-artwork
 Priority: optional
 Section: x11
 Maintainer: David Mohammed <fossfreedom@ubuntu.com>
-Standards-Version: 4.5.1
+Standards-Version: 4.7.0
 Vcs-Browser: https://github.com/UbuntuBudgie/budgie-artwork/tree/debian
 Vcs-Git: https://github.com/UbuntuBudgie/budgie-artwork -b debian
-Build-Depends: 
+Build-Depends:
  debhelper-compat (=13),
  gtk-update-icon-cache,
- gtk2-engines-pixbuf,
  gtk2-engines-murrine,
+ gtk2-engines-pixbuf,
  libglib2.0-dev-bin,
  libxml2-utils,
  sassc
-Rules-Requires-Root: no
 
 Package: ubuntu-budgie-sddm-theme
 Architecture: all
-Depends: ${misc:Depends},
-         sddm,
-				 sddm-theme-elarun,
-         qml6-module-qtquick,
-         qml6-module-qtquick-controls,
-         qml6-module-qtquick-layouts,
-         qml6-module-qtquick-window,
-         qml6-module-qtquick-effects,
-         qml6-module-qtmultimedia,
-         qt6-virtualkeyboard-plugin,
-         fonts-noto-core,
-         fonts-noto-ui-core
-Recommends: gstreamer1.0-plugins-good,
-            gstreamer1.0-libav
+Depends:
+ fonts-noto-core,
+ fonts-noto-ui-core,
+ qml6-module-qtmultimedia,
+ qml6-module-qtquick,
+ qml6-module-qtquick-controls,
+ qml6-module-qtquick-effects,
+ qml6-module-qtquick-layouts,
+ qml6-module-qtquick-window,
+ qt6-virtualkeyboard-plugin,
+ sddm,
+ sddm-theme-elarun,
+ ${misc:Depends},
+Recommends: gstreamer1.0-libav, gstreamer1.0-plugins-good,
 Description: Ubuntu Budgie themed SDDM login screen
  A modern SDDM theme designed for Ubuntu Budgie featuring:
   - Noto Sans fonts
@@ -40,9 +39,7 @@ Description: Ubuntu Budgie themed SDDM login screen
 
 Package: budgie-lightdm-theme
 Architecture: all
-Depends: ${misc:Depends},
-         budgie-lightdm-theme-base,
-         budgie-wallpapers
+Depends: budgie-lightdm-theme-base, budgie-wallpapers, ${misc:Depends},
 Description: LightDM Greeter theme for Ubuntu Budgie
  This is the LightDM greeter theme and configuration
  used for a standalone Ubuntu Budgie installation.
@@ -53,10 +50,8 @@ Description: LightDM Greeter theme for Ubuntu Budgie
 
 Package: budgie-lightdm-theme-base
 Architecture: all
-Breaks: budgie-lightdm-theme (<= 0.6.1),
-    lightdm-gtk-greeter (<= 2.0.2)
-Depends: ${misc:Depends},
-         slick-greeter
+Breaks: budgie-lightdm-theme (<= 0.6.1), lightdm-gtk-greeter (<= 2.0.2),
+Depends: slick-greeter, ${misc:Depends},
 Description: LightDM Session for Ubuntu Budgie
  This is the LightDM Session used to launch budgie-desktop
  without needing all of the Ubuntu Budgie styling changes.
@@ -65,8 +60,8 @@ Description: LightDM Session for Ubuntu Budgie
 
 Package: plymouth-theme-ubuntu-budgie-logo
 Architecture: all
-Depends: ${misc:Depends}, plymouth, plymouth-theme-spinner
-Provides: plymouth-theme
+Depends: plymouth, plymouth-theme-spinner, ${misc:Depends},
+Provides: plymouth-theme,
 Breaks: plymouth (<< 0.9.2-3ubuntu1~),
 Description: graphical boot animation and logger - Ubuntu Budgie logo theme
  Plymouth is an application that runs very early in the boot process
@@ -77,9 +72,9 @@ Description: graphical boot animation and logger - Ubuntu Budgie logo theme
 
 Package: plymouth-theme-ubuntu-budgie-text
 Architecture: all
-Depends: ${misc:Depends}, plymouth, plymouth-theme-ubuntu-text
-Provides: plymouth-theme
-Replaces: plymouth (<< 0.8.1-1~)
+Depends: plymouth, plymouth-theme-ubuntu-text, ${misc:Depends},
+Provides: plymouth-theme,
+Replaces: plymouth (<< 0.8.1-1~),
 Breaks: plymouth (<< 0.9.2-3ubuntu1~),
 Description: graphical boot animation and logger - Ubuntu Budgie text theme
  Plymouth is an application that runs very early in the boot process
@@ -91,7 +86,7 @@ Description: graphical boot animation and logger - Ubuntu Budgie text theme
 
 Package: pocillo-icon-theme
 Architecture: all
-Depends: ${misc:Depends}
+Depends: ${misc:Depends},
 Description: Flat but colorful icon-set called Pocillo
  Pocillo is a flat but colorful icon-set based on Tela application icons
  and Qogir panel & symbolic icons. They are designed to be a clear, simple
@@ -99,12 +94,13 @@ Description: Flat but colorful icon-set called Pocillo
 
 Package: ubuntu-budgie-themes
 Architecture: all
-Depends: gtk2-engines-pixbuf (>= 2.24.30),
-	 gtk2-engines-murrine (>= 0.98.1),
-	 libgtk2.0-common (>= 2.24.30),
-	 libgtk-3-common (>= 3.22.24),
-	 gnome-themes-extra (>= 3.22.3),
-	 ${misc:Depends}
+Depends:
+ gnome-themes-extra (>= 3.22.3),
+ gtk2-engines-murrine (>= 0.98.1),
+ gtk2-engines-pixbuf (>= 2.24.30),
+ libgtk-3-common (>= 3.22.24),
+ libgtk2.0-common (>= 2.24.30),
+ ${misc:Depends},
 Description: GTK+3.24 based themes for Ubuntu Budgie
  Package contains GTK+3.24 based themes written specifically for
  Ubuntu Budgie and its desktop environment Budgie Desktop.
