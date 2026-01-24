@@ -3,7 +3,7 @@ budgie-artwork (0.22.2) resolute; urgency=medium
   * Add our sddm based theme
   * Latest pocillo-gtk-theme
   * d/copyright Update copyright for the sddm-theme
-  * d/control Add ubuntu-budgie-sddm-theme binary package
+  * d/control Add budgie-sddm-theme binary package
      update StandardsVersion
      remove Requires-Root statement
      run wrap-and-sort -bst

@@ -14,7 +14,7 @@ Build-Depends:
  libxml2-utils,
  sassc
 
-Package: ubuntu-budgie-sddm-theme
+Package: budgie-sddm-theme
 Architecture: all
 Depends:
  fonts-noto-core,
