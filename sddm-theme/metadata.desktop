@@ -1,0 +1,17 @@
+; https://github.com/uiriansan/SilentSDDM
+
+[SddmGreeterTheme]
+Name=Ubuntu Budgie Login
+Description=Ubuntu Budgie themed login screen
+Author=David Mohammed
+Copyright=(C) 2026
+License=GPLv3
+Type=sddm-theme
+Version=1.0
+Website=https://ubuntubudgie.org
+Screenshot=preview.png
+MainScript=Main.qml
+ConfigFile=theme.conf
+Theme-Id=ubuntu-budgie-login
+Theme-API=2.0
+QtVersion=6
