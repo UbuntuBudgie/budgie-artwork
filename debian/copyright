@@ -33,7 +33,7 @@ Copyright: 2016 jimmac <emailaddress@unknown>
 License: GPL-2+
 
 Files:
-    sddm-theme/*
+    slickSDDM/sddm-theme/*
 Copyright:
  2025-2026 uiriansan
  2026 David Mohammed <fossfreedom@ubuntu.com>

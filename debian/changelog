@@ -1,3 +1,9 @@
+budgie-artwork (0.22.3) resolute; urgency=medium
+
+  * SDDM Theme - add default avatar support
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Wed, 28 Jan 2026 19:47:23 +0000
+
 budgie-artwork (0.22.2) resolute; urgency=medium
 
   * Add our sddm based theme

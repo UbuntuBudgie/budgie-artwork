@@ -7,3 +7,6 @@
 [submodule "pocillo-theme"]
 	path = pocillo-theme
 	url = https://github.com/ubuntubudgie/pocillo-gtk-theme
+[submodule "slickSDDM"]
+	path = slickSDDM
+	url = https://github.com/ubuntubudgie/slickSDDM

@@ -1,6 +1,2 @@
-sddm-theme/50-ubuntu-budgie.conf /etc/sddm.conf.d/
-sddm-theme/Main.qml /usr/share/sddm/themes/ubuntu-budgie-login/
-sddm-theme/components /usr/share/sddm/themes/ubuntu-budgie-login/
-sddm-theme/icons /usr/share/sddm/themes/ubuntu-budgie-login/
-sddm-theme/metadata.desktop /usr/share/sddm/themes/ubuntu-budgie-login/
-sddm-theme/theme.conf /usr/share/sddm/themes/ubuntu-budgie-login/
+slickSDDM/sddm-conf/50-ubuntu-budgie.conf /etc/sddm.conf.d/
+slickSDDM/sddm-theme/* /usr/share/sddm/themes/ubuntu-budgie-login/
