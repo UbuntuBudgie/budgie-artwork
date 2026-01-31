@@ -1,3 +1,11 @@
+budgie-artwork (0.22.4) resolute; urgency=medium
+
+  * No need to install elarun - just use a Provides statement
+    when packaging to denote that our sddm package satisfies the
+    sddm-theme virtual package
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Sat, 31 Jan 2026 10:10:01 +0000
+
 budgie-artwork (0.22.3) resolute; urgency=medium
 
   * SDDM Theme - add default avatar support

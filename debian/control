@@ -24,10 +24,9 @@ Depends:
  qml6-module-qtquick-layouts,
  qml6-module-qtquick-window,
  qt6-virtualkeyboard-plugin,
- sddm,
- sddm-theme-elarun,
  ${misc:Depends},
-Recommends: gstreamer1.0-libav, gstreamer1.0-plugins-good,
+Recommends: sddm, gstreamer1.0-libav, gstreamer1.0-plugins-good
+Provides: sddm-theme
 Description: Ubuntu Budgie themed SDDM login screen
  A modern SDDM theme designed for Ubuntu Budgie featuring:
   - Noto Sans fonts
