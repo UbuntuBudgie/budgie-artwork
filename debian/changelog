@@ -1,3 +1,9 @@
+budgie-artwork (0.22.5) resolute; urgency=medium
+
+  * Remove unneeded breaks on package budgie-lightdm-theme-base
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Sun, 01 Feb 2026 14:33:47 +0000
+
 budgie-artwork (0.22.4) resolute; urgency=medium
 
   * No need to install elarun - just use a Provides statement

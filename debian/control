@@ -47,7 +47,6 @@ Description: LightDM Greeter theme for Ubuntu Budgie
 
 Package: budgie-lightdm-theme-base
 Architecture: all
-Breaks: budgie-lightdm-theme, lightdm-gtk-greeter,
 Depends: slick-greeter, ${misc:Depends},
 Description: LightDM Session for Ubuntu Budgie
  This is the LightDM Session used to launch budgie-desktop
