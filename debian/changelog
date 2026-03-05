@@ -1,3 +1,15 @@
+budgie-artwork (0.22.7~ppa) resolute; urgency=medium
+
+  * Focus SDDM password field / change SlickSDDM faces
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Thu, 05 Mar 2026 19:43:55 +0000
+
+budgie-artwork (0.22.6) resolute; urgency=medium
+
+  * Translation support for slickSDDM
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Tue, 10 Feb 2026 20:20:48 +0000
+
 budgie-artwork (0.22.5) resolute; urgency=medium
 
   * Remove unneeded breaks on package budgie-lightdm-theme-base
