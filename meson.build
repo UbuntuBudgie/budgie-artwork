@@ -74,3 +74,5 @@ else
   subdir('pocillo-theme/src/gtk-3.0')
   subdir('pocillo-theme/src/gtk-4.0')
 endif
+
+subdir('slickSDDM/data')
