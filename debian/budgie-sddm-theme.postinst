@@ -8,6 +8,20 @@ if [ "$1" = "configure" ] || [ "$1" = "abort-upgrade" ] || [ "$1" = "abort-remov
         /usr/share/sddm/themes/ubuntu-budgie-login 20
 fi
 
+if [ "$1" = "configure" ]; then
+    # Reload systemd daemon
+    systemctl daemon-reload || true
+
+    # Enable and start units
+    systemctl enable sddm-backgrounds-cache.timer || true
+    systemctl enable sddm-backgrounds-cache.path || true
+    systemctl start sddm-backgrounds-cache.timer || true
+    systemctl start sddm-backgrounds-cache.path || true
+
+    # Generate initial cache
+    /usr/share/sddm/themes/ubuntu-budgie-login/scripts/update-sddm-backgrounds-cache || true
+fi
+
 # Tag to allow some debhelper commands to inject relevant code
 #DEBHELPER#
 

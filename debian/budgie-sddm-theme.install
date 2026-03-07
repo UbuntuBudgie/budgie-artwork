@@ -1,3 +1,4 @@
 slickSDDM/sddm-conf/50-ubuntu-budgie.conf /etc/sddm.conf.d/
 slickSDDM/sddm-theme/* /usr/share/sddm/themes/ubuntu-budgie-login/
 slickSDDM/slicksddm-customize /usr/bin/
+slickSDDM/systemd/* /usr/lib/systemd/system

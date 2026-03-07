@@ -1,6 +1,14 @@
 #!/bin/sh
 set -e
 
+if [ "$1" = "remove" ]; then
+    # Stop and disable units
+    systemctl stop sddm-backgrounds-cache.timer || true
+    systemctl stop sddm-backgrounds-cache.path || true
+    systemctl disable sddm-backgrounds-cache.timer || true
+    systemctl disable sddm-backgrounds-cache.path || true
+fi
+
 if [ "$1" = "remove" ] || [ "$1" = "deconfigure" ]; then
     update-alternatives --remove \
         sddm-ubuntu-theme \
