@@ -18,3 +18,6 @@ override_dh_auto_configure:
 	cd qogir-theme && bash ./InstallBudgie -n QogirBudgie -d "$(CURDIR)/debian/qogirbudgie"
 	mkdir ./debian/telabudgie
 	cd tela-icon-theme && bash ./install.sh -n TelaBudgie -d "$(CURDIR)/debian/telabudgie"
+
+#override_dh_installsystemd:
+#	dh_installsystemd --name=sddm-backgrounds-cache
