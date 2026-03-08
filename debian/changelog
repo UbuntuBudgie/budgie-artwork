@@ -1,3 +1,9 @@
+budgie-artwork (0.22.7~ppabuild4) resolute; urgency=medium
+
+  * fixed cache generation
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Sun, 08 Mar 2026 09:41:55 +0000
+
 budgie-artwork (0.22.7~ppabuild3) resolute; urgency=medium
 
   * per user wallpapers
