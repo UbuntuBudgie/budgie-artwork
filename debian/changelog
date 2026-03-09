@@ -1,20 +1,12 @@
-budgie-artwork (0.22.7~ppabuild4) resolute; urgency=medium
+budgie-artwork (0.22.7) resolute; urgency=medium
 
-  * fixed cache generation
+  * Restore support AccountsService which was lost due to the switch
+    from lightdm to SDDM.  This restores per user wallpaper
+  * Fix missing password focus
+  * Update faces to be the same as budgie-control-center
+  * Add missing desktop and icon for slicksddm-customize
 
- -- David Mohammed <fossfreedom@ubuntu.com>  Sun, 08 Mar 2026 09:41:55 +0000
-
-budgie-artwork (0.22.7~ppabuild3) resolute; urgency=medium
-
-  * per user wallpapers
-
- -- David Mohammed <fossfreedom@ubuntu.com>  Sat, 07 Mar 2026 21:13:19 +0000
-
-budgie-artwork (0.22.7~ppabuild2) resolute; urgency=medium
-
-  * Focus SDDM password field / change SlickSDDM faces
-
- -- David Mohammed <fossfreedom@ubuntu.com>  Thu, 05 Mar 2026 19:43:55 +0000
+ -- David Mohammed <fossfreedom@ubuntu.com>  Mon, 09 Mar 2026 18:14:43 +0000
 
 budgie-artwork (0.22.6) resolute; urgency=medium
 
