@@ -1,3 +1,10 @@
+budgie-artwork (0.22.8) resolute; urgency=medium
+
+  * Fix theme to not try and display home folder pictures which are
+    not accessible
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Tue, 10 Mar 2026 21:16:33 +0000
+
 budgie-artwork (0.22.7) resolute; urgency=medium
 
   * Restore support AccountsService which was lost due to the switch
