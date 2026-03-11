@@ -1,3 +1,10 @@
+budgie-artwork (0.22.9) resolute; urgency=medium
+
+  * Latest tela-icons
+  * Specify default slickSDDM cursor theme
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Wed, 11 Mar 2026 20:37:56 +0000
+
 budgie-artwork (0.22.8) resolute; urgency=medium
 
   * Fix theme to not try and display home folder pictures which are
