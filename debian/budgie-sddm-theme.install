@@ -4,3 +4,4 @@ slickSDDM/slicksddm-customize /usr/bin/
 slickSDDM/systemd/* /usr/lib/systemd/system
 slickSDDM/slicksddm-customize.png /usr/share/pixmaps
 slickSDDM/slicksddm-customize.desktop /usr/share/applications
+slickSDDM/budgie-sddm-display-setup
