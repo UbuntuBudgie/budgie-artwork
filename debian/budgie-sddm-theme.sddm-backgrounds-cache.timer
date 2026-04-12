@@ -1,0 +1,10 @@
+[Unit]
+Description=Periodic update of SDDM backgrounds cache
+Requires=sddm-backgrounds-cache.service
+
+[Timer]
+OnBootSec=30sec
+OnUnitActiveSec=5min
+
+[Install]
+WantedBy=timers.target

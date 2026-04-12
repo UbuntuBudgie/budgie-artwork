@@ -1,0 +1,9 @@
+[Unit]
+Description=Watch AccountsService user files for changes
+Requires=sddm-backgrounds-cache.service
+
+[Path]
+PathModified=/var/lib/AccountsService/users
+
+[Install]
+WantedBy=multi-user.target

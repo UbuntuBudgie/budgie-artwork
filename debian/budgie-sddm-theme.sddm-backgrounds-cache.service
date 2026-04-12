@@ -1,0 +1,12 @@
+[Unit]
+Description=Update SDDM user backgrounds cache from AccountsService
+After=sddm.service
+
+[Service]
+Type=oneshot
+ExecStart=/usr/share/sddm/themes/ubuntu-budgie-login/scripts/update-sddm-backgrounds-cache
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target
