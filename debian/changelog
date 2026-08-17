@@ -1,3 +1,9 @@
+budgie-artwork (0.23.0) stonking; urgency=medium
+
+  * SlickSDDM greeter with backdrop and updated translations
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Mon, 17 Aug 2026 21:56:57 +0100
+
 budgie-artwork (0.22.11) resolute; urgency=medium
 
   * Bug fixes
