@@ -1,6 +1,10 @@
 budgie-artwork (0.23.0) stonking; urgency=medium
 
   * SlickSDDM greeter with backdrop and updated translations
+  * Packaging Changes
+    - d/rules - meson build slickSDDM
+    - d/control - B/D meson
+    - add budgie-sddm-theme conffiles to remove /etc based slickSDDM conf
 
  -- David Mohammed <fossfreedom@ubuntu.com>  Mon, 17 Aug 2026 21:56:57 +0100
 

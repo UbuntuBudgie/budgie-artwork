@@ -1,7 +1,7 @@
-slickSDDM/sddm-conf/50-ubuntu-budgie.conf /etc/sddm.conf.d/
-slickSDDM/sddm-theme/* /usr/share/sddm/themes/ubuntu-budgie-login/
-slickSDDM/slicksddm-customize /usr/bin/
-slickSDDM/systemd/* /usr/lib/systemd/system
-slickSDDM/slicksddm-customize.png /usr/share/pixmaps
-slickSDDM/slicksddm-customize.desktop /usr/share/applications
-slickSDDM/budgie-sddm-display-setup /usr/libexec/
+usr/lib/sddm/sddm.conf.d/10-ubuntu-budgie-login.conf
+usr/share/sddm/themes/ubuntu-budgie-login/
+usr/bin/slicksddm-customize
+usr/lib/systemd/system/*
+usr/share/pixmaps/slicksddm-customize.png
+usr/share/applications/slicksddm-customize.desktop
+usr/libexec/budgie-sddm-display-setup

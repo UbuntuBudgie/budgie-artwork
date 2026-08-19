@@ -10,7 +10,8 @@ Build-Depends:
  gtk-update-icon-cache,
  libglib2.0-dev-bin,
  libxml2-utils,
- sassc
+ sassc,
+ meson
 
 Package: budgie-sddm-theme
 Architecture: all

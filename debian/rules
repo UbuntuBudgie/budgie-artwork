@@ -1,10 +1,10 @@
 #!/usr/bin/make -f
 export DH_VERBOSE = 1
-export NO_PNG_PKG_MANGLE=1
+export DH_OPTIONS = -X.png
 
 %:
-	dh $@
-#	dh $@ --buildsystem=meson+ninja --> reinstate this when dart-sass is packaged
+#	dh $@
+	dh $@ --buildsystem=meson+ninja
 
 override_dh_clean:
 	rm -rf ./debian/qogirbudgie
@@ -12,12 +12,13 @@ override_dh_clean:
 	dh_clean
 
 override_dh_auto_configure:
-#	We have to wait until dart and dart-sass is packaged before being able to compile from source
+#	We have to wait until dart and dart-sass is packaged before being able to compile pocillo from source
 #	dh_auto_configure -- -Dtheme_name=Pocillo -Ddocumentation=false --prefix="$(CURDIR)/debian/ubuntu-budgie-themes"
 	mkdir ./debian/qogirbudgie
 	cd qogir-theme && bash ./InstallBudgie -n QogirBudgie -d "$(CURDIR)/debian/qogirbudgie"
 	mkdir ./debian/telabudgie
 	cd tela-icon-theme && bash ./install.sh -n TelaBudgie -d "$(CURDIR)/debian/telabudgie"
+	dh_auto_configure
 
 override_dh_installsystemd:
 	dh_installsystemd -p budgie-sddm-theme --name=sddm-backgrounds-cache
