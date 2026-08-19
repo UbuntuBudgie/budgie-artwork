@@ -1,46 +1,43 @@
-option(
-  'theme_name',
+option('theme_name',
   type: 'string',
-  value: 'NewPocillo',
-  description: 'Base theme name',
-)
-
-option(
-  'colors',
-  type: 'array',
-  choices: ['default', 'light', 'dark'],
-  description: 'List of color variants to build',
-)
-
-option(
-  'sizes',
-  type: 'array',
-  choices: ['default', 'slim'],
-  description: 'List of size variants to build',
-)
-
-option(
-  'gnome_shell_version',
+  value: 'ubuntu-budgie-login',
+  description: 'SDDM theme directory name (the folder under /usr/share/sddm/themes/)')
+option('theme_display_name',
   type: 'string',
-  description: 'Build GNOME Shell theme for specific version',
-)
+  value: 'Ubuntu Budgie Login',
+  description: 'Human-readable theme name shown in SDDM theme selectors')
 
-option(
-  'gtk4_version',
+option('theme_description',
   type: 'string',
-  description: 'Build GTK 4 theme for specific version',
-)
+  value: 'Ubuntu Budgie themed login screen',
+  description: 'Short description shown in SDDM theme selectors')
 
-option(
-  'flatpak',
-  type: 'boolean',
-  value: false,
-  description: 'Whether to build theme for flatpak package',
-)
+option('theme_author',
+  type: 'string',
+  value: 'David Mohammed',
+  description: 'Author name written into metadata.desktop')
 
-option(
-  'documentation',
-  type: 'boolean',
-  value: true,
-  description: 'Whether to build with license and other doc info',
-)
+option('theme_website',
+  type: 'string',
+  value: 'https://ubuntubudgie.org',
+  description: 'Project website written into metadata.desktop')
+
+option('sddm_conf_dir',
+  type: 'string',
+  value: 'lib/sddm/sddm.conf.d',
+  description: 'Relative path under prefix for the SDDM conf snippet')
+
+option('default_background',
+  type: 'string',
+  value: '/usr/share/backgrounds/budgie/budgie-codename.png',
+  description: 'Default background image path for both lock and login screens. Use an absolute path, e.g. /usr/share/backgrounds/mywallpaper.jpg. Leave empty to fall back to a solid colour.')
+
+option('default_lock_background',
+  type: 'string',
+  value: '',
+  description: 'Override the lock screen background independently. Falls back to default_background when empty.')
+
+option('default_login_background',
+  type: 'string',
+  value: '',
+  description: 'Override the login screen background independently. Falls back to default_background when empty.')
