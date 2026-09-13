@@ -1,3 +1,9 @@
+budgie-artwork (0.23.1) stonking; urgency=medium
+
+  * Rebuild with SDDM theme faces
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Sun, 13 Sep 2026 22:08:39 +0100
+
 budgie-artwork (0.23.0) stonking; urgency=medium
 
   * SlickSDDM greeter with backdrop and updated translations

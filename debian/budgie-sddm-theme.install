@@ -1,5 +1,6 @@
 usr/lib/sddm/sddm.conf.d/10-ubuntu-budgie-login.conf
-usr/share/sddm/themes/ubuntu-budgie-login/
+usr/share/sddm/themes/ubuntu-budgie-login
+usr/share/sddm/themes/ubuntu-budgie-login/faces
 usr/bin/slicksddm-customize
 usr/lib/systemd/system/*
 usr/share/pixmaps/slicksddm-customize.png

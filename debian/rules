@@ -1,6 +1,6 @@
 #!/usr/bin/make -f
 export DH_VERBOSE = 1
-export DH_OPTIONS = -X.png
+#export DH_OPTIONS = -X.png
 
 %:
 #	dh $@
@@ -22,3 +22,7 @@ override_dh_auto_configure:
 
 override_dh_installsystemd:
 	dh_installsystemd -p budgie-sddm-theme --name=sddm-backgrounds-cache
+
+override_dh_missing:
+	dh_missing --fail-missing
+#	dh_missing --list-missing
